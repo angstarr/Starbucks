@@ -18,138 +18,6 @@ ul, ol, li {
     list-style: none;
 }
 
-/* 반응형 시작 */
-
-@media screen and (min-width: 961px) {
-
-    .gnb_wrap {
-        height: 120px;
-    }
-
-    .gnb_inner {
-        height: 120px;
-        width: 1100px;
-    }
-
-    .gnb_inner h1.logo {
-        height: 75px;
-        top: 22px;
-        width: 75px;
-    }
-
-    .gnb_inner nav.util_nav {
-        height: 20px;
-        right: 93px;
-        top: 18px;
-        width: 464px;
-    }
-
-    .gnb_inner nav.util_nav ul li {
-
-    }
-
-    .gnb_inner p.btn_search {
-        height: 32px;
-        width: 32px;
-        right: 54px;
-        top: 9px;
-    }
-
-    .gnb_inner p.btn_search a img {
-        right: 7px;
-        top: 6px;
-    }
-
-    .gnb_nav {
-        height: 66px;
-        top: 54px;
-    }
-
-    .gnb_nav .gnb_nav_inner {
-        height: 66px;
-        width: 1100px;
-    }
-
-    .gnb_nav .gnb_nav_inner ul {
-        float: right;
-    }
-
-    .gnb_nav .gnb_nav_inner ul li {
-        float: left;
-    }
-
-    .gnb_nav .gnb_nav_inner ul li h2 a {
-        height: 56px;
-        line-height: 20px;
-        padding-top: 10px;
-    }
-
-    .gnb_sub_wrap {
-        left: 0;
-        top: 66px;
-    }
-
-    .gnb_sub {
-        padding: 20px 0;
-    }
-
-    .sub_gnb_nav_inner > ul li {
-        float: left;
-    }
-
-    .gnb_sub .gnb_sub_inner {
-        margin-left: -550px;
-        width: 1100px;
-    }
-
-    .gnb_sub .gnb_sub_inner ul {
-        width: 220px;
-    }
-
-    .gnb_sub .gnb_sub_inner ul li {
-        padding: 3px 0;
-    }
-
-    .gnb_sub .gnb_sub_inner ul li.gnb_sub_ttl {
-        padding-bottom: 12px;
-    }
-
-    .gnb_sub .gnb_sub_inner ul li.gnb_sub_ttl a {
-        color: #fff;
-        font-size: 14px;
-        font-weight: normal;
-    }
-
-    .gnb_sub .gnb_sub_inner ul li a {
-        font-size: 12px;
-    }
-
-    .gnb_sub_infoBx {
-        padding: 5px 0 20px 0;
-    }
-
-    .gnb_sub_infoBx .gnb_sub_info_inner {
-        width: 1100px;
-    }
-
-    .gnb_sub_info h3 {
-        margin-top: 25px;
-    }
-
-    .gnb_sub_info h3 a {
-        font-size: 12px;
-    }
-
-    .gnb_sub_info .gnb_sub_info_txt {
-        font-size: 12px;
-    }
-
-}
-
-@media screen and (max-width:960px) {
-
-}
-
 #wrap {
     position: relative;
     width: 100%;
@@ -169,19 +37,25 @@ ul, ol, li {
     top: 0;
     position: fixed;
     width: 100%;
+    height: 120px;
 }
 
 .gnb_inner {
     margin: 0 auto;
     position: relative;
+    height: 120px;
+    width: 1100px;
 }
 
 .gnb_inner h1.logo {
     position: absolute;
+    top: 22px;
     left: 0;
+    height: 75px;
+    width: 75px;
 }
 
-.gnb_inner .logo a {
+.gnb_inner h1.logo a {
     background: url('img/logo.png') no-repeat;
     display: block;
     height: 100%;
@@ -192,6 +66,10 @@ ul, ol, li {
 
 .gnb_inner nav.util_nav {
     position: absolute;
+    height: 20px;
+    width: 464px;
+    right: 93px;
+    top: 18px;
 }
 
 .gnb_inner nav.util_nav ul li {
@@ -227,23 +105,38 @@ ul, ol, li {
     border: 1px solid #ccc;
     border-radius: 5px;
     position: absolute;
+    height: 32px;
+    width: 32px;
+    right: 54px;
+    top: 9px;
 }
 
 .gnb_inner p.btn_search a img {
     position: absolute;
+    right: 7px;
+    top: 6px;
 }
 
 .gnb_nav {
     position: absolute;
     left: 0;
+    top: 54px;
     width: 100%;
+    height: 66px;
 }
 
 .gnb_nav .gnb_nav_inner {
     margin: 0 auto;
+    height: 66px;
+    width: 1100px;
+}
+
+.gnb_nav .gnb_nav_inner ul {
+    float: right;
 }
 
 .gnb_nav .gnb_nav_inner ul li {
+    float: left;
     margin-right: 40px;
 }
 
@@ -253,6 +146,9 @@ ul, ol, li {
     font: normal 13px Arial, georgia;
     text-align: center;
     width: 100%;
+    height: 56px;
+    line-height: 20px;
+    padding-top: 10px;
 }
 
 .gnb_nav .gnb_nav_inner ul li h2 a.on {
@@ -265,28 +161,36 @@ ul, ol, li {
     background: #2c2a29;
     position: absolute;
     width: 100%;
+    top: 66px;
+    left: 0;
 }
 
 .gnb_sub {
     display: inline-block;
     width: 100%;
+    padding: 20px 0;
 }
 
-.gnb_sub_inner {
+.gnb_sub .gnb_sub_inner {
     left: 50%;
     position: relative;
+    margin-left: -550px;
+    width: 1100px;
 }
 
 .gnb_sub .gnb_sub_inner ul {
     float: left;
+    width: 220px;
 }
 
 .gnb_sub .gnb_sub_inner ul li {
     width: 100%;
+    padding: 3px 0;
 }
 
 .gnb_sub .gnb_sub_inner ul li a {
     color: #999;
+    font-size: 12px;
 }
 
 .gnb_sub .gnb_sub_inner ul:last-child {
@@ -294,26 +198,84 @@ ul, ol, li {
     padding-top: 30px;
 }
 
+.gnb_sub .gnb_sub_inner ul li.gnb_sub_ttl {
+    padding-bottom: 12px;
+}
+
+.gnb_sub .gnb_sub_inner ul li.gnb_sub_ttl a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
 .gnb_sub_infoBx {
     background: url('img/gnb_sub_txbg.jpg');
     display: inline-block;
     width: 100%;
+    padding: 5px 0 20px 0;
 }
 
 .gnb_sub_infoBx .gnb_sub_info_inner {
     margin: 0 auto;
+    width: 1100px;
 }
 
 .gnb_sub_info {
     float: left;
 }
 
+.gnb_sub_info h3 {
+    margin-top: 25px;
+}
+
 .gnb_sub_info h3 a {
     color: #999;
+    font-size: 12px;
 }
 
 .gnb_sub_info .gnb_sub_info_txt {
     color: #64a70b;
     float: left;
     width: 100%;
+    font-size: 12px;
+}
+
+/* 반응형 시작 */
+
+
+@media screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .gnb_wrap {
+        display: none;
+    }
+
+    .ipad_gnb_wrap {
+        background: #f6f5ef;
+        border-bottom: 1px solid #e5e5e5;
+        height: 69px;
+        left: 0;
+        top: 0;
+        position: fixed;
+        width: 100%;
+    }
+
+    .ipad_gnb_wrap h1.logo a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        }
+
+    .ipad_gnb_wrap h1.logo a img {
+        height: 45px;
+        width: 45px;
+        top: 13px;
+        left: 10px;
+        position: absolute;
+    }
+
 }
