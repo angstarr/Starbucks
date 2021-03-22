@@ -55,6 +55,71 @@ ul, ol, li {
         right: 7px;
         top: 6px;
     }
+
+    .gnb_nav {
+        height: 66px;
+        top: 54px;
+    }
+
+    .gnb_nav .gnb_nav_inner {
+        height: 66px;
+        width: 1100px;
+    }
+
+    .gnb_nav .gnb_nav_inner ul {
+        float: right;
+    }
+
+    .gnb_nav .gnb_nav_inner ul li {
+        float: left;
+    }
+
+    .gnb_nav .gnb_nav_inner ul li h2 a {
+        height: 56px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+
+    .gnb_sub_wrap {
+        left: 0;
+        top: 66px;
+    }
+
+    .gnb_sub {
+        padding: 20px 0;
+    }
+
+    .sub_gnb_nav_inner > ul li {
+        float: left;
+    }
+
+    .gnb_sub .gnb_sub_inner {
+        margin-left: -550px;
+        width: 1100px;
+    }
+
+    .gnb_sub .gnb_sub_inner ul {
+        width: 220px;
+    }
+
+    .gnb_sub .gnb_sub_inner ul li {
+        padding: 3px 0;
+    }
+
+    .gnb_sub .gnb_sub_inner ul li.gnb_sub_ttl {
+        padding-bottom: 12px;
+    }
+
+    .gnb_sub .gnb_sub_inner ul li.gnb_sub_ttl a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .gnb_sub .gnb_sub_inner ul li a {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width:960px) {
@@ -142,4 +207,65 @@ ul, ol, li {
 
 .gnb_inner p.btn_search a img {
     position: absolute;
+}
+
+.gnb_nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.gnb_nav .gnb_nav_inner {
+    margin: 0 auto;
+}
+
+.gnb_nav .gnb_nav_inner ul li {
+    margin-right: 35px;
+}
+
+.gnb_nav .gnb_nav_inner ul li h2 a {
+    color: #333;
+    display: block;
+    font: normal 13px Arial, georgia;
+    text-align: center;
+    width: 100%;
+}
+
+.gnb_nav .gnb_nav_inner ul li h2 a.on {
+    background: #2c2a29;
+    color: #669900;
+}
+
+.gnb_sub_wrap {
+    display: block;
+    background: #2c2a29;
+    position: absolute;
+    width: 100%;
+}
+
+.gnb_sub {
+    display: inline-block;
+    width: 100%;
+}
+
+.gnb_sub_inner {
+    left: 50%;
+    position: relative;
+}
+
+.gnb_sub .gnb_sub_inner ul {
+    float: left;
+}
+
+.gnb_sub .gnb_sub_inner ul li {
+    width: 100%;
+}
+
+.gnb_sub .gnb_sub_inner ul li a {
+    color: #999;
+}
+
+.gnb_sub .gnb_sub_inner ul:last-child {
+    clear: both;
+    padding-top: 30px;
 }
