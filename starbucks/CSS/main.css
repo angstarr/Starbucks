@@ -14,6 +14,11 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
 ul, ol, li {
     list-style: none;
 }
@@ -253,8 +258,13 @@ ul, ol, li {
     display: grid;
 }
 
+#container {
+    width: 100%;
+}
+
 #container section {
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 #topWrap {
@@ -268,6 +278,11 @@ ul, ol, li {
     width: 140px;
     margin-left: 485px;
     z-index: 10;
+}
+
+.floating_badge img {
+    display: block;
+    width: 100%;
 }
 
 .floating_badge .m-badge {
@@ -290,7 +305,9 @@ ul, ol, li {
 }
 
 .main-visual_slogan {
+    padding-left: 20px;
     margin-left: -10px;
+    max-width: 370px;
 }
 
 .m-slogan {
@@ -326,6 +343,10 @@ ul, ol, li {
     position: absolute;
 }
 
+.cont_common img {
+    width: 100%;
+}
+
 .cont_common a {
     position: absolute;
     font-size: 0;
@@ -344,6 +365,7 @@ ul, ol, li {
     left: 28%;
     bottom: 5%;
     width: 30%;
+    max-width: 335px;
 }
 
 .cont_01:after {
@@ -361,6 +383,7 @@ ul, ol, li {
     left: 55%;
     bottom: 13%;
     width: 30%;
+    max-width: 262px;
 }
 
 .cont_02:after {
@@ -377,12 +400,14 @@ ul, ol, li {
     right: -3%;
     bottom: 9%;
     width: 25%;
+    max-width: 268px;
 }
 
 .cont_03:after {
     width: 82%;
     max-width: 220px;
     height: 89px;
+    left: 3%;
     bottom: 105%;
     background: url('img/topwrap/2021_cherryblossom_blended_txt.png') no-repeat;
     background-position: center top;
@@ -507,7 +532,13 @@ ul, ol, li {
     width: 100%;
 }
 
-@media screen and (max-width: 1480px) and (min-width: 961px) {
+
+@media screen and (max-width: 1440px) {
+
+    .floating_badge {
+        left: auto;
+        right: 1%;
+    }
 
     .line_notice_bg {
         width: 960px;
@@ -523,14 +554,75 @@ ul, ol, li {
     }
 }
 
-@media screen and (max-width: 1120px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) {
 
       .gnb_inner, .gnb_nav .gnb_nav_inner {
           width: 100%;
       }
+
+      .main-visual_inner {
+          padding-top: 5%;
+      }
+
+      .main-visual_slogan {
+          width: 37%;
+          margin-left: 20px;
+      }
+
+      .btn_slogan {
+          left: 13%;
+      }
+
+      .cont_01 {
+          left: 22%;
+      }
+
+      .cont_02 {
+          left: 47%;
+      }
+
+      .cont_03 {
+          right: 6%;
+      }
 }
 
 @media screen and (max-width: 960px) {
+
+    #navWrap {
+        height: 58px;
+    }
+
+    .gnb_wrap {
+        display: none;
+    }
+
+    .ipad_gnb_wrap {
+        display: grid;
+        background: #f6f5ef;
+        border-bottom: 1px solid #e5e5e5;
+        height: 69px;
+        left: 0;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .ipad_gnb_wrap h1.logo a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        }
+
+    .ipad_gnb_wrap h1.logo a img {
+        height: 45px;
+        width: 45px;
+        top: 13px;
+        left: 10px;
+        position: absolute;
+      }
+
 
     .line_notice, .line_notice_bg {
         grid-template-columns: 1fr;
@@ -561,46 +653,165 @@ ul, ol, li {
         height: 70px;
         width: 100%;
     }
-}
 
-/* 반응형 시작 */
+    .main-visual_wrap {
+        height: 565px;
+    }
 
+    .floating_badge {
+        top: 85px;
+        width: 14%;
+    }
 
-@media screen and (max-width: 1023px) {
-
-}
-
-@media screen and (max-width: 960px) {
-
-    #navWrap {
+    .floating_badge .pc-badge {
         display: none;
     }
 
-    .ipad_gnb_wrap {
-        display: grid;
-        background: #f6f5ef;
-        border-bottom: 1px solid #e5e5e5;
-        height: 69px;
-        left: 0;
-        top: 0;
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-    }
-
-    .ipad_gnb_wrap h1.logo a {
+    .floating_badge .m-badge {
         display: block;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-        }
-
-    .ipad_gnb_wrap h1.logo a img {
-        height: 45px;
-        width: 45px;
-        top: 13px;
-        left: 10px;
-        position: absolute;
     }
 
+    .main-visual_inner {
+        padding-top: 7%;
+    }
+
+    .main-visual_slogan {
+        width: 33%;
+    }
+
+    .btn_slogan {
+        left: 10%;
+        margin-top: 22px;
+    }
+
+    .cont_01 {
+        left: 22%;
+        width: 31%;
+    }
+
+    .cont_02 {
+        left: 46%;
+        width: 23%;
+    }
+
+    .cont_03 {
+        right: 10%;
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .floating_badge {
+        top: 95px;
+        width: 26%;
+        right: 2%;
+    }
+
+    .main-visual_wrap {
+        height: 302vw;
+        background: url('img/topwrap/m_2021_cherryblossom_bg.jpg')
+    }
+
+    .main-visual_inner {
+        padding-top: 22%;
+    }
+
+    .main-visual_slogan {
+        width: 63%;
+        max-width: 400px;
+        margin: -1% 0 0 20%;
+    }
+
+    .pc-slogan {
+        display: none;
+    }
+
+    .m-slogan {
+        display: block;
+    }
+
+    .btn_slogan {
+        position: absolute;
+        bottom: 4%;
+        left: 50%;
+        width: 115px;
+        height: 34px;
+        margin-left: -58px;
+    }
+
+    .cont_common, .cont_common:after {
+        max-width: none;
+        bottom: auto;
+    }
+
+    .pc-drink {
+        display: none;
+    }
+
+    .m-drink {
+        display: block;
+    }
+
+    .cont_01 {
+        top: 19%;
+        left: 5%;
+        width: 62%;
+    }
+
+    .cont_01:after {
+        bottom: 45%;
+        left: 79%;
+        width: 62%;
+        height: 109px;
+        background: url('img/topwrap/m_2021_cherryblossom_chocolate_txt.png') no-repeat;
+        background-size: contain;
+    }
+
+    .cont_02 {
+        top: 42%;
+        left: auto;
+        right: 0.1%;
+        width: 50%;
+    }
+
+    .cont_02:after {
+        bottom: 38%;
+        left: -78%;
+        width: 75%;
+        height: 150px;
+        background: url('img/topwrap/m_2021_cherryblossom_coldbrew_txt.png') no-repeat;
+        background-size: contain;
+    }
+
+    .cont_03 {
+        bottom: 10%;
+        left: 8%;
+        width: 55%;
+    }
+
+    .cont_03:after {
+        bottom: 45%;
+        left: 74%;
+        width: 74%;
+        height: 160px;
+        background: url('img/topwrap/m_2021_cherryblossom_blended_txt.png') no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .cont_01:after {
+        height: 66px;
+        bottom: 42%;
+    }
+
+    .cont_02:after {
+        height: 70px;
+    }
+
+    .cont_03:after {
+        height: 70px;
+    }
 }
