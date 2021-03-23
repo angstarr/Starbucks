@@ -157,7 +157,7 @@ ul, ol, li {
 }
 
 .gnb_sub_wrap {
-    display: block;
+    display: none; /* 드롭다운 */
     background: #2c2a29;
     position: absolute;
     width: 100%;
@@ -238,6 +238,50 @@ ul, ol, li {
     float: left;
     width: 100%;
     font-size: 12px;
+}
+
+/* 그리드 연습 */
+
+#wrap {
+    display: grid;
+}
+
+#container {
+    display: grid;
+}
+
+#topWrap {
+    height: 100%;
+}
+
+.main-visual_wrap {
+    background: skyblue;
+    height: 646px;
+}
+
+.line_notice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 62px;
+    width: 100%;
+}
+
+.line_notice .black p {
+    height: 62px;
+    color: black;
+    background: white;
+}
+
+.line_notice .white p {
+    height: 62px;
+    color: white;
+    background: black;
+}
+
+@media screen and (max-width: 767px) {
+    .line_notice {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* 반응형 시작 */
