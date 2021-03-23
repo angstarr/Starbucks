@@ -242,13 +242,12 @@ ul, ol, li {
     font-size: 12px;
 }
 
-/* 태블릿, 아이패드 nav css */
+/* 태블릿, ipad css */
 
 .ipad_gnb_wrap {
     display: none;
 }
 
-/* 그리드 연습 */
 
 #wrap {
     display: grid;
@@ -262,8 +261,22 @@ ul, ol, li {
     height: 100%;
 }
 
+.floating_badge {
+    position: fixed;
+    top: 154px;
+    left: 55%;
+    width: 140px;
+    margin-left: 485px;
+    z-index: 3;
+}
+
+.floating_badge .m-badge {
+    display: none;
+}
+
 .main-visual_wrap {
-    background: skyblue;
+    background: url('img/topwrap/2021_cherryblossom_bg.jpg') center no-repeat;
+    background-size: cover;
     height: 646px;
 }
 
