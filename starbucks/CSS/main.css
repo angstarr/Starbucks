@@ -25,6 +25,7 @@ ul, ol, li {
 }
 
 #navWrap {
+    top: 0;
     height: 120px;
     position: relative;
 }
@@ -240,6 +241,12 @@ ul, ol, li {
     font-size: 12px;
 }
 
+/* 태블릿, 아이패드 nav css */
+
+.ipad_gnb_wrap {
+    display: none;
+}
+
 /* 그리드 연습 */
 
 #wrap {
@@ -260,27 +267,114 @@ ul, ol, li {
 }
 
 .line_notice {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    position: relative;
     height: 62px;
     width: 100%;
 }
 
-.line_notice .black p {
+.line_notice_left {
+    position: absolute;
+    display: grid;
+    width: 50%;
     height: 62px;
-    color: black;
-    background: white;
+    background: black;
+    left: 0;
+    top: 0;
 }
 
-.line_notice .white p {
+.line_notice_right {
+    position: absolute;
+    display: grid;
+    width: 50%;
     height: 62px;
-    color: white;
+    background: white;
+    right: 0;
+    top: 0;
+}
+
+.line_notice_bg {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1280px;
+    height: 62px;
+    left: 50%;
+    margin-left: -640px;
+}
+
+.line_notice_bg .black {
+    height: 62px;
+    width: 730px;
     background: black;
 }
 
-@media screen and (max-width: 767px) {
-    .line_notice {
+.line_notice_bg .black p {
+    color: white;
+}
+
+.line_notice_bg .white {
+    width: 550px;
+    height: 62px;
+    background: white;
+}
+
+.line_notice_bg .white p {
+    color: black;
+}
+
+@media screen and (max-width: 1480px) and (min-width: 961px) {
+
+    .line_notice_bg {
+        width: 960px;
+        margin-left: -480px;
+    }
+
+    .line_notice_bg .black {
+        width: 55%;
+    }
+
+    .line_notice_bg .white {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 768px) {
+
+      .gnb_inner, .gnb_nav .gnb_nav_inner {
+          width: 100%;
+      }
+}
+
+@media screen and (max-width: 960px) {
+
+    .line_notice, .line_notice_bg {
         grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0;
+        left: 0;
+    }
+
+    .line_notice {
+        height: 70px;
+    }
+
+    .line_notice_left, .line_notice_right {
+        display: none;
+    }
+
+    .ling_notice_bg {
+        height: 70px;
+        width: 100%;
+    }
+
+    .line_notice_bg .black {
+        height: 70px;
+        width: 100%;
+    }
+
+    .line_notice_bg .white {
+        height: 70px;
+        width: 100%;
     }
 }
 
@@ -291,13 +385,14 @@ ul, ol, li {
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 960px) {
 
-    .gnb_wrap {
+    #navWrap {
         display: none;
     }
 
     .ipad_gnb_wrap {
+        display: grid;
         background: #f6f5ef;
         border-bottom: 1px solid #e5e5e5;
         height: 69px;
