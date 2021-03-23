@@ -253,11 +253,6 @@ ul, ol, li {
     display: none;
 }
 
-
-#wrap {
-    display: grid;
-}
-
 #container {
     width: 100%;
 }
@@ -427,7 +422,6 @@ ul, ol, li {
 
 .line_notice_left {
     position: absolute;
-    display: grid;
     width: 50%;
     height: 62px;
     background: black;
@@ -437,7 +431,6 @@ ul, ol, li {
 
 .line_notice_right {
     position: absolute;
-    display: grid;
     width: 50%;
     height: 62px;
     background: white;
@@ -720,7 +713,7 @@ ul, ol, li {
     .main-visual_slogan {
         width: 63%;
         max-width: 400px;
-        margin: -1% 0 0 20%;
+        margin: -1% 0 0 10%;
     }
 
     .pc-slogan {
