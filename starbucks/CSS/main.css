@@ -334,10 +334,27 @@ ul, ol, li {
     height: 90%;
 }
 
+.cont_common:after {
+    display: block;
+    content: '';
+    position: absolute;
+}
+
 .cont_01 {
     left: 28%;
     bottom: 5%;
     width: 30%;
+}
+
+.cont_01:after {
+    width: 55%;
+    max-width: 182px;
+    height: 88px;
+    bottom: 28%;
+    left: -35%;
+    background: url('img/topwrap/2021_cherryblossom_chocolate_txt.png') no-repeat;
+    background-position: center top;
+    background-size: contain;
 }
 
 .cont_02 {
@@ -346,11 +363,32 @@ ul, ol, li {
     width: 30%;
 }
 
+.cont_02:after {
+    width: 77%;
+    max-width: 202px;
+    height: 89px;
+    bottom: 105%;
+    background: url('img/topwrap/2021_cherryblossom_coldbrew_txt2.png') no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+
 .cont_03 {
-    right: -4%;
-    bottom: 10%;
+    right: -3%;
+    bottom: 9%;
     width: 25%;
 }
+
+.cont_03:after {
+    width: 82%;
+    max-width: 220px;
+    height: 89px;
+    bottom: 105%;
+    background: url('img/topwrap/2021_cherryblossom_blended_txt.png') no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+
 
 .m-drink {
     display: none;
