@@ -477,14 +477,14 @@ ul, ol, li {
 
 .rewards_inner {
     max-width: 1080px;
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .rewards_logo {
     float: left;
     margin: 0 40px;
-    width: 16%;
+    width: 16.3%;
 }
 
 .rewards_logo img {
@@ -505,8 +505,12 @@ ul, ol, li {
     border-bottom: 1px solid #4b615b;
 }
 
-.rewards-info .info-txt {
+.info-txt, .info-txt-m {
     margin-bottom: 12px;
+}
+
+.info-txt-m {
+    display: none;
 }
 
 .rewards-info .ttl {
@@ -522,12 +526,17 @@ ul, ol, li {
 .rewards_cont a {
     line-height: 33px;
     color: #fff;
-    padding: 0 18px;
+    padding: 0 13px;
     font-size: 14px;
     text-align: center;
 }
 
+.rewards_cont .txt {
+    letter-spacing: -0.5px;
+}
+
 .info-signinBx {
+    width: 174px;
     position: absolute;
     right: 0;
     bottom: 20px;
@@ -548,13 +557,14 @@ ul, ol, li {
 .rewards-info .info-login {
     border: 2px solid #fff;
     margin-left: 5px;
+    float: right;
 }
 
 .rewards-gift {
     position: relative;
 }
 
-.rewards-gift .gift-btn {
+.rewards-gift .gift-btn a {
     display: inline-block;
     position: absolute;
     top: 0;
@@ -562,18 +572,17 @@ ul, ol, li {
     box-sizing: border-box;
     border-radius: 5px;
     border: 2px solid #fff;
-    width: 188px;
+    width: 174px;
     height: 37px;
     text-align: center;
 }
 
-.rewards-gift .gift-btn a {
-    width: 100%;
-    height: 100%;
-}
-
 .rewards-gift .gift-txt {
     font-size: 14px;
+}
+
+.gift-txt-m {
+    display: none;
 }
 
 #main_wrap {
@@ -646,6 +655,11 @@ ul, ol, li {
 
 @media screen and (max-width: 1024px) {
 
+      .gnb_inner h1.logo {
+          left: 20px;
+
+      }
+
       .gnb_inner, .gnb_nav .gnb_nav_inner {
           width: 100%;
       }
@@ -674,6 +688,74 @@ ul, ol, li {
       .cont_03 {
           right: 6%;
       }
+
+      .rewards_wrap {
+          padding-bottom: 77px;
+      }
+
+      .rewards_logo {
+          width: 35%;
+          margin-top: 65px;
+          margin-right: 30px;
+      }
+
+      .rewards_logo img {
+          width: auto;
+          max-width: 100%;
+      }
+
+      .rewards_cont {
+          width: calc(65% - 80px);
+      }
+
+      .info-txt {
+          display: none;
+      }
+
+      .info-txt-m {
+          display: block;
+          text-align: center;
+          margin-bottom: 69px;
+      }
+
+      .info-txt-m .txt {
+          font-size: 15px;
+      }
+
+      .info-signinBx {
+          display: inline-block;
+          margin-bottom: 20px;
+          width: 100%;
+          right: auto;
+          left: auto;
+          bottom: 0;
+      }
+
+      .gift-txt {
+          display: none;
+      }
+
+      .gift-txt-m {
+          display: block;
+          text-align: center;
+          margin-bottom: 12px;
+      }
+
+      .gift-txt-m .txt {
+          font-size: 14px;
+      }
+
+      .rewards_cont .rewards-gift .gift-btn a {
+          display: inline-block;
+          margin-bottom: 20px;
+          width:100%;
+          max-width: 174px;
+          top: auto;
+          right: 0;
+          left: auto;
+          bottom: auto;
+      }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -712,37 +794,6 @@ ul, ol, li {
         left: 10px;
         position: absolute;
       }
-
-
-    .line_notice, .line_notice_bg {
-        grid-template-columns: 1fr;
-        width: 100%;
-        margin: 0;
-        left: 0;
-    }
-
-    .line_notice {
-        height: 70px;
-    }
-
-    .line_notice_left, .line_notice_right {
-        display: none;
-    }
-
-    .ling_notice_bg {
-        height: 70px;
-        width: 100%;
-    }
-
-    .line_notice_bg .black {
-        height: 70px;
-        width: 100%;
-    }
-
-    .line_notice_bg .white {
-        height: 70px;
-        width: 100%;
-    }
 
     .main-visual_wrap {
         height: 565px;
@@ -887,6 +938,36 @@ ul, ol, li {
         height: 160px;
         background: url('img/topwrap/m_2021_cherryblossom_blended_txt.png') no-repeat;
         background-size: contain;
+    }
+
+    .line_notice, .line_notice_bg {
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0;
+        left: 0;
+    }
+
+    .line_notice {
+        height: 70px;
+    }
+
+    .line_notice_left, .line_notice_right {
+        display: none;
+    }
+
+    .ling_notice_bg {
+        height: 70px;
+        width: 100%;
+    }
+
+    .line_notice_bg .black {
+        height: 70px;
+        width: 100%;
+    }
+
+    .line_notice_bg .white {
+        height: 70px;
+        width: 100%;
     }
 }
 
