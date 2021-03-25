@@ -592,6 +592,17 @@ ul, ol, li {
     overflow: hidden;
 }
 
+.main_inner {
+    position: relative;
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main_img_m {
+    display: none;
+}
+
 .reserve_wrap {
     position: relative;
     height: 400px;
