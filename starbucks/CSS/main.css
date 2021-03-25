@@ -604,6 +604,7 @@ ul, ol, li {
     left: 4%;
     position: absolute;
     max-width: 720px;
+    width: 67%;
 }
 
 .main_img_m {
@@ -615,6 +616,7 @@ ul, ol, li {
     top: 32%;
     right: 18%;
     max-width: 300px;
+    width: 28%;
     letter-spacing: -1px;
 }
 
@@ -909,6 +911,32 @@ ul, ol, li {
         right: 10%;
         width: 24%;
     }
+
+    #main_wrap {
+        height: 60vw;
+    }
+
+    .main_img {
+        width: 75%;
+    }
+
+    .main_txt_bx {
+        width: 45%;
+        right: 5%;
+    }
+
+    .main_txt_Bx .ttl {
+        font-size: 18px;
+    }
+
+    .main_txt_bx .ttl span {
+        font-size: 28px;
+    }
+
+    .main_txt_bx .txt {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -1085,8 +1113,54 @@ ul, ol, li {
         right: auto;
     }
 
+    #main_wrap {
+        height: 170vw;
+        background: url('img/main/m_bg.jpg');
+    }
 
+    .main_inner {
+        max-width: none;
+    }
 
+    .main_img {
+        max-width: none;
+        width: 90%;
+        top: 11%;
+        left: 10%;
+    }
+
+    .main_img .main_img_pc {
+        display: none;
+    }
+
+    .main_img .main_img_m {
+        display: block;
+    }
+
+    .main_txt_bx {
+        max-width: none;
+        width: 75%;
+        top: auto;
+        left: 11%;
+        bottom: 12%;
+        text-align: center;
+    }
+
+    .main_txt_bx .ttl {
+        font-size: 26px;
+    }
+
+    .main_txt_bx .ttl span {
+        font-size: 40px;
+    }
+
+    .main_txt_bx .txt {
+        font-size: 18px;
+    }
+
+    .main_btn_detail {
+        margin: 14% auto 0;
+    }
 
 
 }
