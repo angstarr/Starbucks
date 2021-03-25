@@ -1097,7 +1097,7 @@ ul, ol, li {
     }
 
     .rewards_cont .txt {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .info-signinBx {
@@ -1126,7 +1126,8 @@ ul, ol, li {
 
     #main_wrap {
         height: 170vw;
-        background: url('img/main/m_bg.jpg');
+        background: url('img/main/m_bg.jpg') no-repeat;
+        background-size: cover;
     }
 
     .main_inner {
@@ -1138,6 +1139,10 @@ ul, ol, li {
         width: 90%;
         top: 11%;
         left: 10%;
+    }
+
+    .main_img img {
+        width: auto;
     }
 
     .main_img .main_img_pc {
@@ -1190,4 +1195,30 @@ ul, ol, li {
     .cont_03:after {
         height: 70px;
     }
+
+    .main_inner {
+        height: 100%;
+    }
+
+    .main_txt_bx {
+        bottom: 11%;
+    }
+
+    .main_txt_bx .ttl {
+        font-size: 18px;
+    }
+
+    .main_txt_bx .ttl span {
+        font-size: 24px;
+    }
+
+    .main_txt_bx .txt {
+        font-size: 13px;
+    }
+
+    .main_btn_detail a {
+        font-size: 13px;
+        line-height: 30px;
+    }
+
 }
