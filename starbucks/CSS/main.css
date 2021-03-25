@@ -592,6 +592,78 @@ ul, ol, li {
     overflow: hidden;
 }
 
+.main_inner {
+    position: relative;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_img {
+    top: 7%;
+    left: 4%;
+    position: absolute;
+    max-width: 720px;
+    width: 67%;
+}
+
+.main_img_m {
+    display: none;
+}
+
+.main_txt_bx {
+    position: absolute;
+    top: 32%;
+    right: 18%;
+    max-width: 300px;
+    width: 28%;
+    letter-spacing: -1px;
+}
+
+.main_txt_bx .ttl {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #299565;
+    letter-spacing: -2.5px;
+}
+
+.main_txt_bx .ttl span {
+    font-size: 34px;
+    color: #1B4727;
+}
+
+.main_txt_bx .txt {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1B4727;
+}
+
+.main_btn_detail {
+    width: 125px;
+    height: 38px;
+    margin: 30px 2px 0 0;
+}
+
+.main_btn_detail a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 33px;
+    color: #231815;
+    box-sizing: border-box;
+    border: 2px solid #231815;
+    border-radius: 5px;
+    transition: background .7s, color .7s;
+}
+
+.main_btn_detail a:hover {
+    background: #231815;
+    color: #fff;
+}
+
 .reserve_wrap {
     position: relative;
     height: 400px;
@@ -839,6 +911,32 @@ ul, ol, li {
         right: 10%;
         width: 24%;
     }
+
+    #main_wrap {
+        height: 60vw;
+    }
+
+    .main_img {
+        width: 75%;
+    }
+
+    .main_txt_bx {
+        width: 45%;
+        right: 5%;
+    }
+
+    .main_txt_Bx .ttl {
+        font-size: 18px;
+    }
+
+    .main_txt_bx .ttl span {
+        font-size: 28px;
+    }
+
+    .main_txt_bx .txt {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -1015,8 +1113,54 @@ ul, ol, li {
         right: auto;
     }
 
+    #main_wrap {
+        height: 170vw;
+        background: url('img/main/m_bg.jpg');
+    }
 
+    .main_inner {
+        max-width: none;
+    }
 
+    .main_img {
+        max-width: none;
+        width: 90%;
+        top: 11%;
+        left: 10%;
+    }
+
+    .main_img .main_img_pc {
+        display: none;
+    }
+
+    .main_img .main_img_m {
+        display: block;
+    }
+
+    .main_txt_bx {
+        max-width: none;
+        width: 75%;
+        top: auto;
+        left: 11%;
+        bottom: 12%;
+        text-align: center;
+    }
+
+    .main_txt_bx .ttl {
+        font-size: 26px;
+    }
+
+    .main_txt_bx .ttl span {
+        font-size: 40px;
+    }
+
+    .main_txt_bx .txt {
+        font-size: 18px;
+    }
+
+    .main_btn_detail {
+        margin: 14% auto 0;
+    }
 
 
 }
