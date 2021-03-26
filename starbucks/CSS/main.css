@@ -931,6 +931,95 @@ ul, ol, li {
     position: relative;
 }
 
+.store_inner {
+    position: absolute;
+    width: 1280px;
+    left: 50%;
+    top: 0;
+    margin-left: -640px;
+}
+
+.store_img1 {
+    background: url('img/store/img1.png') no-repeat;
+    height: 228px;
+    width: 228px;
+    top: 150px;
+    left: 385px;
+    position: absolute;
+    z-index: 6;
+
+}
+
+.store_img2 {
+    background: url('img/store/img2.png') no-repeat;
+    height: 312px;
+    width: 366px;
+    left: 160px;
+    position: absolute;
+}
+
+.store_img3 {
+    background: url('img/store/img3.png') no-repeat;
+    height: 142px;
+    width: 343px;
+    top: -60px;
+    left: 520px;
+    position: absolute;
+}
+
+.store_img4 {
+    background: url('img/store/img4.png') no-repeat;
+    height: 102px;
+    width: 230px;
+    top:300px;
+    right: 30px;
+    position: absolute;
+}
+
+.store_txt1 {
+    background: url('img/store/txt1.png') no-repeat;
+    height: 54px;
+    width: 385px;
+    top: 100px;
+    right: 150px;
+    position: absolute;
+}
+
+.store_txt2 {
+    background: url('img/store/txt2.png') no-repeat;
+    height: 61px;
+    width: 366px;
+    top: 170px;
+    right: 168px;
+    position: absolute;
+}
+
+.store_btn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    top: 260px;
+    right: 408px;
+}
+
+.store_btn a {
+    display: block;
+    color: #222;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.store_btn:hover a {
+    color: #fff;
+    background: #222;
+}
+
 #footer {
     height: 600px;
     background: #2c2a29;
@@ -1144,6 +1233,10 @@ ul, ol, li {
       .fav_btn_wrap {
           top: 520px;
           left: 385px;
+      }
+
+      .store_img4 {
+          right: 190px;
       }
 
 }
@@ -1401,6 +1494,67 @@ ul, ol, li {
 
     .magazine_btn:hover a {
         background-position: 0 -10px;
+    }
+
+    #storeWrap {
+        height: 750px;
+    }
+
+    .store_img1 {
+        background-size: 100% auto;
+        width: 200px;
+        height: 200px;
+        left: 630px;
+
+    }
+
+    .store_img2 {
+        background-size: 100% auto;
+        width: 300px;
+        height: 255px;
+        left: 400px;
+    }
+
+    .store_img3 {
+        background-size: 100% auto;
+        width: 280px;
+        height: 115px;
+        top: 240px;
+        left: 390px;
+    }
+
+    .store_img4 {
+        background-size: 100% auto;
+        width: 170px;
+        height: 75px;
+        top: 675px;
+        left: 770px;
+    }
+
+    .store_txt1 {
+        background: url('img/store/txt1-m.png');
+        background-size: 100% auto;
+        width: 380px;
+        height: 96px;
+        top: 390px;
+        left: 50%;
+        margin-left: -190px;
+    }
+
+    .store_txt2 {
+        background: url('img/store/txt2-m.png');
+        background-size: 100% auto;
+        width: 440px;
+        height: 104px;
+        top: 510px;
+        left: 50%;
+        margin-left: -220px;
+    }
+
+    .store_btn {
+        top: 640px;
+        left: 50%;
+        margin-left: -63px;
     }
 
 }
@@ -1716,6 +1870,50 @@ ul, ol, li {
 
     .fav_btn_wrap {
         top: 600px;
+    }
+
+    #storeWrap {
+
+    }
+
+    .store_img1 {
+        width: 170px;
+        height: 170px;
+        left: 610px;
+    }
+
+    .store_img2 {
+        width: 240px;
+        height: 204px;
+        left: 470px;
+    }
+
+    .store_img3 {
+        width: 180px;
+        height: 75px;
+        left: 480px;
+    }
+
+    .store_img4 {
+        left: 620px;
+    }
+
+    .store_txt1 {
+        width: 280px;
+        height: 70px;
+        top: 360px;
+        margin-left: -140px;
+    }
+
+    .store_txt2 {
+        width: 300px;
+        height: 70px;
+        top: 460px;
+        margin-left: -150px;
+    }
+
+    .store_btn {
+        top: 560px;
     }
 
 }
