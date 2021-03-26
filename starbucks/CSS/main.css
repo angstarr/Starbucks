@@ -832,10 +832,88 @@ ul, ol, li {
 }
 
 .magazine_wrap {
-    height: 300px;
+    height: 700px;
     position: relative;
-    background: white;
+    background: #fff;
     overflow: hidden;
+}
+
+.magazine_m {
+    display: none;
+}
+
+.magazine_pc {
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.magazine_pc > div {
+    display: inline-block;
+}
+
+.magazine_pc:before {
+    position: absolute;
+    content:'';
+    width:95%;
+    height: 1px;
+    top: 61%;
+    left:10%;
+    background: #cccccb;
+}
+
+.magazine_pc:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 64%;
+    top: 136px;
+    left: 44%;
+    background: #cccccb;
+}
+
+.magazine_left {
+    position: relative;
+    width: 38.5%;
+    padding-left: 4%;
+}
+
+.magazine_right {
+    width: 45%;
+    margin-left: 6%;
+    padding-right: 3.5%;
+}
+
+.magazine_right img {
+    margin-top: 34%;
+    left: 0;
+}
+
+.magazine_btn {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    padding: 8px 10px;
+    transition: background .8s;
+    text-indent: -9999px;
+    bottom: 31%;
+    left: 49%;
+}
+
+.magazine_btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('img/mag/btn_pc.png') 0 0 no-repeat;
+}
+
+.magazine_btn:hover {
+    background: #976d3f;
+}
+
+.magazine_btn:hover a {
+    background-position: 0 -17px;
 }
 
 #storeWrap {
