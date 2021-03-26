@@ -672,6 +672,16 @@ ul, ol, li {
     overflow: hidden;
 }
 
+.reserve_wrap:after {
+    content: '';
+    position: absolute;
+    background: url('img/reserve/bg_item.png') right top no-repeat;
+    top: 0;
+    right: 0;
+    width: 330px;
+    height: 150px;
+}
+
 .reserve_inner {
     position: relative;
     width: 100%;
@@ -698,6 +708,7 @@ ul, ol, li {
     right: -1%;
     bottom: 0%;
     width: 100%;
+    z-index: 3;
 }
 
 .reserve_main img {
@@ -715,6 +726,7 @@ ul, ol, li {
     margin: 0 auto;
     padding-left: 281px;
     box-sizing: border-box;
+    z-index: 3;
 }
 
 .reserve_btn_detail {
@@ -792,6 +804,27 @@ ul, ol, li {
     .line_notice_bg .white {
         width: 45%;
     }
+
+    .reserve_main {
+        width: 130%;
+        right: -18%;
+    }
+
+    .reserve_wrap:after {
+        background-size: 80% auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+      .reserve_main {
+          width: 150%;
+          right: -37%;
+      }
+
+      .reserve_main .reserve_pc {
+          width: 100%;
+      }
 }
 
 @media screen and (max-width: 1024px) {
@@ -895,6 +928,28 @@ ul, ol, li {
           right: 0;
           left: auto;
           bottom: auto;
+      }
+
+      .reserve_wrap {
+          height: 380px;
+      }
+
+      .reserve_wrap:after {
+          background-size: 70% auto;
+      }
+
+      .reserve_head {
+          max-width: none;
+          width: 48%;
+          margin-left: 0;
+          padding: 85px 0 0 35px;
+      }
+
+      .reserve_btn_wrap {
+          max-width: none;
+          width: 40%;
+          margin-left: 0;
+          padding-left: 23.5%;
       }
 
 }
@@ -1004,6 +1059,63 @@ ul, ol, li {
 
     .main_txt_bx .txt {
         font-size: 14px;
+    }
+
+    .reserve_wrap {
+        height: 100%;
+    }
+
+    .reserve_inner {
+        left: 0;
+    }
+
+    .reserve_head {
+        display: none;
+    }
+
+    .reserve_main {
+        position: relative;
+        float: none;
+        right: auto;
+        left: 0;
+        max-width: none;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .reserve_main .reserve_pc {
+        display: none;
+    }
+
+    .reserve_main .reserve_m {
+        display: block;
+        max-width: none;
+        width: 100%;
+    }
+
+    .reserve_btn_wrap {
+        position: static;
+        width: auto;
+    }
+
+    .reserve_btn_detail {
+        position: absolute;
+        padding: 0;
+        bottom: 8%;
+        left: 50%;
+        margin-left: -55px;
+        z-index: 3;
+    }
+
+    .reserve_btn_detail a {
+        color: #f5d3c2;
+        border-color: #f5d3c2;
+    }
+
+    .reserve_btn_detail a:hover {
+        color: #682c11;
+        background: #fff;
+        border-color: #fff;
     }
 
 }
