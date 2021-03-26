@@ -931,6 +931,38 @@ ul, ol, li {
     position: relative;
 }
 
+.store_inner {
+    position: absolute;
+    width: 1280px;
+    left: 50%;
+    top: 0;
+    margin-left: -640px;
+}
+
+.store_img1 {
+    background: url('img/store/img1.png')
+}
+
+.store_img2 {
+    background: url('img/store/img2.png')
+}
+
+.store_img3 {
+    background: url('img/store/img3.png')
+}
+
+.store_img4 {
+    background: url('img/store/img4.png')
+}
+
+.store_txt1 {
+    background: url('img/store/txt1.png')
+}
+
+.store_txt2 {
+    background: url('img/store/txt2.png')
+}
+
 #footer {
     height: 600px;
     background: #2c2a29;
