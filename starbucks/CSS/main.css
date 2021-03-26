@@ -831,35 +831,36 @@ ul, ol, li {
     background: #fff;
 }
 
+#container .magazine_wrap {
+    display: block;
+}
+
 .magazine_wrap {
-    height: 700px;
     position: relative;
     background: #fff;
     overflow: hidden;
 }
 
-.magazine_m {
-    display: none;
-}
-
 .magazine_pc {
     position: relative;
-    width: 1240px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 90px 0;
+    font-size: 0;
 }
 
 .magazine_pc > div {
     display: inline-block;
+    vertical-align: top;
 }
 
 .magazine_pc:before {
     position: absolute;
     content:'';
-    width:95%;
+    width: 95%;
     height: 1px;
     top: 61%;
-    left:10%;
+    left: 10%;
     background: #cccccb;
 }
 
@@ -880,14 +881,19 @@ ul, ol, li {
 }
 
 .magazine_right {
-    width: 45%;
+    width: 45.6%;
     margin-left: 6%;
     padding-right: 3.5%;
 }
 
-.magazine_right img {
-    margin-top: 34%;
+.magazine_right .magazine_txt_img {
+    position: relative;
     left: 0;
+    margin-top: 34%;
+}
+
+.magazine_m {
+    display: none;
 }
 
 .magazine_btn {
@@ -898,7 +904,7 @@ ul, ol, li {
     transition: background .8s;
     text-indent: -9999px;
     bottom: 31%;
-    left: 49%;
+    margin-left: calc(50% - 30px);
 }
 
 .magazine_btn a {
