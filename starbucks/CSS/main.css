@@ -1235,6 +1235,10 @@ ul, ol, li {
           left: 385px;
       }
 
+      .store_img4 {
+          right: 190px;
+      }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -1490,6 +1494,67 @@ ul, ol, li {
 
     .magazine_btn:hover a {
         background-position: 0 -10px;
+    }
+
+    #storeWrap {
+        height: 750px;
+    }
+
+    .store_img1 {
+        background-size: 100% auto;
+        width: 200px;
+        height: 200px;
+        left: 630px;
+
+    }
+
+    .store_img2 {
+        background-size: 100% auto;
+        width: 300px;
+        height: 255px;
+        left: 400px;
+    }
+
+    .store_img3 {
+        background-size: 100% auto;
+        width: 280px;
+        height: 115px;
+        top: 240px;
+        left: 390px;
+    }
+
+    .store_img4 {
+        background-size: 100% auto;
+        width: 170px;
+        height: 75px;
+        top: 675px;
+        left: 770px;
+    }
+
+    .store_txt1 {
+        background: url('img/store/txt1-m.png');
+        background-size: 100% auto;
+        width: 380px;
+        height: 96px;
+        top: 390px;
+        left: 50%;
+        margin-left: -190px;
+    }
+
+    .store_txt2 {
+        background: url('img/store/txt2-m.png');
+        background-size: 100% auto;
+        width: 440px;
+        height: 104px;
+        top: 510px;
+        left: 50%;
+        margin-left: -220px;
+    }
+
+    .store_btn {
+        top: 640px;
+        left: 50%;
+        margin-left: -63px;
     }
 
 }
