@@ -672,6 +672,87 @@ ul, ol, li {
     overflow: hidden;
 }
 
+.reserve_wrap:after {
+    content: '';
+    position: absolute;
+    background: url('img/reserve/bg_item.png') right top no-repeat;
+    top: 0;
+    right: 0;
+    width: 330px;
+    height: 150px;
+}
+
+.reserve_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.reserve_head {
+    position: relative;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 0 0 25px;
+    box-sizing: border-box;
+}
+
+.reserve_m {
+    display: none;
+}
+
+.reserve_main {
+    display: block;
+    position: absolute;
+    right: -1%;
+    bottom: 0%;
+    width: 100%;
+    z-index: 3;
+}
+
+.reserve_main img {
+    width: auto;
+}
+
+.reserve_main img.reserve_pc {
+    max-width: none;
+}
+
+.reserve_btn_wrap {
+    position: relative;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 281px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.reserve_btn_detail {
+    position: static;
+    width: 120px;
+    height: 34px;
+}
+
+.reserve_btn_detail a {
+    display: block;
+    font-size: 14px;
+    line-height: 33px;
+    width: 100%;
+    height: 100%;
+    color: #682c11;
+    text-align: center;
+    border: 2px solid #682c11;
+    border-radius: 5px;
+    transition: background .7s, color .7s;
+}
+
+.reserve_btn_detail a:hover {
+    color: #fff;
+    background: #682c11;
+}
+
 #favWrap {
     background: url('img/fav_prod_bg_new.jpg') center center fixed no-repeat #45434c;
     background-size: auto 100%;
@@ -723,6 +804,27 @@ ul, ol, li {
     .line_notice_bg .white {
         width: 45%;
     }
+
+    .reserve_main {
+        width: 130%;
+        right: -18%;
+    }
+
+    .reserve_wrap:after {
+        background-size: 80% auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+      .reserve_main {
+          width: 150%;
+          right: -37%;
+      }
+
+      .reserve_main .reserve_pc {
+          width: 100%;
+      }
 }
 
 @media screen and (max-width: 1024px) {
@@ -826,6 +928,28 @@ ul, ol, li {
           right: 0;
           left: auto;
           bottom: auto;
+      }
+
+      .reserve_wrap {
+          height: 380px;
+      }
+
+      .reserve_wrap:after {
+          background-size: 70% auto;
+      }
+
+      .reserve_head {
+          max-width: none;
+          width: 48%;
+          margin-left: 0;
+          padding: 85px 0 0 35px;
+      }
+
+      .reserve_btn_wrap {
+          max-width: none;
+          width: 40%;
+          margin-left: 0;
+          padding-left: 23.5%;
       }
 
 }
@@ -935,6 +1059,63 @@ ul, ol, li {
 
     .main_txt_bx .txt {
         font-size: 14px;
+    }
+
+    .reserve_wrap {
+        height: 100%;
+    }
+
+    .reserve_inner {
+        left: 0;
+    }
+
+    .reserve_head {
+        display: none;
+    }
+
+    .reserve_main {
+        position: relative;
+        float: none;
+        right: auto;
+        left: 0;
+        max-width: none;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .reserve_main .reserve_pc {
+        display: none;
+    }
+
+    .reserve_main .reserve_m {
+        display: block;
+        max-width: none;
+        width: 100%;
+    }
+
+    .reserve_btn_wrap {
+        position: static;
+        width: auto;
+    }
+
+    .reserve_btn_detail {
+        position: absolute;
+        padding: 0;
+        bottom: 8%;
+        left: 50%;
+        margin-left: -55px;
+        z-index: 3;
+    }
+
+    .reserve_btn_detail a {
+        color: #f5d3c2;
+        border-color: #f5d3c2;
+    }
+
+    .reserve_btn_detail a:hover {
+        color: #682c11;
+        background: #fff;
+        border-color: #fff;
     }
 
 }
@@ -1086,7 +1267,7 @@ ul, ol, li {
     }
 
     .rewards_cont .txt {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .info-signinBx {
@@ -1115,7 +1296,8 @@ ul, ol, li {
 
     #main_wrap {
         height: 170vw;
-        background: url('img/main/m_bg.jpg');
+        background: url('img/main/m_bg.jpg') no-repeat;
+        background-size: cover;
     }
 
     .main_inner {
@@ -1127,6 +1309,10 @@ ul, ol, li {
         width: 90%;
         top: 11%;
         left: 10%;
+    }
+
+    .main_img img {
+        width: auto;
     }
 
     .main_img .main_img_pc {
@@ -1179,4 +1365,30 @@ ul, ol, li {
     .cont_03:after {
         height: 70px;
     }
+
+    .main_inner {
+        height: 100%;
+    }
+
+    .main_txt_bx {
+        bottom: 11%;
+    }
+
+    .main_txt_bx .ttl {
+        font-size: 18px;
+    }
+
+    .main_txt_bx .ttl span {
+        font-size: 24px;
+    }
+
+    .main_txt_bx .txt {
+        font-size: 13px;
+    }
+
+    .main_btn_detail a {
+        font-size: 13px;
+        line-height: 32px;
+    }
+
 }
