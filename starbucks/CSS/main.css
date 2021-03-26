@@ -1358,6 +1358,51 @@ ul, ol, li {
         margin-left: -65px;
     }
 
+    .magazine_pc {
+        display: none;
+    }
+
+    .magazine_m {
+        display: block;
+        margin-top: 13%;
+    }
+
+    .magazine_m .magazine_top {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .magazine_top img {
+        width: 100%;
+    }
+
+    .magazine_bottom {
+        width: 80%;
+        margin: 16% auto 0;
+    }
+
+    .magazine_bottom img {
+        width: 100%;
+    }
+
+    .magazine_btn {
+        position: static;
+        display: block;
+        width: 171px;
+        height: 10px;
+        margin: 5% auto 13%;
+        padding: 5px 7px;
+    }
+
+    .magazine_btn a {
+        background: url('img/mag/btn_m.png') 0 0;
+        background-size: 100%;
+    }
+
+    .magazine_btn:hover a {
+        background-position: 0 -10px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
