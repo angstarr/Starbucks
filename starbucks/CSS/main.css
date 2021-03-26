@@ -940,27 +940,84 @@ ul, ol, li {
 }
 
 .store_img1 {
-    background: url('img/store/img1.png')
+    background: url('img/store/img1.png') no-repeat;
+    height: 228px;
+    width: 228px;
+    top: 150px;
+    left: 385px;
+    position: absolute;
+    z-index: 6;
+
 }
 
 .store_img2 {
-    background: url('img/store/img2.png')
+    background: url('img/store/img2.png') no-repeat;
+    height: 312px;
+    width: 366px;
+    left: 160px;
+    position: absolute;
 }
 
 .store_img3 {
-    background: url('img/store/img3.png')
+    background: url('img/store/img3.png') no-repeat;
+    height: 142px;
+    width: 343px;
+    top: -60px;
+    left: 520px;
+    position: absolute;
 }
 
 .store_img4 {
-    background: url('img/store/img4.png')
+    background: url('img/store/img4.png') no-repeat;
+    height: 102px;
+    width: 230px;
+    top:300px;
+    right: 30px;
+    position: absolute;
 }
 
 .store_txt1 {
-    background: url('img/store/txt1.png')
+    background: url('img/store/txt1.png') no-repeat;
+    height: 54px;
+    width: 385px;
+    top: 100px;
+    right: 150px;
+    position: absolute;
 }
 
 .store_txt2 {
-    background: url('img/store/txt2.png')
+    background: url('img/store/txt2.png') no-repeat;
+    height: 61px;
+    width: 366px;
+    top: 170px;
+    right: 168px;
+    position: absolute;
+}
+
+.store_btn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    top: 260px;
+    right: 408px;
+}
+
+.store_btn a {
+    display: block;
+    color: #222;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.store_btn:hover a {
+    color: #fff;
+    background: #222;
 }
 
 #footer {
