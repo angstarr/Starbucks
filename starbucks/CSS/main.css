@@ -761,6 +761,19 @@ ul, ol, li {
     position: relative;
 }
 
+.fav_inner {
+    position: absolute;
+    width: 1280px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -640px;
+}
+
+.fav-m {
+    display: none;
+}
+
 .magazine_wrap {
     height: 300px;
     position: relative;
