@@ -453,6 +453,69 @@ ul, ol, li {
     height: 62px;
 }
 
+.line_notice_inner {
+    float: left;
+    width: 621px;
+    height: 36px;
+    margin: 13px 0 0 89px;
+}
+
+.bgl_inner_l {
+    position: relative;
+    float: left;
+    width: 494px;
+    height: 33px;
+}
+
+.bgl_ttl {
+    position: absolute;
+    width: 65px;
+    height: 17px;
+    top: 10px;
+    left: 0;
+    overflow: hidden;
+}
+
+.bgl_inner_l dd {
+    position: absolute;
+    width: 520px;
+    height: 24px;
+    left: 65px;
+    top: 9px;
+    text-indent: 15px;
+    overflow: hidden;
+}
+
+.bgl_inner_l dd li {
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.bgl_inner_r {
+    position: relative;
+    float: right;
+    width: 36px;
+    height: 36px;
+}
+
+.bgl_inner_r span {
+    position: absolute;
+    background: url('img/line/plus_btn.png') 0 0 no-repeat;
+    background-size: 35px;
+    width: 36px;
+    height: 36px;
+    top: 0;
+    left: 0;
+}
+
+.bgl_inner_r span a {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
 .line_notice_bgr {
     position: relative;
     float: right;
@@ -479,7 +542,6 @@ ul, ol, li {
     left: 0;
     overflow: hidden;
     text-indent: -9999px;
-
 }
 
 .bgr_btn {
