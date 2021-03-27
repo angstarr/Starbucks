@@ -424,7 +424,7 @@ ul, ol, li {
     position: absolute;
     width: 50%;
     height: 62px;
-    background: black;
+    background: #111;
     left: 0;
     top: 0;
 }
@@ -433,39 +433,124 @@ ul, ol, li {
     position: absolute;
     width: 50%;
     height: 62px;
-    background: white;
+    background: #f6f5ef;
     right: 0;
     top: 0;
 }
 
 .line_notice_bg {
     position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    background: url('img/line/bg_img.jpg');
     width: 1280px;
     height: 62px;
     left: 50%;
     margin-left: -640px;
 }
 
-.line_notice_bg .black {
-    height: 62px;
+.line_notice_bgl {
+    float: left;
     width: 730px;
-    background: black;
-}
-
-.line_notice_bg .black p {
-    color: white;
-}
-
-.line_notice_bg .white {
-    width: 550px;
     height: 62px;
-    background: white;
 }
 
-.line_notice_bg .white p {
-    color: black;
+.line_notice_inner {
+    float: left;
+    width: 621px;
+    height: 36px;
+    margin: 13px 0 0 89px;
+}
+
+.bgl_inner_l {
+    position: relative;
+    float: left;
+    width: 494px;
+    height: 33px;
+}
+
+.bgl_ttl {
+    position: absolute;
+    width: 65px;
+    height: 17px;
+    top: 10px;
+    left: 0;
+    overflow: hidden;
+}
+
+.bgl_inner_l dd {
+    position: absolute;
+    width: 520px;
+    height: 24px;
+    left: 65px;
+    top: 9px;
+    text-indent: 15px;
+    overflow: hidden;
+}
+
+.bgl_inner_l dd li {
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.bgl_inner_r {
+    position: relative;
+    float: right;
+    width: 36px;
+    height: 36px;
+}
+
+.bgl_inner_r span {
+    position: absolute;
+    background: url('img/line/plus_btn.png') 0 0 no-repeat;
+    background-size: 35px;
+    width: 36px;
+    height: 36px;
+    top: 0;
+    left: 0;
+}
+
+.bgl_inner_r span a {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.line_notice_bgr {
+    position: relative;
+    float: right;
+    width: 550px;
+    height:62px;
+}
+
+.line_notice_bgr a {
+    position: absolute;
+    display: block;
+    width: 234px;
+    height: 36px;
+    top: 13px;
+    left: 37%;
+}
+
+.bgr_ttl {
+    position: absolute;
+    background: url('img/line/white_ttl.png') no-repeat;
+    background-size: 100% auto;
+    width: 129px;
+    height: 17px;
+    top: 9px;
+    left: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.bgr_btn {
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    top: 0;
+    right: 0;
 }
 
 /* rewards */
@@ -1036,16 +1121,30 @@ ul, ol, li {
     }
 
     .line_notice_bg {
+        background: none;
         width: 960px;
         margin-left: -480px;
     }
 
-    .line_notice_bg .black {
+    .line_notice_bgl {
         width: 55%;
     }
 
-    .line_notice_bg .white {
+    .line_notice_inner {
+        width: 84%;
+        margin: 13px 0 0 20px;
+    }
+
+    .bgl_inner_l {
+        width: 85%;
+    }
+
+    .line_notice_bgr {
         width: 45%;
+    }
+
+    .line_notice_bgr a {
+        left: 10%;
     }
 
     .reserve_main {
@@ -1319,8 +1418,80 @@ ul, ol, li {
     }
 
     .cont_03 {
-        right: 10%;
         width: 24%;
+        right: 10%;
+    }
+
+    .line_notice {
+        height: 80px;
+    }
+
+    .line_notice_left {
+        width: 55%;
+        height: 80px;
+    }
+
+    .line_notice_right {
+        width: 45%;
+        height: 80px;
+    }
+
+    .line_notice_bg {
+        background: none;
+        width: 100%;
+        height: 80px;
+        margin: 0;
+        left: 0;
+    }
+
+    .line_notice_bgl {
+        width: 55%;
+        height: 80px;
+    }
+
+    .line_notice_inner {
+        width: 90%;
+        height: 44px;
+        margin: 18px 0 0 20px;
+    }
+
+    .bgl_inner_l {
+        width: 85%;
+        height: 44px;
+    }
+
+    .bgl_inner_r {
+        width: 44px;
+        height: 44px;
+    }
+
+    .bgl_inner_r span {
+        background-size: 100% auto;
+        width: 44px;
+        height: 44px;
+        top: 0;
+        left: 0;
+    }
+
+    .line_notice_bgr {
+        width: 45%;
+        height: 80px;
+    }
+
+    .line_notice_bgr a {
+        width: 235px;
+        height: 44px;
+        top: 18px;
+    }
+
+    .bgr_ttl {
+        top: 14px;
+    }
+
+    .bgr_btn {
+        width: 43px;
+        height: 43px;
+        top: 4px;
     }
 
     #main_wrap {
@@ -1658,34 +1829,88 @@ ul, ol, li {
         background-size: contain;
     }
 
-    .line_notice, .line_notice_bg {
-        grid-template-columns: 1fr;
-        width: 100%;
-        margin: 0;
-        left: 0;
-    }
-
     .line_notice {
-        height: 140px;
+        height: 220px;
     }
 
-    .line_notice_left, .line_notice_right {
+    .line_notice_left {
+        width: 100%;
+        height: 110px;
+    }
+
+    .line_notice_right {
+        width: 100%;
+        height: 110px;
+        top: 110px;
+    }
+
+    .line_notice_bg {
+        width: 100%;
+        height: 110px;
+    }
+
+    .line_notice_bgl {
+        width: 100%;
+        height: 110px;
+    }
+
+    .line_notice_inner {
+        height: 55px;
+        margin-top: 28px;
+    }
+
+    .bgl_inner_l {
+        height: 55px;
+    }
+
+    .bgl_ttl {
+        background: url('img/line/speaker.png') center center no-repeat;
+        background-size: 33px 33px;
+        height: 33px;
+    }
+
+    .bgl_ttl img {
         display: none;
     }
 
-    .ling_notice_bg {
-        height: 70px;
-        width: 100%;
+    .bgl_inner_l dd {
+        top: 16px;
     }
 
-    .line_notice_bg .black {
-        height: 70px;
-        width: 100%;
+    .bgl_inner_l dd li {
+        width: 60%;
+        font-size: 18px;
     }
 
-    .line_notice_bg .white {
-        height: 70px;
+    .bgl_inner_r {
+        width: 55px;
+        height: 55px;
+    }
+
+    .bgl_inner_r span {
+        top: 7px;
+    }
+
+    .line_notice_bgr {
         width: 100%;
+        height: 110px;
+    }
+
+    .line_notice_bgr a {
+        width: 300px;
+        height: 55px;
+        top: 28px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .bgr_ttl {
+        width: 220px;
+        height: 28px;
+    }
+
+    .bgr_btn {
+        top: 12px;
     }
 
     .rewards_logo {
@@ -1818,6 +2043,84 @@ ul, ol, li {
     }
 
     .cont_03:after {
+        height: 70px;
+    }
+
+    .line_notice {
+        height: 140px;
+    }
+
+    .line_notice_left {
+        height: 70px;
+    }
+
+    .line_notice_right{
+        height: 70px;
+        top: 70px;
+    }
+
+    .line_notice_bgl {
+        height: 70px;
+    }
+
+    .line_notice_inner {
+        height: 40px;
+        margin: 15px 0 0 5px;
+    }
+
+    .bgl_inner_l {
+        height: 40px;
+    }
+
+    .bgl_ttl {
+        top: 4px;
+    }
+
+    .bgl_inner_l dd {
+        width: 400px;
+        top: 9px;
+        text-indent: 0;
+    }
+
+    .bgl_inner_l dd li {
+        font-size: 16px;
+    }
+
+    .bgl_inner_r {
+      width: 40px;
+      height: 40px;
+      top: 2px;
+    }
+
+    .bgl_inner_r span {
+        width: 30px;
+        height: 30px;
+    }
+
+    .line_notice_bgr {
+        height: 70px;
+    }
+
+    .line_notice_bgr a {
+        width: 200px;
+        height: 40px;
+        top: 14px;
+        margin-left: -100px;
+    }
+
+    .bgr_ttl {
+        width: 143px;
+        height: 18px;
+        top: 10px;
+    }
+
+    .bgr_btn {
+        width: 30px;
+        height: 30px;
+        top: 4px;
+    }
+
+    .line_notice_bg {
         height: 70px;
     }
 
