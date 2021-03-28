@@ -8,8 +8,7 @@ $(document).ready(function(){
 
   });
 
-  $(document).ready(function(){
-    $('.bxslider').bxSlider( {
+    var award = $('.bxslider').bxSlider( {
         mode: 'horizontal',// 가로 방향 수평 슬라이드
         speed: 500,        // 이동 속도를 설정
         pager: false,      // 현재 위치 페이징 표시 여부 설정
@@ -20,9 +19,28 @@ $(document).ready(function(){
         slideMargin: 1,    // 슬라이드간의 간격
         auto: true,        // 자동 실행 여부
         autoHover: false,   // 마우스 호버시 정지 여부
-        controls: false    // 이전 다음 버튼 노출 여부
+        controls: false,    // 이전 다음 버튼 노출 여부,
+        autoControls: true,
+        autoControlsCombine: true,
     });
-});
 
+  // $('.bx-start').hide();
+  // $('.bx-stop').on('click', function(){
+  //
+  //   award.stopAuto();
+  //   $('bx-stop').hide();
+  //   $('bx-start').show();
+  //   return false;
+  //
+  // });
+  //
+  // $('.bx-start').on('click', function(){
+  //
+  //     award.startAuto();
+  //     $('bx-start').hide();
+  //     $('bx-stop').show();
+  //     return false;
+  //
+  // });
 
 });
