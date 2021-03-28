@@ -27,6 +27,10 @@ ul, ol, li {
     list-style: none;
 }
 
+.on {
+    display: block;
+}
+
 #wrap {
     position: relative;
     width: 100%;
@@ -1233,6 +1237,14 @@ a.btn_link {
 .copyright span.en {
     display: inline-block;
     line-height: 40px;
+}
+
+.footer_menus ul li {
+    display: none;
+}
+
+.footer_menus ul li.menu_ttl {
+    display: block !important;
 }
 
 @media screen and (max-width: 1440px) {
