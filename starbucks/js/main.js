@@ -24,23 +24,4 @@ $(document).ready(function(){
         autoControlsCombine: true,
     });
 
-  // $('.bx-start').hide();
-  // $('.bx-stop').on('click', function(){
-  //
-  //   award.stopAuto();
-  //   $('bx-stop').hide();
-  //   $('bx-start').show();
-  //   return false;
-  //
-  // });
-  //
-  // $('.bx-start').on('click', function(){
-  //
-  //     award.startAuto();
-  //     $('bx-start').hide();
-  //     $('bx-stop').show();
-  //     return false;
-  //
-  // });
-
 });

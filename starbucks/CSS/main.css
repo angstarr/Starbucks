@@ -2367,28 +2367,6 @@ a.btn_link {
         height: 12px;
     }
 
-    /* .bx-controls-auto {
-        position: absolute;
-    }
-
-    .bx-controls-auto a {
-        display: block;
-        overflow: hidden;
-        text-indent: -9999px;
-    }
-
-    .bx-controls-auto a.bx-start {
-        background: url('img/footer_award_play.png') -9px 0 no-repeat;
-        width: 9px;
-        height: 12px;
-    }
-
-    .bx-controls-auto a.bx-stop {
-        background: url('img/footer_award_play.png') 0 0 no-repeat;
-        width: 9px;
-        height: 12px;
-    } */
-
 }
 
 @media screen and (max-width: 480px) {
