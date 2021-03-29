@@ -1548,7 +1548,7 @@ a.btn_link {
     }
 
     .ipad_gnb_wrap {
-        display: grid;
+        display: block;
         background: #f6f5ef;
         border-bottom: 1px solid #e5e5e5;
         height: 69px;
@@ -1559,6 +1559,14 @@ a.btn_link {
         z-index: 10;
     }
 
+    .ipad_gnb_wrap h1.logo {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        top: 13px;
+        left: 10px;
+    }
+
     .ipad_gnb_wrap h1.logo a {
         display: block;
         height: 100%;
@@ -1566,13 +1574,57 @@ a.btn_link {
         overflow: hidden;
         }
 
-    .ipad_gnb_wrap h1.logo a img {
-        height: 45px;
-        width: 45px;
-        top: 13px;
-        left: 10px;
+    .ipad_gnb_inner {
+        float: right;
+        width: 175px;
+        height: 70px;
+    }
+
+    .ipad_gnb_inner ul li {
+        position: relative;
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin: 10px 0 0 1px;
+    }
+
+    .ipad_gnb1 a {
+        background: url('img/icon_user_m.png') no-repeat;
+        background-size: 100% auto;
+        width: 25px;
+        height: 30px;
+        top: 14px;
+        left: 18px;
+    }
+
+    .ipad_gnb2 a {
+        background: url('img/icon_spot_m.png') no-repeat;
+        background-size: 100% auto;
+        width: 25px;
+        height: 32px;
+        top: 12px;
+        left: 18px;
+    }
+
+    .ipad_gnb_inner .ipad_gnb3 {
+        width: 50px;
+    }
+
+    .ipad_gnb3 a {
+        background: url('img/btn_berger_m.png') no-repeat;
+        background-size: 100% auto;
+        width: 28px;
+        height: 26px;
+        top: 15px;
+        left: 11px;
+    }
+
+    .ipad_gnb_inner ul li a {
         position: absolute;
-      }
+        display: block;
+        overflow: hidden;
+        text-indent: -9999px;
+    }
 
     .main-visual_wrap {
         height: 565px;
