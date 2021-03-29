@@ -1556,7 +1556,7 @@ a.btn_link {
         top: 0;
         position: fixed;
         width: 100%;
-        z-index: 10;
+        z-index: 20;
     }
 
     .ipad_gnb_wrap h1.logo {
@@ -1624,6 +1624,132 @@ a.btn_link {
         display: block;
         overflow: hidden;
         text-indent: -9999px;
+    }
+
+    .m_gnb_dimm {
+        position: fixed;
+        background: #000;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.7;
+        z-index: 30;
+    }
+
+    .m_gnb_wrap {
+        background: #111;
+        position: fixed;
+        width: 70%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        padding-bottom: 30px;
+        z-index: 30;
+    }
+
+    .m_gnb_inner {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .btn_gnb_close {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 48px;
+        left: -58px;
+    }
+
+    .btn_gnb_close a {
+        background: url('img/btn_gnb_close.png');
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        text-indent: -9999px;
+        transition: transform 1s;
+    }
+
+    .m_gnb_search {
+        position: relative;
+        background: #2d2926;
+        border-bottom: 1px solid #222;
+        width: 100%;
+        height: 111px;
+    }
+
+    .m_search_inner {
+        position: absolute;
+        width: 456px;
+        height: 50px;
+        top: 30px;
+        left: 50%;
+        margin-left: -228px;
+    }
+
+    .m_search_inner input {
+        float: left;
+        width: 313px;
+        height: 48px;
+        border: 1px solid #e3e1d2;
+        border-radius: 3px;
+    }
+
+    .m_search_inner a {
+        float: right;
+        background: #666;
+        border-radius: 3px;
+        color: #fff;
+        width: 125px;
+        height: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: center;
+
+    }
+
+    .m_gnb_menus ul li.m_gnb_ttl1 {
+        background: #2d2926;
+        border-bottom: 1px solid #222;
+        font-size: 28px;
+        line-height: 76px;
+        text-indent: 20px;
+    }
+
+    .m_gnb_menus ul li {
+        background: #181818;
+        border-bottom: 1px solid #222;
+        font-size: 24px;
+        line-height: 76px;
+        text-indent: 35px;
+    }
+
+    .m_gnb_menus ul li a {
+        position: relative;
+        display: block;
+        color: #fff;
+        width: 100%;
+        height: 76px;
+    }
+
+    .m_arrow_down {
+        position: absolute;
+        display: block;
+        background: url('img/m_arrow_down.png') no-repeat;
+        width: 21px;
+        height: 21px;
+        top: 50%;
+        right: 40px;
+        margin-top: -6px;
+    }
+
+    .m_gnb_menus li.m_gob_ttl2 {
+        background: #111;
+        font-size: 28px;
+        text-indent: 20px;
     }
 
     .main-visual_wrap {

@@ -1,11 +1,22 @@
 $(document).ready(function(){
 
+
+
   $('ul.sub .menu_ttl').on('click', function()
   {
 
     $(this).parent(".sub").children("li").not('.menu_ttl')
           .slideToggle("300");
 
+  });
+
+  $('li.ipad_gnb3 a').on('click', function()
+  {
+
+      $('.m_gnb_dimm').attr('style', 'display:block;');
+      $('.m_gnb_wrap').animate({
+          right: '0px'
+      });
   });
 
     var award = $('.bxslider').bxSlider( {
