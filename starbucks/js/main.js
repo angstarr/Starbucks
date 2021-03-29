@@ -1,12 +1,32 @@
 $(document).ready(function(){
 
-  $('ul.sub .menu_ttl').on('click', function()
+
+
+  $('.menu_ttl, .m_gnb_ttl1, .m_gnb_ttl2').on('click', function()
   {
 
-    $(this).parent(".sub").children("li").not('.menu_ttl')
-          .slideToggle("300");
+    $(this).parent(".sub").children("li")
+          .not('.menu_ttl, .m_gnb_ttl1, .m_gnb_ttl2').slideToggle("300");
 
   });
+
+  $('li.ipad_gnb3 a').on('click', function()
+  {
+
+      $('.m_gnb_dimm').attr('style', 'display:block;');
+      $('.m_gnb_wrap').animate({
+          right: '0px'
+      });
+
+      $('.btn_gnb_close a ').on('click', function()
+      {
+        $('.m_gnb_dimm').attr('style', 'display:none;');
+        $('.m_gnb_wrap').animate({
+            right: '-100%'
+        });
+      });
+  });
+
 
     var award = $('.bxslider').bxSlider( {
         mode: 'horizontal',// 가로 방향 수평 슬라이드
