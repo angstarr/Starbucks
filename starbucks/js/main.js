@@ -2,11 +2,11 @@ $(document).ready(function(){
 
 
 
-  $('ul.sub .menu_ttl').on('click', function()
+  $('.menu_ttl, .m_gnb_ttl1, .m_gnb_ttl2').on('click', function()
   {
 
-    $(this).parent(".sub").children("li").not('.menu_ttl')
-          .slideToggle("300");
+    $(this).parent(".sub").children("li")
+          .not('.menu_ttl, .m_gnb_ttl1, .m_gnb_ttl2').slideToggle("300");
 
   });
 
