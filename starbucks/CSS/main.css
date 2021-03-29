@@ -6,6 +6,10 @@
     border: 0;
 }
 
+body {
+    font-family: 'nbg', '맑은 고딕', Sans-serif, Helvetica;
+}
+
 a {
     text-decoration: none;
 }
@@ -21,6 +25,10 @@ img {
 
 ul, ol, li {
     list-style: none;
+}
+
+.on {
+    display: block;
 }
 
 #wrap {
@@ -1106,10 +1114,170 @@ ul, ol, li {
 }
 
 #footer {
-    height: 600px;
     background: #2c2a29;
     position: relative;
     width: 100%;
+    padding: 32px 0 35px 0;
+}
+
+.footer_wrap {
+    position: relative;
+    background: url('img/footer_logo.png') right 8px no-repeat;
+    display: inline-block;
+    width: 1100px;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.first_menu {
+    display: none;
+}
+
+.footer_menus ul {
+    float: left;
+    width: 220px;
+}
+
+.menu_ttl a {
+    width: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.footer_menus ul li a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.footer_util_btn {
+    display: none;
+}
+
+.awards_wrap {
+    background: #282828;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.awards_inner {
+    position: absolute;
+    width: 1134px;
+    height: 64px;
+    top: 8px;
+    left: 50%;
+    margin-left: -567px;
+
+}
+
+.awards_inner ul li {
+    position: relative;
+    float: left;
+    width: 189px;
+}
+
+.copyright {
+    position: relative;
+    width: 100%;
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    left: 50%;
+    margin-left: -50%;
+    padding-top: 30px;
+}
+
+.copyright a {
+    border-right: 1px solid #393939;
+    font-size: 12px;
+    color: #ccc;
+    padding: 0 10px;
+    letter-spacing: -0.5px;
+}
+
+.copyright a.last {
+    border-right: 0;
+}
+
+.c_00b050 {
+    color: #00b050 !important;
+    font-weight: bold;
+}
+
+a.btn_link {
+    display: inline-block;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    width: 90px;
+    height: 30px;
+    margin: 10px 2px 0 3px;
+}
+
+.copy_menu {
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0 5px 0;
+}
+
+.copy_menu li {
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 1.3;
+}
+
+.copyright span.en {
+    display: inline-block;
+    line-height: 40px;
+}
+
+.footer_menus ul li {
+    display: none;
+}
+
+.footer_menus ul li.menu_ttl {
+    display: block !important;
+}
+
+.awards_m {
+    display: none;
+}
+
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 60px;
+    padding: 0;
+
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.bx-wrapper img {
+    max-width: 100%;
+    display: block;
+}
+
+.awards_slider {
+    display: inline-block;
+}
+
+.awards_slider li {
+    position: relative;
+    float: left;
+    width: 300px;
+}
+
+.awards_slider li a img {
+    margin: 0 auto;
 }
 
 
@@ -1182,7 +1350,36 @@ ul, ol, li {
           right: 100px;
       }
 
+      .footer_wrap {
+          width: 600px;
+          margin-left: -300px;
+      }
 
+      .footer_menus ul {
+          width: 195px;
+      }
+
+      .down_ul {
+          clear: both;
+          margin-top: 30px;
+      }
+
+      .ul_last {
+          margin-top: 30px;
+      }
+}
+
+@media screen and (max-width: 1120px) {
+
+      .awards_inner{
+          width: 600px;
+          margin-left: -300px;
+      }
+
+      .footer_menus .menu_ttl a {
+          font-size: 14px;
+          line-height: 40px;
+      }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1728,6 +1925,42 @@ ul, ol, li {
         margin-left: -63px;
     }
 
+    .footer_menus ul {
+        width: 300px;
+    }
+
+    .first_menu {
+        display: block;
+    }
+
+    .footer_util_btn {
+        display: block;
+    }
+
+    .footer_util_btn ul {
+        width: 60%;
+        margin: 25px auto 0;
+        text-align: center;
+    }
+
+    .footer_util_btn ul li {
+        display: inline-block;
+        width: 30%;
+        margin: 0.75%;
+        float: none;
+    }
+
+    .footer_util_btn ul a {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        padding: 10% 3%;
+        text-align: center;
+    }
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -2028,6 +2261,111 @@ ul, ol, li {
         line-height: 30px;
     }
 
+    .copyright {
+        width: 310px;
+        line-height: 24px;
+        margin-left: -155px;
+    }
+
+    #footer {
+        padding: 0;
+    }
+
+    .footer_wrap {
+        background: #554c46;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .footer_menus ul {
+        width: 100%;
+        border-bottom: 1px solid #403a36;
+    }
+
+    .footer_menus ul li.menu_ttl {
+        position: relative;
+    }
+
+    .footer_menus ul li.menu_ttl a {
+        color: #fff;
+        background: #554c46;
+    }
+
+    .footer_menus ul li a {
+        background: #645952;
+        color: #e6dbd3;
+        display: block;
+        font-size: 14px;
+        line-height: 50px;
+        text-indent: 10px;
+    }
+
+    .ul_last, .down_ul {
+        margin-top: 0;
+    }
+
+    .footer_arrow_down {
+        background: url('img/arrow_down.png') no-repeat;
+        background-size: 20px auto;
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 11px;
+        top: 50%;
+        right: 10px;
+        margin-top: -5px;
+    }
+
+    .footer_arrow_up {
+        background: url('img/arrow_up.png') no-repeat;
+        background-size: 20px auto;
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 11px;
+        top: 50%;
+        right: 10px;
+        margin-top: -5px;
+    }
+
+    .footer_util_btn ul {
+        width: 90%;
+    }
+
+    .footer_util_btn ul a {
+        font-size: 20px;
+        padding: 9% 3%;
+    }
+
+    a.btn_link {
+        width: 70px;
+        font-size: 11px;
+    }
+
+    .awards_pc {
+        display: none;
+    }
+
+    .awards_m {
+        display: block;
+    }
+
+    .bx-controls {
+        position: absolute;
+        width: 100%;
+        height: 12px;
+        top: 13px;
+        text-align: center;
+    }
+
+    .awards_controls {
+        position: relative;
+        display: inline-block;
+        width: 9px;
+        height: 12px;
+    }
 
 }
 
