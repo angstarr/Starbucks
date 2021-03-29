@@ -1672,6 +1672,10 @@ a.btn_link {
         transition: transform 1s;
     }
 
+    .btn_gnb_close a:hover {
+        transform: rotate(180deg);
+    }
+
     .m_gnb_search {
         position: relative;
         background: #2d2926;

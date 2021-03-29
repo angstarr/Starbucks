@@ -17,7 +17,16 @@ $(document).ready(function(){
       $('.m_gnb_wrap').animate({
           right: '0px'
       });
+
+      $('.btn_gnb_close a ').on('click', function()
+      {
+        $('.m_gnb_dimm').attr('style', 'display:none;');
+        $('.m_gnb_wrap').animate({
+            right: '-100%'
+        });
+      });
   });
+
 
     var award = $('.bxslider').bxSlider( {
         mode: 'horizontal',// 가로 방향 수평 슬라이드
