@@ -575,6 +575,82 @@ ul, ol, li {
     right: 0;
 }
 
+.main_prom_bnr {
+    display: block;
+    position: relative;
+    background: #f6f5ef;
+    border-top: 1px solid #f6f5ef;
+    width: 100%;
+    height: 658px;
+}
+
+.main_prom_slider {
+    position: relative;
+    width: 1100px;
+    height: 553px;
+    left: 50%;
+    margin: 39px 0 0 -550px;
+}
+
+.main_prom_bxslider {
+    margin-left: 135px;
+}
+
+.main_prom_bxslider li {
+    margin: 0 5px;
+    width: 819px !important;
+}
+
+.main_prom_bxslider li a {
+    display: block;
+    position: relative;
+    border: 2px solid #222;
+    border-radius: 3px;
+    color: #222;
+    font-size: 14px;
+    line-height: 34px;
+    width: 121px;
+    height: 34px;
+    text-align: center;
+    margin: -50px auto 0;
+    transition: background .7s, color .7s;
+
+}
+
+.main_prom_bnr p.main_prevBtn {
+    position: absolute;
+    top: 225px;
+    left: 3%;
+}
+
+.main_prom_bnr p.main_prevBtn a {
+    display: block;
+    background: url('img/arrow_left_on.png') center center no-repeat transparent;
+    width: 51px;
+    height: 51px;
+    border: 2px solid #222;
+    border-radius: 27px;
+    text-indent: -9999px;
+    transition: background .7s, color .7s;
+}
+
+.main_prom_bnr p.main_nextBtn {
+    position: absolute;
+    top: 225px;
+    right: 3%;
+}
+
+.main_prom_bnr p.main_nextBtn a {
+    display: block;
+    background: url('img/arrow_right_on.png') center center no-repeat transparent;
+    width: 51px;
+    height: 51px;
+    border: 2px solid #222;
+    border-radius: 27px;
+    text-indent: -9999px;
+    transition: background .7s, color .7s;
+}
+
 /* rewards */
 
 .rewards_wrap {
