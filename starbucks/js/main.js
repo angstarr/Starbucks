@@ -31,6 +31,24 @@ $(document).ready(function(){
       });
   });
 
+  var tmpMenu;
+  var curMenu;
+
+  $('ul.gnb_dropdown > li').on('mouseover', function()
+  {
+
+      curMenu = $(this);
+      curMenu.children('.gnb_sub_wrap').addClass("on");
+
+      curMenu.on('mouseleave', function()
+      {
+
+        tmpMenu = curMenu;
+        tmpMenu.children('.gnb_sub_wrap').removeClass("on");
+
+      })
+
+  });
 
     var award = $('.bxslider').bxSlider( {
         mode: 'horizontal',// 가로 방향 수평 슬라이드

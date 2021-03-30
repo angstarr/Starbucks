@@ -157,7 +157,6 @@ ul, ol, li {
 
 .gnb_nav .gnb_nav_inner ul li {
     float: left;
-    margin-right: 40px;
 }
 
 .gnb_nav .gnb_nav_inner ul li h2 a {
@@ -169,9 +168,10 @@ ul, ol, li {
     height: 56px;
     line-height: 20px;
     padding-top: 10px;
+    margin-right: 40px;
 }
 
-.gnb_nav .gnb_nav_inner ul li h2 a.on {
+.gnb_nav .gnb_nav_inner ul li h2 a:hover{
     background: #2c2a29;
     color: #669900;
 }
@@ -183,6 +183,10 @@ ul, ol, li {
     width: 100%;
     top: 66px;
     left: 0;
+}
+
+.gnb_sub_wrap.on {
+    display: block;
 }
 
 .gnb_sub {
