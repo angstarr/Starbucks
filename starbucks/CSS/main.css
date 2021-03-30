@@ -72,6 +72,7 @@ ul, ol, li {
     left: 0;
     height: 75px;
     width: 75px;
+    z-index: 20;
 }
 
 .gnb_inner h1.logo a {
@@ -212,7 +213,12 @@ ul, ol, li {
     font-size: 12px;
 }
 
-.gnb_sub .gnb_sub_inner ul:last-child {
+.gnb_sub .gnb_sub_inner ul li a.on {
+    color: #669900;
+    background: #2c2a29;
+}
+
+.gnb_sub .gnb_sub_inner .coffee_story {
     clear: both;
     padding-top: 30px;
 }
@@ -1243,10 +1249,6 @@ a.btn_link {
     line-height: 40px;
 }
 
-.footer_menus ul li {
-    display: none;
-}
-
 .footer_menus ul li.menu_ttl {
     display: block !important;
 }
@@ -1374,6 +1376,13 @@ a.btn_link {
 }
 
 @media screen and (max-width: 1120px) {
+
+      .gnb_sub .gnb_sub_inner {
+          float: left;
+          left: 20px;
+          width: 100%;
+          margin-left: 0;
+      }
 
       .awards_inner{
           width: 600px;
@@ -2509,6 +2518,10 @@ a.btn_link {
     .footer_menus ul {
         width: 100%;
         border-bottom: 1px solid #403a36;
+    }
+
+    .footer_menus ul li {
+        display: none;
     }
 
     .footer_menus ul li.menu_ttl {

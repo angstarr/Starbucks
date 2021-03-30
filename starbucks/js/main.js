@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+  $('a').on('click', function(e){
+    e.preventDefault();
+  });
 
 
   $('.menu_ttl, .m_gnb_ttl1, .m_gnb_ttl2').on('click', function()
@@ -9,6 +12,7 @@ $(document).ready(function(){
           .not('.menu_ttl, .m_gnb_ttl1, .m_gnb_ttl2').slideToggle("300");
 
   });
+
 
   $('li.ipad_gnb3 a').on('click', function()
   {
