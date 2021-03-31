@@ -31,6 +31,12 @@ $(document).ready(function(){
       });
   });
 
+  $('.bgr_btn').on('click', function(){
+
+      $('.main_prom_bnr').toggleClass('on');
+
+  });
+
   var tmpMenu;
   var curMenu;
 
@@ -82,15 +88,25 @@ $(document).ready(function(){
         autoControlsCombine: true,
     });
 
-    $( '.main_PrevBtn' ).on( 'click', function () {
+    $('.main_prevBtn').on('click', function() {
         promSlider.goToPrevSlide();
 
     });
 
 
-$( '.main_nextBtn' ).on( 'click', function () {
+    $('.main_nextBtn').on('click', function() {
         promSlider.goToNextSlide();
 
+    });
+
+    var lineSwiper = new Swiper ('.swiper-container', {
+
+      direction: 'verical',
+      loop: true,
+      slidesPerView: 1,
+      autoplay: true,
+      // freeMode: true, //슬라이드넘길때 위치 고정여부
+      // autoHeight : true, // 슬라이 높이에 맞게 고정
     });
 
 
