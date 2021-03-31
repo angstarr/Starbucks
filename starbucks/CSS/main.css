@@ -605,6 +605,10 @@ ul, ol, li {
     margin: 39px 0 0 -550px;
 }
 
+.main_prom_slider .bx-wrapper {
+    max-width: 100% !important;
+}
+
 .main_prom_bxslider {
     margin-left: 135px;
 }
