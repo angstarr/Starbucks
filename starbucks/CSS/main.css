@@ -279,10 +279,11 @@ ul, ol, li {
     width: 100%;
 }
 
-#container {
+/* #container {
     display: grid;
     grid-template-columns: 1fr;
-}
+
+} */
 
 #topWrap {
     height: 100%;
@@ -675,6 +676,7 @@ ul, ol, li {
 /* rewards */
 
 .rewards_wrap {
+    display: flex;
     padding: 30px 0 40px 0;
     background: #1e3932;
 }
@@ -724,7 +726,7 @@ ul, ol, li {
 
 .rewards-info .txt {
     font-size: 17px;
-    line-height: 20x;
+    line-height: 20px;
 }
 
 .rewards_cont a {
@@ -790,7 +792,7 @@ ul, ol, li {
 }
 
 #main_wrap {
-    display: grid;
+    display: flex;
     height: 573px;
     background: url('img/2021_cherryblossom_bean_bg.jpg') center no-repeat;
     background-size: cover;
@@ -1434,6 +1436,56 @@ img.arrow {
     top: 3px;
 }
 
+.coffee_choice_wrap {
+    background: url('img/coffee/bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_choice_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_choice_txtBx {
+    position: absolute;
+    width: 343px;
+    left: 700px;
+    top: 100px;
+}
+
+.coffee_choice_btn {
+    position: absolute;
+    width: 121px;
+    height: 34px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    line-height: 34px;
+    top: 275px;
+    left: 700px;
+}
+
+.coffee_choice_btn a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.coffee_choice_btn a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.m-txt {
+    display: none;
+}
+
+/* 기본 */
+
 @media screen and (max-width: 1440px) {
 
     .floating_badge {
@@ -1698,6 +1750,24 @@ img.arrow {
 
       .store_img4 {
           right: 190px;
+      }
+
+      .coffee_choice_wrap {
+          height: 300px;
+      }
+
+      .coffee_wrap_inner {
+          width: 100%;
+      }
+
+      .coffee_choice_txtBx {
+          top: 65px;
+          left: 58%;
+      }
+
+      .coffee_choice_btn {
+          top: 205px;
+          left: 58%;
       }
 
 }
@@ -2338,6 +2408,30 @@ img.arrow {
         text-align: center;
     }
 
+    .coffee_choice_wrap {
+        height: 200px;
+    }
+
+    .coffee_choice_inner {
+        width: 100%;
+    }
+
+    .coffee_choice_txtBx {
+        width: 228px;
+        top: 40px;
+        left: 60%;
+    }
+
+    .coffee_choice_btn {
+        width: 80px;
+        height: 22px;
+        top: 140px;
+        left: 60%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+
 
 }
 
@@ -2785,6 +2879,36 @@ img.arrow {
         height: 12px;
     }
 
+    .coffee_choice_wrap {
+        background: url('img/coffee/m_bg.jpg') no-repeat;
+        height: 1100px;
+    }
+
+    .coffee_choice_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .w-txt {
+        display: none;
+    }
+
+    .m-txt {
+        display: block;
+    }
+
+    .coffee_choice_btn {
+        top: 310px;
+        left: 50%;
+        margin-left: -60px;
+        width: 121px;
+        height: 34px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -3051,6 +3175,12 @@ img.arrow {
 
     .store_btn {
         top: 560px;
+    }
+
+    .coffee_choice_wrap {
+        height: 700px;
+        background-size: 100%;
+
     }
 
 }
