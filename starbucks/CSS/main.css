@@ -1576,6 +1576,51 @@ img.arrow {
     background: #fff;
 }
 
+.coffee_best_wrap {
+    position: relative;
+    background: url('img/coffee/best_bg.jpg') 80% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_best_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_best_txtBx {
+    position: absolute;
+    width: 330px;
+    top: 120px;
+    left: 40px;
+}
+
+.coffee_best_btn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    top: 300px;
+    left: 40px;
+}
+
+.coffee_best_btn a {
+    display: block;
+    color: #222;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.coffee_best_btn a:hover {
+    color: #fff;
+    background: #222;
+}
+
+
 /* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
@@ -1896,6 +1941,24 @@ img.arrow {
       .coffee_espresso_btn {
           top: 205px;
           left: 58%;
+      }
+
+      .coffee_best_wrap {
+          height: 300px;
+      }
+
+      .coffee_best_inner {
+          width: 100%;
+      }
+
+      .coffee_best_txtBx {
+          top: 65px;
+          left: 5%;
+      }
+
+      .coffee_best_btn {
+          top: 205px;
+          left: 5%;
       }
 
 }
@@ -2593,6 +2656,23 @@ img.arrow {
         line-height: 23px;
     }
 
+    .coffee_best_wrap {
+        height: 200px;
+    }
+
+    .coffee_best_txtBx {
+        width: 220px;
+        top: 40px;
+    }
+
+    .coffee_best_btn {
+        width: 80px;
+        height: 22px;
+        top: 135px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -3113,6 +3193,27 @@ img.arrow {
         height: 34px;
         font-size: 14px;
         line-height: 34px;
+        top: 280px;
+        left: 50%;
+        margin-left: -61px;
+    }
+
+    .coffee_best_wrap {
+        height: inherit;
+    }
+
+    .coffee_best_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .coffee_best_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
         top: 280px;
         left: 50%;
         margin-left: -61px;
