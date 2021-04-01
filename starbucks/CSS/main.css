@@ -1532,6 +1532,50 @@ img.arrow {
     background: #222;
 }
 
+.coffee_espresso_wrap {
+    position: relative;
+    background: url('img/coffee/es_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_espresso_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_espresso_txtBx {
+    position: absolute;
+    width: 380px;
+    top: 116px;
+    left: 640px;
+}
+
+.coffee_espresso_btn {
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    top: 290px;
+    left: 640px;
+}
+
+.coffee_espresso_btn a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.coffee_espresso_btn a:hover {
+    color: #222;
+    background: #fff;
+}
+
 /* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
@@ -1834,6 +1878,24 @@ img.arrow {
       .coffee_reserve_btn {
           top: 205px;
           left: 5%;
+      }
+
+      .coffee_espresso_wrap {
+          height: 300px;
+      }
+
+      .coffee_espresso_inner {
+          width: 100%;
+      }
+
+      .coffee_espresso_txtBx {
+          top: 65px;
+          left: 58%;
+      }
+
+      .coffee_espresso_btn {
+          top: 205px;
+          left: 58%;
       }
 
 }
@@ -2497,14 +2559,36 @@ img.arrow {
         line-height: 22px;
     }
 
+    .coffee_reserve_wrap {
+        height: 200px;
+    }
+
     .coffee_reserve_txtBx {
-        width: 320px;
+        width: 270px;
+        top: 35px;
     }
 
     .coffee_reserve_btn {
         width: 80px;
         height: 22px;
-        top: 170px;
+        top: 125px;
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .coffee_espresso_wrap {
+        height: 200px;
+    }
+
+    .coffee_espresso_txtBx {
+      width: 270px;
+      top: 35px;
+    }
+
+    .coffee_espresso_btn {
+        width: 80px;
+        height: 22px;
+        top: 135px;
         font-size: 12px;
         line-height: 23px;
     }
@@ -3011,7 +3095,27 @@ img.arrow {
         margin-left: -61px;
         line-height: 32px;
         font-size: 14px;
+    }
 
+    .coffee_espresso_wrap {
+        height: inherit;
+    }
+
+    .coffee_espresso_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .coffee_espresso_btn {
+        width: 121px;
+        height: 34px;
+        font-size: 14px;
+        line-height: 34px;
+        top: 280px;
+        left: 50%;
+        margin-left: -61px;
     }
 
 }
