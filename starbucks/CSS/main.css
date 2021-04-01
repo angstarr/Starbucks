@@ -1450,6 +1450,10 @@ img.arrow {
     margin: 0 auto;
 }
 
+.m-bg {
+    display: none;
+}
+
 .coffee_choice_txtBx {
     position: absolute;
     width: 343px;
@@ -1484,7 +1488,51 @@ img.arrow {
     display: none;
 }
 
-/* 기본 */
+.coffee_reserve_wrap {
+    position: relative;
+    background: url('img/coffee/reserve_bg.jpg') 80% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_reserve_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_reserve_txtBx {
+    position: absolute;
+    width: 446px;
+    top: 107px;
+    left: 50px;
+}
+
+.coffee_reserve_btn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    top: 282px;
+    left: 50px;
+}
+
+.coffee_reserve_btn a {
+    display: block;
+    color: #222;
+    transition: background .7s, color .7s;
+}
+
+.coffee_reserve_btn a:hover {
+    color: #fff;
+    background: #222;
+}
+
+/* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
 
@@ -1768,6 +1816,24 @@ img.arrow {
       .coffee_choice_btn {
           top: 205px;
           left: 58%;
+      }
+
+      .coffee_reserve_wrap {
+          height: 300px;
+      }
+
+      .coffee_reserve_inner {
+          width: 100%;
+      }
+
+      .coffee_reserve_txtBx {
+          top: 65px;
+          left: 5%;
+      }
+
+      .coffee_reserve_btn {
+          top: 205px;
+          left: 5%;
       }
 
 }
@@ -2431,7 +2497,17 @@ img.arrow {
         line-height: 22px;
     }
 
+    .coffee_reserve_txtBx {
+        width: 320px;
+    }
 
+    .coffee_reserve_btn {
+        width: 80px;
+        height: 22px;
+        top: 170px;
+        font-size: 12px;
+        line-height: 23px;
+    }
 
 }
 
@@ -2880,8 +2956,11 @@ img.arrow {
     }
 
     .coffee_choice_wrap {
-        background: url('img/coffee/m_bg.jpg') no-repeat;
-        height: 1100px;
+        height: inherit;
+    }
+
+    .m-bg {
+        display: block;
     }
 
     .coffee_choice_txtBx {
@@ -2907,6 +2986,32 @@ img.arrow {
         height: 34px;
         font-size: 14px;
         line-height: 34px;
+    }
+
+    .coffee_reserve_wrap {
+        height: inherit;
+    }
+
+    .coffee_reserve_inner {
+        width: 100%;
+    }
+
+    .coffee_reserve_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .coffee_reserve_btn {
+        width: 121px;
+        height: 32px;
+        top: 360px;
+        left: 50%;
+        margin-left: -61px;
+        line-height: 32px;
+        font-size: 14px;
+
     }
 
 }
@@ -3177,10 +3282,5 @@ img.arrow {
         top: 560px;
     }
 
-    .coffee_choice_wrap {
-        height: 700px;
-        background-size: 100%;
-
-    }
 
 }
