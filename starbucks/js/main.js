@@ -94,6 +94,42 @@ $(document).ready(function(){
 
     });
 
+    $('.coffeeSlider').bxSlider( {
+        mode: 'fade',
+        speed: 500,
+        pager: true,
+        moveSlides: 1,
+        slideWidth: 2290,
+        minSlides: 1,
+        maxSlides: 1,
+        slideMargin: 1,
+        auto: true,
+        autoHover: false,
+        controls: false,
+        autoControls: true,
+        autoControlsCombine: true,
+        responsive: true,
+
+    });
+
+    $('.m_coffeeSlider').bxSlider( {
+        mode: 'horizontal',
+        speed: 500,
+        pager: true,
+        moveSlides: 1,
+        slideWidth: 632,
+        minSlides: 1,
+        maxSlides: 1,
+        slideMargin: 1,
+        auto: true,
+        autoHover: false,
+        controls: false,
+        autoControls: true,
+        autoControlsCombine: true,
+        responsive: true,
+
+    });
+
     var lineSwiper = new Swiper ('.swiper-container', {
 
       direction: 'verical',
