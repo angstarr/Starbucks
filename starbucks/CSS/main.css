@@ -279,10 +279,11 @@ ul, ol, li {
     width: 100%;
 }
 
-#container {
+/* #container {
     display: grid;
     grid-template-columns: 1fr;
-}
+
+} */
 
 #topWrap {
     height: 100%;
@@ -668,13 +669,14 @@ ul, ol, li {
     transition: background .7s, color .7s;
 }
 
-.bx-viewport {
+.main_prom_bnr .bx-viewport {
     height: 541px !important;
 }
 
 /* rewards */
 
 .rewards_wrap {
+    display: flex;
     padding: 30px 0 40px 0;
     background: #1e3932;
 }
@@ -724,7 +726,7 @@ ul, ol, li {
 
 .rewards-info .txt {
     font-size: 17px;
-    line-height: 20x;
+    line-height: 20px;
 }
 
 .rewards_cont a {
@@ -790,7 +792,7 @@ ul, ol, li {
 }
 
 #main_wrap {
-    display: grid;
+    display: flex;
     height: 573px;
     background: url('img/2021_cherryblossom_bean_bg.jpg') center no-repeat;
     background-size: cover;
@@ -1388,6 +1390,439 @@ a.btn_link {
     margin: 0 auto;
 }
 
+/* COFFEE START  */
+
+.sub_title_wrap {
+    width: 100%;
+    height: 98px;
+    background: #fff;
+}
+
+.sub_title_inner {
+    position: relative;
+    width: 1100px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.sub_title_inner h2 {
+    position: relative;
+    color: #222;
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.smap {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.smap li {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 0 4px;
+}
+
+.smap a {
+    font-size: 16px;
+    color: #666;
+}
+
+img.arrow {
+    position: relative;
+    top: 3px;
+}
+
+.coffee_choice_wrap {
+    background: url('img/coffee/bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_choice_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.m-bg {
+    display: none;
+}
+
+.coffee_choice_txtBx {
+    position: absolute;
+    width: 343px;
+    left: 700px;
+    top: 100px;
+}
+
+.coffee_choice_btn {
+    position: absolute;
+    width: 121px;
+    height: 34px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    line-height: 34px;
+    top: 275px;
+    left: 700px;
+}
+
+.coffee_choice_btn a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.coffee_choice_btn a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.m-txt {
+    display: none;
+}
+
+.coffee_reserve_wrap {
+    position: relative;
+    background: url('img/coffee/reserve_bg.jpg') 80% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_reserve_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_reserve_txtBx {
+    position: absolute;
+    width: 446px;
+    top: 107px;
+    left: 50px;
+}
+
+.coffee_reserve_btn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    top: 282px;
+    left: 50px;
+}
+
+.coffee_reserve_btn a {
+    display: block;
+    color: #222;
+    transition: background .7s, color .7s;
+}
+
+.coffee_reserve_btn a:hover {
+    color: #fff;
+    background: #222;
+}
+
+.coffee_espresso_wrap {
+    position: relative;
+    background: url('img/coffee/es_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_espresso_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_espresso_txtBx {
+    position: absolute;
+    width: 380px;
+    top: 116px;
+    left: 640px;
+}
+
+.coffee_espresso_btn {
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    top: 290px;
+    left: 640px;
+}
+
+.coffee_espresso_btn a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.coffee_espresso_btn a:hover {
+    color: #222;
+    background: #fff;
+}
+
+.coffee_best_wrap {
+    position: relative;
+    background: url('img/coffee/best_bg.jpg') 80% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_best_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_best_txtBx {
+    position: absolute;
+    width: 330px;
+    top: 120px;
+    left: 40px;
+}
+
+.coffee_best_btn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    top: 300px;
+    left: 40px;
+}
+
+.coffee_best_btn a {
+    display: block;
+    color: #222;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.coffee_best_btn a:hover {
+    color: #fff;
+    background: #222;
+}
+
+.coffee_hs_wrap {
+    position: relative;
+    background: url('img/coffee/hs_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.coffee_hs_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_hs_txtBx {
+    position: absolute;
+    width: 380px;
+    top: 116px;
+    left: 660px;
+}
+
+.coffee_hs_btn {
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    top: 290px;
+    left: 660px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.coffee_hs_btn a {
+    display: block;
+    color: #fff;
+    transition: background .7s, color .7s;
+}
+
+.coffee_hs_btn a:hover {
+    color: #222;
+    background: #fff;
+}
+
+.news_area {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+.news_area_left {
+    background: #111;
+    float: left;
+    width: 50%;
+    height:70px;
+}
+
+.news_area_right {
+    background: url('img/news/bg.jpg') 0 0 repeat;
+    float: right;
+    width: 50%;
+    height: 70px;
+}
+
+.news_area_bg {
+    background: url('img/news/bg2.jpg') 0 0 no-repeat;
+    position: absolute;
+    width: 1100px;
+    height: 70px;
+    top: 0;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.news_area_bgl {
+    position: relative;
+    float: left;
+    width: 730px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.news_area_bgl dl {
+    width: 730px;
+}
+
+.news_area_bgl dt {
+    position: relative;
+    float: left;
+    width: 95px;
+    text-align: center;
+}
+
+.news_area_bgl dt .w-txt {
+    position: absolute;
+    top: 26px;
+    left: 15px;
+}
+
+.news_area_bgl dt .m-txt {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.news_area_bgl dd {
+    float: right;
+    width: 634px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.news_area_bgl .btn {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+}
+
+.news_area_bgl dd ul li a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.news_area_bgr {
+    position: relative;
+    background: url('img/news/app.png') 21px 11px no-repeat;
+    float: right;
+    width: 370px;
+    height: 70px;
+}
+
+.news_area_bgr .tit {
+    padding: 19px 0 0 104px;
+}
+
+.news_area_bgr .btn {
+    position: absolute;
+    top: 18px;
+    left: 321px;
+}
+
+.coffeeSlider li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.coffee_slide .bx-wrapper {
+    margin: 0;
+    max-width: 100% !important;
+}
+
+.coffee_slide .bx-viewport {
+    height: 400px !important;
+}
+
+.coffeeSlider li div {
+    position: relative;
+    width: 2000px !important;
+    height: 400px;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+.slide1 {
+    background: url('img/news/slide1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.slide2 {
+    background: url('img/news/slide2.jpg') no-repeat;
+    background-size: cover;
+}
+
+.coffee_slide .bx-controls {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    height: 12px;
+    text-align: center;
+}
+
+.coffee_slide .bx-pager {
+    display: inline-block;
+    height: 12px;
+}
+
+.coffee_slide .bx-controls-auto {
+    position: relative !important;
+    display: inline-block;
+    width: 15px !important;
+    height: 12px;
+    bottom: -24px !important;
+}
+
+.coffee_m_slide {
+    display :none;
+}
+
+/* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
 
@@ -1653,6 +2088,151 @@ a.btn_link {
 
       .store_img4 {
           right: 190px;
+      }
+
+      .coffee_choice_wrap {
+          height: 300px;
+      }
+
+      .coffee_wrap_inner {
+          width: 100%;
+      }
+
+      .coffee_choice_txtBx {
+          top: 65px;
+          left: 58%;
+      }
+
+      .coffee_choice_btn {
+          top: 205px;
+          left: 58%;
+      }
+
+      .coffee_reserve_wrap {
+          height: 300px;
+      }
+
+      .coffee_reserve_inner {
+          width: 100%;
+      }
+
+      .coffee_reserve_txtBx {
+          top: 65px;
+          left: 5%;
+      }
+
+      .coffee_reserve_btn {
+          top: 205px;
+          left: 5%;
+      }
+
+      .coffee_espresso_wrap {
+          height: 300px;
+      }
+
+      .coffee_espresso_inner {
+          width: 100%;
+      }
+
+      .coffee_espresso_txtBx {
+          top: 65px;
+          left: 58%;
+      }
+
+      .coffee_espresso_btn {
+          top: 205px;
+          left: 58%;
+      }
+
+      .coffee_best_wrap {
+          height: 300px;
+      }
+
+      .coffee_best_inner {
+          width: 100%;
+      }
+
+      .coffee_best_txtBx {
+          top: 65px;
+          left: 5%;
+      }
+
+      .coffee_best_btn {
+          top: 205px;
+          left: 5%;
+      }
+
+      .coffee_hs_wrap {
+          height: 300px;
+      }
+
+      .coffee_hs_inner {
+          width: 100%;
+      }
+
+      .coffee_hs_txtBx {
+          top: 65px;
+          left: 500px;
+      }
+
+      .coffee_hs_btn {
+          top: 200px;
+          left: 500px;
+      }
+
+      .news_area_bg {
+          background-size: 100% 70px;
+          width: 100%;
+          margin-left: -50%;
+      }
+
+      .news_area_bgl {
+          width: 68%;
+      }
+
+      .news_area_bgl dl {
+        width: 100%;
+      }
+
+      .news_area_bgl dt {
+          width: 13%;
+      }
+
+      .news_area_bgl dd {
+          width: 86%;
+      }
+
+      .news_area_bgl .btn {
+          width: 50px;
+          top: 25%;
+          right: 5%;
+      }
+
+      .news_area_bgr {
+          width: 32%;
+          background-position: 21px 30px;
+          background-size: 15% auto;
+      }
+
+      .news_area_bgr .tit {
+          width: 50%;
+          padding: 20px 0 0 90px;
+      }
+
+      .news_area_bgr .btn {
+          width: 50px;
+          top: 25%;
+          left: 85%;
+      }
+
+      .coffee_slide .bx-viewport {
+          height: 300px !important;
+      }
+
+      .coffeeSlider li div {
+          width: 1500px !important;
+          height: 300px;
+          margin-left: -750px;
       }
 
 }
@@ -2293,6 +2873,143 @@ a.btn_link {
         text-align: center;
     }
 
+    .coffee_choice_wrap {
+        height: 200px;
+    }
+
+    .coffee_choice_inner {
+        width: 100%;
+    }
+
+    .coffee_choice_txtBx {
+        width: 228px;
+        top: 40px;
+        left: 60%;
+    }
+
+    .coffee_choice_btn {
+        width: 80px;
+        height: 22px;
+        top: 140px;
+        left: 60%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .coffee_reserve_wrap {
+        height: 200px;
+    }
+
+    .coffee_reserve_txtBx {
+        width: 270px;
+        top: 35px;
+    }
+
+    .coffee_reserve_btn {
+        width: 80px;
+        height: 22px;
+        top: 125px;
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .coffee_espresso_wrap {
+        height: 200px;
+    }
+
+    .coffee_espresso_txtBx {
+      width: 270px;
+      top: 35px;
+    }
+
+    .coffee_espresso_btn {
+        width: 80px;
+        height: 22px;
+        top: 135px;
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .coffee_best_wrap {
+        height: 200px;
+    }
+
+    .coffee_best_txtBx {
+        width: 220px;
+        top: 40px;
+    }
+
+    .coffee_best_btn {
+        width: 80px;
+        height: 22px;
+        top: 135px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+    .coffee_hs_wrap {
+        height: 200px;
+    }
+
+    .coffee_hs_txtBx {
+        width: 252px;
+        top: 40px;
+        left: 58%;
+    }
+
+    .coffee_hs_btn {
+        width: 80px;
+        height: 22px;
+        top: 130px;
+        left: 58%;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+    .news_area_bgl dt {
+        width: 18%;
+    }
+
+    .news_area_bgl dd {
+        width: 80%;
+    }
+
+    .news_area_bgl dd ul li a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .news_area_bgl .btn {
+        width: 30px;
+        top: 30%;
+    }
+
+    .news_area_bgr {
+        background-position: 11px bottom;
+        background-size: 25px auto;
+    }
+
+    .news_area_bgr .tit {
+        width: 140px;
+        padding: 13px 0 0 12px;
+    }
+
+    .news_area_bgr .btn {
+        width: 30px;
+        top: 30%;
+        left: 85%;
+    }
+
+    .coffee_slide .bx-wrapper {
+        height: 200px !important;
+    }
+
+    .coffeeSlider li div {
+        width: 1000px !important;
+        height: 200px;
+        margin-left: -500px;
+    }
 
 }
 
@@ -2740,6 +3457,218 @@ a.btn_link {
         height: 12px;
     }
 
+    .coffee_choice_wrap {
+        height: inherit;
+    }
+
+    .m-bg {
+        display: block;
+    }
+
+    .coffee_choice_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .w-txt {
+        display: none;
+    }
+
+    .m-txt {
+        display: block;
+    }
+
+    .coffee_choice_btn {
+        top: 310px;
+        left: 50%;
+        margin-left: -60px;
+        width: 121px;
+        height: 34px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .coffee_reserve_wrap {
+        height: inherit;
+    }
+
+    .coffee_reserve_inner {
+        width: 100%;
+    }
+
+    .coffee_reserve_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .coffee_reserve_btn {
+        width: 121px;
+        height: 32px;
+        top: 360px;
+        left: 50%;
+        margin-left: -61px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .coffee_espresso_wrap {
+        height: inherit;
+    }
+
+    .coffee_espresso_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .coffee_espresso_btn {
+        width: 121px;
+        height: 34px;
+        font-size: 14px;
+        line-height: 34px;
+        top: 280px;
+        left: 50%;
+        margin-left: -63px;
+    }
+
+    .coffee_best_wrap {
+        height: inherit;
+    }
+
+    .coffee_best_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .coffee_best_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 280px;
+        left: 50%;
+        margin-left: -63px;
+    }
+
+    .coffee_hs_wrap {
+        height: inherit;
+    }
+
+    .coffee_hs_txtBx {
+        width: 320px;
+        top: 130px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .coffee_hs_btn {
+        width: 121px;
+        height: 34px;
+        top: 290px;
+        left: 50%;
+        margin-left: -63px;
+        line-height: 34px;
+        font-size: 14px;
+    }
+
+    .news_area {
+        height: 140px;
+    }
+
+    .news_area_left, .news_area_right {
+        display: none;
+    }
+
+    .news_area_bg {
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        background-size: auto;
+    }
+
+    .news_area_bgl {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .news_area_bgl dt {
+        width: 95px;
+    }
+
+    .news_area_bgl dd {
+        float: left;
+        width: auto;
+        margin-left: 70px;
+    }
+
+    .news_area_bgl .btn {
+        right: 22px;
+        left: inherit;
+    }
+
+    .news_area_bgr {
+        float: none;
+        background: url('img/news/bg.jpg') 0 0 repeat;
+        width: 100%;
+    }
+
+    .news_area_bgr .tit {
+        width: 240px;
+        padding: 0;
+    }
+
+    .news_area_bgr .tit img.m-txt {
+        width: 240px;
+        margin: 0;
+        padding: 29px 0 0 15px;
+    }
+
+    .news_area_bgr .btn {
+        right: 22px;
+        left: inherit;
+    }
+
+    .coffee_slide {
+        display: none;
+    }
+
+    .coffee_m_slide {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        border-bottom: 2px solid #0d6035;
+    }
+
+    .coffee_m_slide .bx-wrapper {
+        margin: 0;
+    }
+
+    .coffee_m_slide .bx-controls {
+        position: absolute;
+        width: 100%;
+        height: 12px;
+        text-align: center;
+        top: inherit;
+        bottom: 5%;
+    }
+
+    .coffee_m_slide .bx-pager {
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .coffee_m_slide .bx-controls-auto {
+        width: 110% !important;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -3007,5 +3936,6 @@ a.btn_link {
     .store_btn {
         top: 560px;
     }
+
 
 }
