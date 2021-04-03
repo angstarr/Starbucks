@@ -1831,6 +1831,46 @@ img.arrow {
     background-size: cover;
 }
 
+.store_inner {
+    position: absolute;
+    width: 1100px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.store_main_txt {
+    position: absolute;
+    width: 492px;
+    height: 172px;
+    top: 80px;
+    left: 25px;
+}
+
+.store_main_btn {
+    position: absolute;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    top: 270px;
+    left: 45px;
+}
+
+.store_main_btn a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.store_main_btn a:hover {
+    color: #222;
+    background: #fff;
+}
+
 .store_benner {
     position: relative;
     width: 100%;
@@ -2445,6 +2485,13 @@ img.arrow {
           top: 185px;
           left: 60%;
       }
+
+      .store_inner {
+          width: 100%;
+          margin-left: -50%;
+      }
+
+
 
 }
 
@@ -3986,6 +4033,27 @@ img.arrow {
 
     .store_bn5_btn {
         top: 330px;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .store_main {
+        background: url('img/store/m_main_bg.jpg') no-repeat;
+        background-size: 100% auto;
+        height: 0;
+        padding-bottom: 154%;
+    }
+
+    .store_main_txt {
+        width: 60%;
+        height: 0;
+        top: 25%;
+        left: 50%;
+        margin-left: -30%;
+    }
+
+    .store_main_btn {
+        top: 540px;
         left: 50%;
         margin-left: -62px;
     }
