@@ -1429,6 +1429,7 @@ a.btn_link {
 .smap a {
     font-size: 16px;
     color: #666;
+    letter-spacing: -1px;
 }
 
 img.arrow {
@@ -2036,6 +2037,160 @@ img.arrow {
     right: -35px;
 }
 
+.rewards_main {
+    position: relative;
+    background: url('img/reward/bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.rewards_main_txt {
+    position: absolute;
+    width: 440px;
+    top: 130px;
+    left: 0;
+}
+
+.rewards_main_btns {
+    position: absolute;
+    top: 265px;
+    left: 0;
+}
+
+.rewards_main_btns ul {
+    width: 600px;
+}
+
+.rewards_main_btns li {
+    float: left;
+    width: 200px;
+    margin: 0 10px 10px 0;
+}
+
+.rewards_main_btns li a {
+    display: block;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 100%
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    transition: background .7s, color .7s;
+}
+
+.rewards_main_btns li a:hover {
+    color: #fff;
+    background: #222;
+}
+
+.rewards_section {
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+
+.rewards_bn1 {
+    position: relative;
+    background: url('img/reward/bn1_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.rewards_bn2 {
+    position: relative;
+    background: url('img/reward/bn2_bg.jpg') 80% 50% no-repeat;
+    background-size: cover;
+}
+
+.rewards_bn_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.rewards_bn1_txt {
+    position: absolute;
+    width: 400px;
+    top: 105px;
+    left: 700px;
+}
+
+.rewards_bn1_btns {
+    position: absolute;
+    top: 235px;
+    left: 700px;
+}
+
+.rewards_bn1_btns ul {
+    width: 412px;
+}
+
+.rewards_bn1_btns li {
+    float: left;
+    margin: 0 12px 12px 0;
+}
+
+.rewards_bn1_btns li a {
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 185px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    transition: background .7s, color .7s;
+}
+
+.rewards_bn1_btns li a:hover {
+    color: #222;
+    background: #fff;
+}
+
+.rewards_bn2_txt {
+    position: absolute;
+    width: 440px;
+    top: 130px;
+    left: 0;
+}
+
+.rewards_bn2_btns {
+    position: absolute;
+    top: 265px;
+    left: 0;
+}
+
+.rewards_bn2_btns ul {
+    width: 580px;
+}
+
+.rewards_bn2_btns li {
+    float: left;
+    width: 187px;
+    margin: 0 12px 12px 0;
+}
+
+.rewards_bn2_btns li a {
+    display: block;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 185px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    color: #222;
+    transition: background .7s, color .7s;
+}
+
+.rewards_bn2_btns li a:hover {
+    color: #fff;
+    background: #222;
+}
+
 
 /* 반응형 시작 */
 
@@ -2513,8 +2668,95 @@ img.arrow {
           margin-left: -50%;
       }
 
+      .rewards_section {
+        height: 300px;
+      }
 
+      .rewards_bn_inner {
+        width: 100%;
+      }
 
+      .rewards_bn1_txt {
+          top: 45px;
+          left: 65%;
+      }
+
+      .rewards_bn1_btns {
+          top: 185px;
+          left: 65%;
+      }
+
+      .rewards_bn1_btns ul {
+          width: 300px;
+      }
+
+      .rewards_bn1_btns li a {
+          width: 123px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;
+          letter-spacing: -1px;
+      }
+
+      .rewards_bn2_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .rewards_bn2_btns {
+          top: 205px;
+          left: 5%;
+      }
+
+      .rewards_bn2_btns ul {
+          width: 500px;
+      }
+
+      .rewards_bn2_btns li {
+          width: 140px;
+      }
+
+      .rewards_bn2_btns li a {
+          width: 138px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;
+          letter-spacing: -1px;
+      }
+
+      .rewards_main {
+          height: 300px;
+      }
+
+      .rewards_main_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .rewards_main_btns {
+          top: 205px;
+          left: 5%;
+      }
+
+      .rewards_main_btns ul {
+          width: 500px;
+      }
+
+      .rewards_main_btns li {
+          width: 140px;
+      }
+
+      .rewards_main_btns li a {
+          width: 140px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;;
+      }
+
+      .sub_title_inner {
+          width: 96%;
+          padding-top: 0;
+      }
 }
 
 @media screen and (max-width: 960px) {
@@ -3374,6 +3616,53 @@ img.arrow {
         right: 0;
     }
 
+    .rewards_section {
+        height: 200px;
+    }
+
+    .rewards_bn1_txt {
+        width: 260px;
+        top: 20px;
+        left: 60%;
+    }
+
+    .rewards_bn1_btns {
+        top: 110px;
+        left: 60%;
+    }
+
+    .rewards_bn2_txt {
+        width: 290px;
+        top: 40px;
+        left: 2%;
+    }
+
+    .rewards_bn2_btns {
+        top: 130px;
+        left: 2%;
+    }
+
+    .rewards_main {
+        height: 200px;
+    }
+
+    .rewards_main_txt {
+        width: 290px;
+        top: 40px;
+        left: 2%;
+    }
+
+    .rewards_main_btns {
+        top: 130px;
+        left: 2%;
+    }
+
+    .smap {
+        display: none;
+    }
+
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -4107,6 +4396,98 @@ img.arrow {
         top: 540px;
         left: 50%;
         margin-left: -62px;
+    }
+
+    .rewards_section {
+        height: inherit;
+    }
+
+    .rewards_bn1_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .rewards_bn1_btns {
+        top: 290px;
+        left: 50%;
+        margin-left: -195px;
+    }
+
+    .rewards_bn1_btns ul {
+        width: 420px;
+    }
+
+    .rewards_bn1_btns li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rewards_bn1_btns li a {
+        width: 185px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 14px;
+    }
+
+    .rewards_bn2_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .rewards_bn2_btns {
+        width: 300px;
+        top: 290px;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    .rewards_bn2_btns li {
+        float: none;
+        width: 45%
+    }
+
+    .rewards_bn2_btns li a {
+        font-size: 14px;
+        width: 185px;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .rewards_main {
+        height: inherit;
+    }
+
+    .rewards_main_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .rewards_main_btns {
+        width: 300px;
+        top: 270px;
+        left: 50%;
+        margin-left: -180px;
+    }
+
+    .rewards_main_btns ul {
+        width: 390px;
+    }
+
+    .rewards_main_btns li {
+        width: 45%;
+    }
+
+    .rewards_main_btns li a {
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        font-size: 14px;
     }
 
 }
