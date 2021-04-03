@@ -2191,6 +2191,37 @@ img.arrow {
     background: #222;
 }
 
+.menu_section {
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+
+.drink_bn {
+    background: url('img/menu/bn1_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.food_bn {
+    background: url('img/menu/food_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.product_bn {
+    background: url('img/menu/product_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.card_bn {
+    background: url('img/menu/card_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.teavana_bn {
+    background: url('img/menu/teavana_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
 
 /* 반응형 시작 */
 
