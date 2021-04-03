@@ -1822,6 +1822,46 @@ img.arrow {
     display :none;
 }
 
+.store_main {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background: url('img/store/main_bg.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+.store_benner {
+    position: relative;
+    width: 100%;
+    height: 430px;
+    background-size: cover;
+}
+
+.store_bn1 {
+    background: url('img/store/bn1_bg.jpg');
+}
+
+.store_bn2 {
+    background: url('img/store/bn2_bg.jpg');
+}
+
+.store_bn3 {
+    background: url('img/store/bn3_bg.jpg');
+}
+
+.store_bn4 {
+    background: url('img/store/bn4_bg.jpg');
+}
+
+.store_bn5 {
+    background: url('img/store/bn5_bg.jpg');
+    transform: scaleX(-1);
+}
+
+
+
+
 /* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
