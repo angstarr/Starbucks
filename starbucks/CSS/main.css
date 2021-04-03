@@ -1818,9 +1818,224 @@ img.arrow {
     bottom: -24px !important;
 }
 
-.coffee_m_slide {
-    display :none;
+.store_main {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background: url('img/store/main_bg.jpg') center top no-repeat;
+    background-size: cover;
 }
+
+.store_inner {
+    position: absolute;
+    width: 1100px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.store_main_txt {
+    position: absolute;
+    width: 492px;
+    height: 172px;
+    top: 80px;
+    left: 25px;
+}
+
+.store_main_btn {
+    position: absolute;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    top: 270px;
+    left: 45px;
+}
+
+.store_main_btn a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.store_main_btn a:hover {
+    color: #222;
+    background: #fff;
+}
+
+.store_benner {
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+
+.store_bn_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.store_bn1 {
+    background: url('img/store/bn1_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.store_bn1_txt {
+    position: absolute;
+    width: 330px;
+    top: 100px;
+    left: 760px;
+}
+
+.store_bn1_btn {
+    top: 253px;
+    left: 760px;
+}
+
+.store_bn2 {
+    background: url('img/store/bn2_bg.jpg') 80% 50% no-repeat;
+    background-size: cover;
+}
+
+.store_bn2_txt {
+    position: absolute;
+    width: 370px;
+    top: 130px;
+    left: 0;
+}
+
+.store_bn2_btn {
+    top: 262px;
+    left: 0;
+}
+
+.store_bn3 {
+    background: url('img/store/bn3_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.store_bn3_txt {
+    position: absolute;
+    width: 330px;
+    top: 130px;
+    left: 760px;
+}
+
+.store_bn3_btn {
+    top: 265px;
+    left: 760px;
+}
+
+.store_bn4 {
+    background: url('img/store/bn4_bg.jpg') 80% 50% no-repeat;
+    background-size: cover;
+}
+
+.store_bn4_txt {
+    position: absolute;
+    width: 395px;
+    top: 142px;
+    left: 0;
+}
+
+.store_bn4_btn {
+    top: 280px;
+    left: 0;
+}
+
+.store_bn5 {
+    background: url('img/store/bn5_bg.jpg') 20% 50% no-repeat;
+    background-size: cover;
+}
+
+.store_bn5_txt {
+    position: absolute;
+    width: 395px;
+    top: 142px;
+    left: 760px;
+}
+
+.store_bn5_btn {
+    top: 280px;
+    left: 760px;
+}
+
+.whiteBtn {
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.whiteBtn a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.whiteBtn a:hover {
+    background: #fff;
+    color: #222;
+}
+
+.blackBtn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.blackBtn a {
+    display: block;
+    color: #222;
+    font-size: 14px;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.blackBtn a:hover {
+    background: #222;
+    color: #fff;
+}
+
+/* 유튜브 모달창 */
+
+.youtubeModal {
+    position: absolute;
+    display: none;
+    width: 900px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    top: 240px;
+    left: 50%;
+    margin-left: -450px;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    z-index: 30;
+}
+
+.modalCont {
+    width: 100%;
+    height: 100%;
+}
+
+.youtubeModal .close_btn {
+    position: absolute;
+    top: 0;
+    right: -35px;
+}
+
 
 /* 반응형 시작 */
 
@@ -2234,6 +2449,71 @@ img.arrow {
           height: 300px;
           margin-left: -750px;
       }
+
+      .store_benner {
+          height: 300px;
+      }
+
+      .store_bn_inner {
+          width: 100%;
+      }
+
+      .store_bn1_txt {
+          top: 65px;
+          left: 60%;
+      }
+
+      .store_bn1_btn {
+          top: 205px;
+          left: 60%;
+      }
+
+      .store_bn2_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .store_bn2_btn {
+          top: 205px;
+          left: 5%;
+      }
+
+      .store_bn3_txt {
+          top: 65px;
+          left: 60%;
+      }
+
+      .store_bn3_btn {
+          top: 205px;
+          left: 60%;
+      }
+
+      .store_bn4_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .store_bn4_btn {
+          top: 205px;
+          left: 5%;
+      }
+
+      .store_bn5_txt {
+          top: 65px;
+          left: 60%;
+      }
+
+      .store_bn5_btn {
+          top: 185px;
+          left: 60%;
+      }
+
+      .store_inner {
+          width: 100%;
+          margin-left: -50%;
+      }
+
+
 
 }
 
@@ -3011,6 +3291,89 @@ img.arrow {
         margin-left: -500px;
     }
 
+    .store_benner {
+        height: 200px;
+    }
+
+    .whiteBtn {
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+    .blackBtn {
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+    .store_bn1_txt {
+        width: 215px;
+        top: 45px;
+        left: 60%;
+    }
+
+    .store_bn1_btn {
+        top: 135px;
+        left: 60%;
+    }
+
+    .store_bn2_txt {
+        width: 245px;
+        top: 45px;
+        left: 2%;
+    }
+
+    .store_bn2_btn {
+        top: 125px;
+        left: 2%;
+    }
+
+    .store_bn3_txt {
+        width: 215px;
+        top: 45px;
+        left: 60%;
+    }
+
+    .store_bn3_btn {
+        top: 130px;
+        left: 60%;
+    }
+
+    .store_bn4_txt {
+        width: 260px;
+        top: 45px;
+        left: 2%;
+    }
+
+    .store_bn4_btn {
+        top: 125px;
+        left: 2%;
+    }
+
+    .store_bn5_txt {
+        width: 260px;
+        top: 45px;
+        left: 60%;
+    }
+
+    .store_bn5_btn {
+        top: 120px;
+        left: 60%;
+    }
+
+    .youtubeModal {
+        margin-left: -49%;
+        width: 98%;
+    }
+
+    .youtubeModal .close_btn {
+        top: -35px;
+        right: 0;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -3636,22 +3999,31 @@ img.arrow {
         left: inherit;
     }
 
-    .coffee_slide {
-        display: none;
+    /* COFFEE bxslide */
+
+    .slide1 {
+        background: url('img/news/m_slide1.jpg') no-repeat;
+        background-size: auto;
     }
 
-    .coffee_m_slide {
+    .slide2 {
+        background: url('img/news/m_slide2.jpg') no-repeat;
+        background-size: auto;
+    }
+
+    .coffee_slide {
         display: block;
         overflow: hidden;
         position: relative;
         border-bottom: 2px solid #0d6035;
+        height: 900px;
     }
 
-    .coffee_m_slide .bx-wrapper {
+    .coffee_slide .bx-wrapper {
         margin: 0;
     }
 
-    .coffee_m_slide .bx-controls {
+    .coffee_slide .bx-controls {
         position: absolute;
         width: 100%;
         height: 12px;
@@ -3660,13 +4032,81 @@ img.arrow {
         bottom: 5%;
     }
 
-    .coffee_m_slide .bx-pager {
+    .coffee_slide .bx-viewport {
+        height: 900px !important;
+    }
+
+    .coffeeSlider li div {
+        width: 100% !important;
+        height: 900px;
+        margin-left: -315px;
+    }
+
+    .coffee_slide .bx-pager {
         text-align: center !important;
         width: 100% !important;
     }
 
-    .coffee_m_slide .bx-controls-auto {
+    .coffee_slide .bx-controls-auto {
         width: 110% !important;
+    }
+
+    .store_benner {
+        height: inherit;
+    }
+
+    .whiteBtn, .blackBtn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+    }
+
+    .store_bn1_txt,
+    .store_bn2_txt,
+    .store_bn3_txt,
+    .store_bn4_txt,
+    .store_bn5_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .store_bn1_btn,
+    .store_bn2_btn,
+    .store_bn3_btn,
+    .store_bn4_btn {
+        toP: 290px;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .store_bn5_btn {
+        top: 330px;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .store_main {
+        background: url('img/store/m_main_bg.jpg') no-repeat;
+        background-size: 100% auto;
+        height: 0;
+        padding-bottom: 154%;
+    }
+
+    .store_main_txt {
+        width: 60%;
+        height: 0;
+        top: 25%;
+        left: 50%;
+        margin-left: -30%;
+    }
+
+    .store_main_btn {
+        top: 540px;
+        left: 50%;
+        margin-left: -62px;
     }
 
 }
