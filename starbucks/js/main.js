@@ -26,6 +26,22 @@ $(document).ready(function(){
       });
   });
 
+  var embed = $('#youtube');
+
+  $('.store_main_btn').on('click', function(){
+
+        // append 때문에 유튜브 창이 뜨기까지 로딩시간이너무 걸림
+        // 아예 api로 짜봐야될거같은데 나중에 해보기로
+        $('.youtubeModal').attr('style', 'display:block;');
+        $('.modalCont').append(embed);
+
+        $('.close_btn').on('click', function(){
+          $('.youtubeModal').attr('style', 'display:none;');
+          $('.modalCont').empty();
+        });
+
+  });
+
   $('.bgr_btn').on('click', function(){
 
       $('.main_prom_bnr').toggleClass('on');
