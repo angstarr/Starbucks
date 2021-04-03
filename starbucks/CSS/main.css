@@ -2100,6 +2100,47 @@ img.arrow {
     background: #fff;
 }
 
+.rewards_bn2_txt {
+    position: absolute;
+    width: 440px;
+    top: 130px;
+    left: 0;
+}
+
+.rewards_bn2_btns {
+    position: absolute;
+    top: 265px;
+    left: 0;
+}
+
+.rewards_bn2_btns ul {
+    width: 580px;
+}
+
+.rewards_bn2_btns li {
+    float: left;
+    width: 187px;
+    margin: 0 12px 12px 0;
+}
+
+.rewards_bn2_btns li a {
+    display: block;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 185px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    color: #222;
+    transition: background .7s, color .7s;
+}
+
+.rewards_bn2_btns li a:hover {
+    color: #fff;
+    background: #222;
+}
+
 
 /* 반응형 시작 */
 
