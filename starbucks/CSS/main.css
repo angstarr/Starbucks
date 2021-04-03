@@ -2618,7 +2618,61 @@ img.arrow {
           margin-left: -50%;
       }
 
+      .rewards_section {
+        height: 300px;
+      }
 
+      .rewards_bn_inner {
+        width: 100%;
+      }
+
+      .rewards_bn1_txt {
+          top: 45px;
+          left: 65%;
+      }
+
+      .rewards_bn1_btns {
+          top: 185px;
+          left: 65%;
+      }
+
+      .rewards_bn1_btns ul {
+          width: 300px;
+      }
+
+      .rewards_bn1_btns li a {
+          width: 123px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;
+          letter-spacing: -1px;
+      }
+
+      .rewards_bn2_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .rewards_bn2_btns {
+          top: 205px;
+          left: 5%;
+      }
+
+      .rewards_bn2_btns ul {
+          width: 500px;
+      }
+
+      .rewards_bn2_btns li {
+          width: 140px;
+      }
+
+      .rewards_bn2_btns li a {
+          width: 138px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;
+          letter-spacing: -1px;
+      }
 
 }
 
@@ -3479,6 +3533,32 @@ img.arrow {
         right: 0;
     }
 
+    .rewards_section {
+        height: 200px;
+    }
+
+    .rewards_bn1_txt {
+        width: 260px;
+        top: 20px;
+        left: 60%;
+    }
+
+    .rewards_bn1_btns {
+        top: 110px;
+        left: 60%;
+    }
+
+    .rewards_bn2_txt {
+        width: 290px;
+        top: 40px;
+        left: 2%;
+    }
+
+    .rewards_bn2_btns {
+        top: 130px;
+        left: 2%;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -4212,6 +4292,65 @@ img.arrow {
         top: 540px;
         left: 50%;
         margin-left: -62px;
+    }
+
+    .rewards_section {
+        height: inherit;
+    }
+
+    .rewards_bn1_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .rewards_bn1_btns {
+        top: 290px;
+        left: 50%;
+        margin-left: -195px;
+    }
+
+    .rewards_bn1_btns ul {
+        width: 420px;
+    }
+
+    .rewards_bn1_btns li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rewards_bn1_btns li a {
+        width: 185px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 14px;
+    }
+
+    .rewards_bn2_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .rewards_bn2_btns {
+        width: 300px;
+        top: 290px;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    .rewards_bn2_btns li {
+        float: none;
+        width: 45%
+    }
+
+    .rewards_bn2_btns li a {
+        font-size: 14px;
+        width: 185px;
+        height: 36px;
+        line-height: 36px;
     }
 
 }
