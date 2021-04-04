@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+  var tmpMenu;
+  var curMenu;
+
   $('.menu_ttl, .m_gnb_ttl1, .m_gnb_ttl2').on('click', function()
   {
 
@@ -52,9 +55,6 @@ $(document).ready(function(){
 
       $('.product_detail').toggleClass('on');
   });
-
-  var tmpMenu;
-  var curMenu;
 
   $('ul.gnb_dropdown > li').on('mouseover', function()
   {
