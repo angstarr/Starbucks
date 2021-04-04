@@ -2313,7 +2313,7 @@ img.arrow {
 }
 
 .food_bn {
-    background: url('img/menu/food_bg.jpg') 20% 50% no-repeat;
+    background: url('img/menu/food_bg.jpg') 80% 50% no-repeat;
     background-size: cover;
 }
 
@@ -2323,7 +2323,7 @@ img.arrow {
 }
 
 .card_bn {
-    background: url('img/menu/card_bg.jpg') 20% 50% no-repeat;
+    background: url('img/menu/card_bg.jpg') 80% 50% no-repeat;
     background-size: cover;
 }
 
@@ -2440,6 +2440,10 @@ img.arrow {
       .footer_menus .menu_ttl a {
           font-size: 14px;
           line-height: 40px;
+      }
+
+      .gnb_sub_infoBx .gnb_sub_info_inner {
+          width: 950px;
       }
 }
 
@@ -2897,6 +2901,40 @@ img.arrow {
       .sub_title_inner {
           width: 96%;
           padding-top: 0;
+      }
+
+      .menu_section {
+          height: 300px;
+      }
+
+      .menu_section_inner {
+          width: 100%;
+      }
+
+      .menu_drink_txt,
+      .menu_product_txt,
+      .menu_teavana_txt {
+          top: 65px;
+          left: 65%;
+      }
+
+      .menu_drink_btn,
+      .menu_product_btn,
+      .menu_teavana_btn {
+          top: 205px;
+          left: 65%;
+      }
+
+      .menu_food_txt,
+      .menu_card_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .menu_food_btn,
+      .menu_card_btn {
+          top: 195px;
+          left: 5%;
       }
 }
 
@@ -3802,7 +3840,84 @@ img.arrow {
         display: none;
     }
 
+    .menu_section {
+        height: 200px;
+    }
 
+    .menu_drink_txt {
+        width: 190px;
+        top: 45px;
+        left: 60%;
+    }
+
+    .menu_drink_btn {
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+        top: 130px;
+        left: 60%;
+    }
+
+    .menu_food_txt {
+        width: 280px;
+        top: 45px;
+        left: 2%;
+    }
+
+    .menu_food_btn {
+      width: 80px;
+      height: 22px;
+      line-height: 22px;
+      font-size: 12px;
+      top: 130px;
+      left: 2%;
+    }
+
+    .menu_product_txt {
+        width: 225px;
+        top: 45px;
+        left: 60%;
+    }
+
+    .menu_product_btn {
+      width: 80px;
+      height: 22px;
+      line-height: 22px;
+      font-size: 12px;
+      top: 130px;
+      left: 60%;
+    }
+
+    .menu_card_txt {
+        width: 240px;
+        top: 45px;
+        left: 2%;
+    }
+
+    .menu_card_btn {
+      width: 80px;
+      height: 22px;
+      line-height: 22px;
+      font-size: 12px;
+      top: 130px;
+      left: 2%;
+    }
+
+    .menu_teavana_txt {
+        width: 270px;
+        top: 45px;
+        left: 60%;
+    }
+
+    .menu_teavana_btn {
+      width: 80px;
+      height: 22px;
+      line-height: 22px;
+      font-size: 12px;
+      top: 135px;
+      left: 60%;
+    }
 
 }
 
@@ -4629,6 +4744,99 @@ img.arrow {
         height: 36px;
         line-height: 36px;
         font-size: 14px;
+    }
+
+    .menu_section {
+        height: inherit;
+    }
+
+    .menu_drink_txt,
+    .menu_food_txt,
+    .menu_product_txt,
+    .menu_card_txt,
+    .menu_teavana_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .menu_drink_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 290px;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .menu_food_txt {
+        width: 300px;
+        top: 120px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .menu_food_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 290px;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .menu_product_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .menu_product_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 290px;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .menu_card_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .menu_card_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 270px;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .menu_teavana_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .menu_teavana_btn {
+      width: 121px;
+      height: 34px;
+      line-height: 34px;
+      font-size: 14px;
+      top: 290px;
+      left: 50%;
+      margin-left: -62px;
     }
 
 }
