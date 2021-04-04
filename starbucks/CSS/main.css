@@ -2223,11 +2223,15 @@ img.arrow {
 
 .product_detail {
     position: relative;
-    display: block;
+    display: none;
     background: #fffaf4;
     border-bottom: 2px solid #0d6035;
     width: 100%;
     padding: 28px 0 80px 0;
+}
+
+.product_detail.on {
+    display: block;
 }
 
 .product_list {

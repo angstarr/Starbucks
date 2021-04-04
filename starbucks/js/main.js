@@ -48,6 +48,11 @@ $(document).ready(function(){
 
   });
 
+  $('.product_view a').click(function(){
+
+      $('.product_detail').toggleClass('on');
+  });
+
   var tmpMenu;
   var curMenu;
 
