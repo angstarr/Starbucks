@@ -3180,6 +3180,40 @@ img.arrow {
           top: 195px;
           left: 5%;
       }
+
+      .respon_section {
+          height: 300px;
+      }
+
+      .respon_inner {
+          width: 100%;
+      }
+
+      .respon_bn1_txt,
+      .respon_bn3_txt,
+      .respon_bn5_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .respon_bn1_btn,
+      .respon_bn3_btn,
+      .respon_bn5_btn {
+          top: 205px;
+          left: 5%;
+      }
+
+      .respon_bn2_txt,
+      .respon_bn4_txt {
+          top: 65px;
+          left: 52%;
+      }
+
+      .respon_bn2_btn,
+      .respon_bn4_btn {
+          top: 205px;
+          left: 52%;
+      }
 }
 
 @media screen and (max-width: 960px) {
@@ -4176,6 +4210,62 @@ img.arrow {
       left: 60%;
     }
 
+    .respon_section {
+        height: 200px;
+    }
+
+    .respon_bn1_txt {
+        width: 185px;
+        top: 55px;
+        left: 2%;
+    }
+
+    .respon_bn2_txt {
+        width: 230px;
+        top: 40px;
+        left: 60%;
+    }
+
+    .respon_bn3_txt {
+        width: 185px;
+        top: 55px;
+        left: 2%;
+    }
+
+    .respon_bn4_txt {
+        width: 260px;
+        top: 40px;
+        left: 60%;
+    }
+
+    .respon_bn5_txt {
+        width: 220px;
+        top: 40px;
+        left: 2%;
+    }
+
+    .respon_bn1_btn,
+    .respon_bn3_btn,
+    .respon_bn5_btn {
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+        top: 130px;
+        left: 2%;
+    }
+
+    .respon_bn2_btn,
+    .respon_bn4_btn {
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+        top: 140px;
+        left: 60%;
+    }
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -5117,6 +5207,50 @@ img.arrow {
         top: 290px;
         left: 50%;
         margin-left: -62px;
+    }
+
+    .respon_section {
+        height: inherit;
+    }
+
+    .respon_bn1_btn,
+    .respon_bn2_btn,
+    .respon_bn4_btn,
+    .respon_bn5_btn  {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 280px;
+        left: 50%;
+        margin-left: -70px;
+    }
+
+    .respon_bn3_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 230px;
+        left: 50%;
+        margin-left: -65px;
+    }
+
+    .respon_bn1_txt,
+    .respon_bn4_txt,
+    .respon_bn5_txt {
+        width: 300px;
+        top: 110px;
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .respon_bn2_txt,
+    .respon_bn3_txt {
+        width: 320px;
+        top: 110px;
+        left: 50%;
+        margin-left: -160px;
     }
 
 }
