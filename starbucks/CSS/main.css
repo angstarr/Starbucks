@@ -2411,6 +2411,13 @@ img.arrow {
     background-size: cover;
 }
 
+.respon_main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+}
+
 .respon_section {
     position: relative;
     width: 100%;
