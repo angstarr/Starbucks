@@ -2497,9 +2497,23 @@ img.arrow {
     background-size: cover;
 }
 
+.respon_bn2_txt {
+    position: absolute;
+    width: 420px;
+    top: 80px;
+    left: 700px;
+}
+
 .respon_bn3 {
     background: url('img/respon/bn3_bg.jpg') 80% 50% no-repeat;
     background-size: cover;
+}
+
+.respon_bn3_txt {
+    position: absolute;
+    width: 410px;
+    top: 125px;
+    left: 0;
 }
 
 .respon_bn4 {
@@ -2507,9 +2521,23 @@ img.arrow {
     background-size: cover;
 }
 
+.respon_bn4_txt {
+    position: absolute;
+    width: 430px;
+    top: 130px;
+    left: 700px;
+}
+
 .respon_bn5 {
     background: url('img/respon/bn5_bg.jpg') 80% 50% no-repeat;
     background-size: cover;
+}
+
+.respon_bn5_txt {
+    position: absolute;
+    width: 380px;
+    top: 140px;
+    left: 0;
 }
 
 
