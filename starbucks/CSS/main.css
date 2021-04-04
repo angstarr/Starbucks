@@ -2203,6 +2203,41 @@ img.arrow {
     margin: 0 auto;
 }
 
+.menu_drink_txt {
+    position: absolute;
+    width: 280px;
+    top: 115px;
+    left: 760px;
+}
+
+.menu_food_txt {
+    position: absolute;
+    width: 415px;
+    top: 130px;
+    left: 0;
+}
+
+.menu_product_txt {
+    position: absolute;
+    width: 340px;
+    top: 115px;
+    left: 760px;
+}
+
+.menu_card_txt {
+    position: absolute;
+    width: 360px;
+    top: 130px;
+    left: 0;
+}
+
+.menu_teavana_txt {
+    position: absolute;
+    width: 420px;
+    top: 115px;
+    left: 760px;
+}
+
 .menu_drink_btn,
 .menu_product_btn {
     position: absolute;
