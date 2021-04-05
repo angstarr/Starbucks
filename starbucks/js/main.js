@@ -51,9 +51,9 @@ $(document).ready(function(){
 
   });
 
-  $('.product_view a').click(function(){
+  $('.product_view a, .promotionView p a').click(function(){
 
-      $('.product_detail').toggleClass('on');
+      $('.product_detail, .what_promotion').toggleClass('on');
   });
 
   $('ul.gnb_dropdown > li').on('mouseover', function()
