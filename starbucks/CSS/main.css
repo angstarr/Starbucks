@@ -2602,6 +2602,75 @@ img.arrow {
     background-size: cover;
 }
 
+.what_bn1_txt,
+.what_bn3_txt {
+    position: absolute;
+    width: 280px;
+    top: 130px;
+    left: 700px;
+}
+
+.what_bn1_btn,
+.what_bn3_btn {
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    top: 265px;
+    left: 700px;
+    text-align: center;
+}
+
+.what_bn1_btn a,
+.what_bn3_btn a {
+    display: block;
+    color: #fff;
+    transition: background .7s, color .7s;
+}
+
+.what_bn1_btn a:hover,
+.what_bn3_btn a:hover {
+    color: #222;
+    background: #fff;
+}
+
+.what_bn2_txt,
+.what_bn4_txt {
+    position: absolute;
+    width: 245px;
+    top: 140px;
+    left: 0;
+}
+
+.what_bn2_btn,
+.what_bn4_btn {
+    position: absolute;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    top: 280px;
+    left: 0;
+}
+
+.what_bn2_btn a,
+.what_bn4_btn a {
+    color: #222;
+    transition: background .7s, color .7s;
+}
+
+.what_bn2_bta a:hover,
+.what_bn4_btn a:hover {
+    color: #fff;
+    background: #222;
+}
+
 
 /* 반응형 시작 */
 
