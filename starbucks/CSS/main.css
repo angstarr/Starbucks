@@ -2665,7 +2665,7 @@ img.arrow {
     transition: background .7s, color .7s;
 }
 
-.what_bn2_bta a:hover,
+.what_bn2_btn a:hover,
 .what_bn4_btn a:hover {
     color: #fff;
     background: #222;
@@ -3344,6 +3344,38 @@ img.arrow {
       .respon_bn4_btn {
           top: 205px;
           left: 52%;
+      }
+
+      .what_section {
+          height: 300px;
+      }
+
+      .what_inner {
+          width: 100%;
+      }
+
+      .what_bn1_txt,
+      .what_bn3_txt {
+          top: 65px;
+          left: 65%;
+      }
+
+      .what_bn1_btn,
+      .what_bn3_btn {
+          top: 205px;
+          left: 65%;
+      }
+
+      .what_bn2_txt,
+      .what_bn4_txt {
+          top: 65px;
+          left: 5%;
+      }
+
+      .what_bn2_btn,
+      .what_bn4_btn {
+          top: 205px;
+          left: 5%;
       }
 }
 
@@ -4396,6 +4428,46 @@ img.arrow {
         left: 60%;
     }
 
+    .what_section {
+        height: 200px;
+    }
+
+    .what_bn1_txt,
+    .what_bn3_txt {
+        width: 180px;
+        top: 45px;
+        left: 60%;
+    }
+
+    .what_bn1_btn,
+    .what_bn3_btn {
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+        top: 110px;
+        left: 60%;
+    }
+
+    .what_bn2_txt,
+    .what_bn4_txt {
+        width: 170px;
+        top: 45px;
+        left: 2%;
+    }
+
+    .what_bn2_btn,
+    .what_bn4_btn {
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+        top: 110px;
+        left: 2%;
+    }
+
+
+
 
 }
 
@@ -5382,6 +5454,33 @@ img.arrow {
         top: 110px;
         left: 50%;
         margin-left: -160px;
+    }
+
+    .what_section {
+        height: inherit;
+    }
+
+    .what_bn1_txt,
+    .what_bn2_txt,
+    .what_bn3_txt,
+    .what_bn4_txt {
+        width: 300px;
+        top: 130px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .what_bn1_btn,
+    .what_bn2_btn,
+    .what_bn3_btn,
+    .what_bn4_btn {
+        width: 121px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        top: 270px;
+        left: 50%;
+        margin-left: -62px;
     }
 
 }
