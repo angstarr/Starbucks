@@ -2747,6 +2747,14 @@ img.arrow {
     padding: 12px 0 18px 0;
 }
 
+.prom_gallery dl dt a img {
+    transition: transform 1s;
+}
+
+.prom_gallery dl dt a img:hover {
+    transform: scale(1.1);
+}
+
 .prom_gallery p.prom_txt1 {
     font-size: 14px;
     font-weight: bold;
@@ -2828,7 +2836,7 @@ img.arrow {
 
 .swiper-container.what_main {
     width: 100%;
-    max-width: 2000px;
+    max-width: 100%;
 }
 
 .what_main .swiper-wrapper {
@@ -3574,6 +3582,10 @@ img.arrow {
 
       .prom_gallery li dd {
           width: 100%;
+      }
+
+      .swiper-container.what_main {
+          height: 300px;
       }
 }
 
@@ -4669,6 +4681,10 @@ img.arrow {
         margin: 0.65%;
     }
 
+    .swiper-container.what_main {
+        height: 200px;
+    }
+
 
 }
 
@@ -5747,6 +5763,10 @@ img.arrow {
     .what_slide11 {
         background: url('img/what/m_slide11.jpg') no-repeat;
         background-size: cover;
+    }
+
+    .what_main {
+        height: 120vh !important;
     }
 
 }
