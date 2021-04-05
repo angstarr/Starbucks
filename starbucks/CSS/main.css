@@ -2770,6 +2770,77 @@ img.arrow {
     clear: both;
 }
 
+.what_slide1 {
+    background: url('img/what/slide1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide2 {
+    background: url('img/what/slide2.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide3 {
+    background: url('img/what/slide3.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide4 {
+    background: url('img/what/slide4.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide5 {
+    background: url('img/what/slide5.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide6 {
+    background: url('img/what/slide6.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide7 {
+    background: url('img/what/slide7.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide8 {
+    background: url('img/what/slide8.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide9 {
+    background: url('img/what/slide9.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide10 {
+    background: url('img/what/slide10.jpg') no-repeat;
+    background-size: cover;
+}
+
+.what_slide11 {
+    background: url('img/what/slide11.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+.swiper-container.what_main {
+    width: 100%;
+    max-width: 2000px;
+}
+
+.what_main .swiper-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.what_main .swiper-slide {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 /* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
@@ -5620,6 +5691,62 @@ img.arrow {
     .prom_gallery li {
         width: 48%;
         margin: 1%;
+    }
+
+
+    .what_slide1 {
+        background: url('img/what/m_slide1.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide2 {
+        background: url('img/what/m_slide2.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide3 {
+        background: url('img/what/m_slide3.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide4 {
+        background: url('img/what/m_slide4.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide5 {
+        background: url('img/what/m_slide5.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide6 {
+        background: url('img/what/m_slide6.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide7 {
+        background: url('img/what/m_slide7.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide8 {
+        background: url('img/what/m_slide8.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide9 {
+        background: url('img/what/m_slide9.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide10 {
+        background: url('img/what/m_slide10.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .what_slide11 {
+        background: url('img/what/m_slide11.jpg') no-repeat;
+        background-size: cover;
     }
 
 }
