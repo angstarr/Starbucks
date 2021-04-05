@@ -51,9 +51,9 @@ $(document).ready(function(){
 
   });
 
-  $('.product_view a').click(function(){
+  $('.product_view a, .promotionView p a').click(function(){
 
-      $('.product_detail').toggleClass('on');
+      $('.product_detail, .what_promotion').toggleClass('on');
   });
 
   $('ul.gnb_dropdown > li').on('mouseover', function()
@@ -156,7 +156,7 @@ $(document).ready(function(){
 
       }
 
-    var lineSwiper = new Swiper ('.swiper-container', {
+    var lineSwiper = new Swiper ('.news_swiper', {
 
       direction: 'verical',
       loop: true,
@@ -165,6 +165,19 @@ $(document).ready(function(){
       // freeMode: true, //슬라이드넘길때 위치 고정여부
       // autoHeight : true, // 슬라이 높이에 맞게 고정
     });
+
+    var whatSwiper = new Swiper('.what_main', {
+
+        effect: 'fade',
+        slidesPerView: 1,
+        loop: true,
+        autoplay: true,
+        speed: 500,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable : true,
+        },
+      });
 
 
 
