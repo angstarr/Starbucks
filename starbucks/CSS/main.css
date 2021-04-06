@@ -3174,7 +3174,7 @@ img.arrow {
     padding: 20px 0 0;
     width: 24.8%;
     text-align: center;
-    border-right: 1px solid #999;
+    border-right: 1px solid #cccccc;
 }
 
 .egift_use li:last-child {
@@ -3210,7 +3210,7 @@ img.arrow {
 .egift_card li {
     float: left;
     width: 29%;
-    border-right: 1px solid #666;
+    border-right: 1px solid #cccccc;
     padding: 0 30px 0 15px;
 }
 
@@ -3240,7 +3240,7 @@ img.arrow {
 .egift_card_txt h4.green {
     color: #063;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .egift_card_txt p.egift_card_btn.green {
@@ -3283,6 +3283,14 @@ img.arrow {
     display: block;
     content: '';
     clear: both;
+}
+
+.egift_info_m_txt {
+    display: none;
+}
+
+.m-img {
+    display: none;
 }
 /* e-Gift card 소개 끝 */
 
@@ -4080,6 +4088,78 @@ img.arrow {
 
 /*  공지사항 1024px  끝 */
 
+    
+/*  e-Gift Card 시작 */
+    
+    .egift_main {
+        width: 96%;
+    }
+    
+    .egift_inner {
+        width: 96%;
+    }
+    
+    .egift_info_main {
+        padding: 3%;
+    }
+    
+    .egift_info_main li {
+        width: 14%;
+    }
+    
+    .egift_info_main p.egift_info_notice {
+        position: relative;
+        left: -3%;
+    }
+    
+    .egift_use {
+        width: 100%;
+    }
+
+    
+    .egift_use li {
+        width: 24%;
+    }
+    
+    .egift_card {
+        width: 96%;
+        margin: 50px auto 100px auto;
+        text-align: center;
+    }
+    
+    .egift_card .egift_inner ul {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .egift_card li {
+        display: inline-block;
+        float: none;
+        padding: 0;
+        border: none;
+        width: 26%;
+    }
+    
+    .egift_card ul li img {
+        position: relative;
+        left: 25%;
+        margin-bottom: 20px;
+    }
+    
+    .egift_card .egift_card_btn {
+        position: relative;
+        left: 31%;
+    }
+    
+    .egift_card_txt {
+        width: 100%;
+        clear: both;
+    }
+/*  e-Gift Card 끝 */
+    
 }
 
 @media screen and (max-width: 960px) {
@@ -5202,7 +5282,38 @@ img.arrow {
     
 /*    공지사항 960px 끝*/
 
-
+    
+/* e-Gift Card 960px 시작  */
+    
+    .egift_info_main h4 {
+        font-size: 14px;
+    }
+    
+    .egift_info_main ul li > p {
+        font-size: 12px;
+    }
+    
+    .egift_use li {
+        border-right: none;
+    }
+    
+    .egift_use ul li p {
+        font-size: 12px;
+    }
+    
+    .egift_card {
+        width: 100%;
+    }
+    
+    .egift_card ul li {
+        width: 30%;
+    }
+    
+    .egift_card ul li img {
+        vertical-align: top;
+    }
+    
+/* e-Gift Card 960px 시작끝 */
 }
 
 @media screen and (max-width: 640px) {
@@ -6363,6 +6474,105 @@ img.arrow {
 
     
 /*  공지사항 640px 끝    */
+    
+/*  e-Gift Card 640px 시작 */
+    
+    .egift_info_bn img {
+        width: 100%;
+    }
+    
+    .egift_info_m_txt {
+        margin-top: 25px;
+        letter-spacing: -1px;
+        display: block;
+    }
+    
+    .egift_info_main li {
+        position: relative;
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .egift_info_main ul li > h4 {
+        position: absolute;
+        float: right;
+        font-size: 16px;
+        top: 20px;
+        left: 200px;
+    }
+    
+    .egift_info_main ul li > p {
+        position: absolute;
+        float: right;
+        font-size: 15px;
+        top: 70px;
+        left: 200px;
+
+    }
+    
+    .egift_info_main ul li img {
+        
+    }
+    
+    .egift_info_main .arrow {
+        margin: 30px 0;
+    }
+    
+    .egift_info_main li.arrow img {
+        position: relative;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .egift_use ul li {
+        position: relative;
+        float: none;
+        left: 5%;
+        margin: 60px 0;
+    }
+    
+    .egift_use ul li h4 {
+        display: none;
+    }
+    
+    .egift_use ul li p {
+        position: absolute;
+        font-size: 15px;
+        width: 180px;
+        top: 60px;
+        left: 150px;
+        text-align: left;
+    }
+    
+    .egift_card ul li {
+        position: relative;
+        display: block;
+        float: left;
+        width: 96%;
+        margin-bottom: 40px;
+    }
+    
+    .egift_card ul li img {
+        left: 5%;
+    }
+    
+    .egift_card li > .egift_card_txt {
+        position: absolute;
+        top: 0;
+        left: 40%;
+        text-align: left;
+    }
+    
+    .egift_card .egift_card_txt .egift_card_btn {
+        top: 0;
+        left: 0;
+    }
+    
+    .sub_title_inner h2 {
+        font-size: 28px;
+    }
+/*  e-Gift Card 640px 끝 */
 
 }
 
