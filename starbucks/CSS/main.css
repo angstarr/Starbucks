@@ -3841,9 +3841,21 @@ img.arrow {
           margin: 5px 2% 0 0;
       }
 
-      .wp_gallery dd li:last-child {
+     .wp_gallery dd li:last-child {
           margin-right: 0;
       }
+    
+/*  공지사항 1024px  시작 */
+    
+    .notice_wrap {
+        width: 100%;
+    }
+    
+    .notice_table table {
+        width: 100%;
+    }
+
+/*  공지사항 1024px  끝 */
 
 }
 
@@ -4942,6 +4954,30 @@ img.arrow {
     .swiper-container.what_main {
         height: 200px;
     }
+    
+/*  공지사항 960px 시작  */
+    
+    .notice_table thead th:nth-child(2) {
+        width: 50%;
+    }
+    
+    .notice_table thead th:last-child {
+        width: 12%;
+    }
+    
+    .notice_table tbody td {
+        font-size: 12px;
+    }
+    
+    .notice_table tbody td:nth-child(2) {
+        width: 50%;
+    }
+    
+    .notice_table tbody td:last-child {
+        width: 12%
+    }
+    
+/*    공지사항 960px 끝*/
 
 
 }
@@ -6053,6 +6089,50 @@ img.arrow {
         width: 32%;
         margin-right: 1.5%;
     }
+    
+/*  공지사항 640px 시작  */
+    
+    .notice_wrap {
+        width: 96%;
+    }
+    
+    .notice_search input {
+        width: 64%;
+        left: 20px;
+    }
+    
+    .notice_search .notice_search_btn {
+        width: 26%;
+    }
+    
+    .notice_table thead {
+        display: none;
+    }
+    
+    .notice_table tbody tr {
+        border-top: 1px solid #666;
+    }
+    
+    .notice_table tbody td {
+        padding-left: 0;
+    }
+    
+    .notice_table tbody td:nth-child(3) {
+        padding-right: 0;
+    }
+    
+    .notice_table tbody td:first-child,
+    .notice_table tbody td:last-child {
+        display: none;
+    }
+    
+    .table_pagenation ul li {
+        font-size: 12px;
+        margin: 0 6px;
+    }
+
+    
+/*  공지사항 640px 끝    */
 
 }
 

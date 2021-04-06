@@ -179,6 +179,4 @@ $(document).ready(function(){
         },
       });
 
-
-
 });
