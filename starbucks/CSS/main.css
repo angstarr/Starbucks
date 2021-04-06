@@ -3203,6 +3203,87 @@ img.arrow {
     clear: both;
 }
 
+.egift_card {
+    margin: 50px 0 100px;
+}
+
+.egift_card li {
+    float: left;
+    width: 29%;
+    border-right: 1px solid #666;
+    padding: 0 30px 0 15px;
+}
+
+.egift_card li:last-child {
+    border-right: none;
+}
+
+.egift_card li img {
+    float: left;
+}
+
+.egift_card_txt {
+    float: left;
+}
+
+.egift_card_txt h4 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.egift_card_txt p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.egift_card_txt h4.green {
+    color: #063;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.egift_card_txt p.egift_card_btn.green {
+    border-color: #063;
+    background: #063;
+}
+
+.egift_card_txt p.green a {
+    color: #fff;
+}
+
+.egift_card_txt p.green a:hover {
+    color: #fff;
+    background: #063;
+}
+
+.egift_card .egift_card_btn {
+    width: 85px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #222;
+    border-radius: 3px;
+}
+
+.egift_card .egift_card_btn a {
+    display: block;
+    text-align: center;
+    color: #222;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background .7s, color .7s;
+}
+
+.egift_card_btn a:hover {
+    color: #fff;
+    background: #222;
+}
+
+.egift_card ul:after {
+    display: block;
+    content: '';
+    clear: both;
+}
 /* e-Gift card 소개 끝 */
 
 /* 반응형 시작 */
