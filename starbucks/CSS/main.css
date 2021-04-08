@@ -3477,10 +3477,49 @@ img.arrow {
 
 .reserve_top p {
     font-size: 14px;
+    line-height: 24px;
 }
 
 .reserve_top p.txt_bottom {
     margin: 30px 0 40px;
+}
+
+.reserve_middle {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.reserve_middle p {
+    letter-spacing: -1px;
+}
+
+.reserve_middle p.txt_top {
+    margin: 30px 0 70px;
+    line-height: 24px;
+}
+
+.reserve_middle p.txt_bottom {
+    margin: 70px 0 40px;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.reserve_middle .middle_btn {
+    background: #754737;
+    border: 2px solid #754737;
+    border-radius: 3px;
+    width: 315px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+.reserve_middle .middle_btn a {
+    display: block;
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 14px;
 }
 
 /* reserve 끝 */
