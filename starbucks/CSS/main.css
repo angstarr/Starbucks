@@ -3294,6 +3294,160 @@ img.arrow {
 }
 /* e-Gift card 소개 끝 */
 
+/* coffee_story 시작 */
+
+.coffee_story_nb {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee_story_nb ul {
+    overflow: hidden;
+    margin: 20px 0 40px;
+}
+
+.coffee_story_nb li {
+    float: left;
+    text-align: center;
+}
+
+.coffee_story_nb li a {
+    display: block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    color: #222;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+}
+
+.coffee_story_nb li.on a {
+    border: 1px solid #063;
+    background: #063;
+    color: #fff;
+}
+
+.coffee_story_cont1 {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.story_spectrum_main {
+    margin-bottom: 80px;
+}
+
+.story_spectrum_main h3 {
+    margin-bottom: 30px;
+}
+
+.story_spectrum_main h4 {
+    margin: 30px 0 20px;
+    color: #063;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.story_spectrum_main p {
+    color: #666;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.story_spectrum_main .story_btn {
+    margin: 20px 0 0 10px;
+}
+
+.story_spectrum_main .story_btn a {
+    display: block;
+    width: 170px;
+    height: 34px;
+    line-height: 34px;
+    color: #222;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #222;
+    border-radius: 3px;
+    transition: background .7s, color .7s;
+}
+
+.story_spectrum_main .story_btn a:hover {
+    color: #fff;
+    background: #222;
+}
+
+.story_spectrum_bottom {
+    margin: 30px auto 60px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.story_bottom_inner {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.story_bottom_inner li {
+    float: left;
+    margin-right: 15px;
+}
+
+.story_bottom_inner p.img {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.story_bottom_inner p.img span {
+    position: absolute;
+    width: 350px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    text-indent: 15px;
+    font-size: 16px;
+    letter-spacing: -1.5px;
+    background: #9b704d;
+}
+
+.story_bottom_inner li:nth-child(2) span {
+    background: #924c2e;
+}
+
+.story_bottom_inner li:last-child span {
+    background: #4f2c1d;
+}
+
+.story_bottom_txt {
+    width: 350px;
+}
+
+.story_bottom_inner .story_bottom_txt h4 {
+    color: #222;
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.story_bottom_inner .story_bottom_txt p {
+    font-size: 13px;
+    color: #666;
+    letter-spacing: -1px;
+}
+
+.coffee_story_select {
+    display: none;
+}
+
+/* coffee_story 끝 */
+
 /* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
@@ -3405,6 +3559,49 @@ img.arrow {
 
       .gnb_sub_infoBx .gnb_sub_info_inner {
           width: 950px;
+      }
+
+      .sub_title_inner {
+        width: 96%;
+        padding-top: 0;
+    }
+
+      .coffee_story_nb {
+          width: 96%;
+      }
+
+      .coffee_story_nb ul li {
+          width: 20%;
+      }
+      
+      .coffee_story_nb ul li a {
+          width: 100%;
+          font-size: 13px;
+      }
+
+      .coffee_story_cont1 {
+          width: 96%;
+      }
+
+      .story_bottom_inner {
+          width: 100%;
+      }
+
+      .story_bottom_inner li {
+          width: 31%;
+          margin: 0 1%;
+      }
+
+      .story_bottom_inner li p.img {
+          width: 100%;
+      }
+
+      .story_bottom_txt {
+          width: 100%;
+      }
+
+      .story_bottom_inner p.img span {
+          width: 100%;
       }
 }
 
@@ -3857,11 +4054,6 @@ img.arrow {
           height: 24px;
           line-height: 24px;
           font-size: 12px;;
-      }
-
-      .sub_title_inner {
-          width: 96%;
-          padding-top: 0;
       }
 
       .menu_main {
@@ -5313,7 +5505,47 @@ img.arrow {
         vertical-align: top;
     }
     
-/* e-Gift Card 960px 시작끝 */
+/* e-Gift Card 960px 끝 */
+
+/* coffee_story 960px 시작 */
+
+    .story_bottom_inner li {
+        width: 100%;
+    }
+
+    .story_bottom_inner li p.img {
+        width: 48%;
+        height: auto;
+        float: left;
+    }
+
+    .story_bottom_txt {
+        float: right;
+        width: 45%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .story_bottom_txt h4 {
+        margin-bottom: 20px;
+    }
+
+    .story_bottom_txt br {
+        display: none;
+    }
+
+    .coffee_story_nb ul li a {
+        font-size: 11px;
+        letter-spacing: -1px;
+    }
+
+    .story_spectrum_main h4 {
+        font-size: 16px;
+    }
+
+/* coffee_story 960px 시작 끝 */
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -6573,6 +6805,66 @@ img.arrow {
         font-size: 28px;
     }
 /*  e-Gift Card 640px 끝 */
+
+
+/*  coffee_story 시작 */
+
+    .story_bottom_inner {
+        width: 96%;
+        left: auto;
+    }
+
+    .story_bottom_inner ul {
+        width: 100%;
+    }
+
+    .story_bottom_inner li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .story_bottom_inner ul li p.img {
+        width: 96%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .story_bottom_inner p.img span {
+        width: 97%;
+        height: 55px;
+        line-height: 55px;
+        padding-left: 3%;
+    }
+
+    .story_bottom_txt {
+        float: left;
+        width: 96%;
+        margin: 30px 0 40px;
+    }
+
+    .story_bottom_inner .story_bottom_txt h4 {
+        font-size: 16px;
+    }
+
+    .story_bottom_inner .story_bottom_txt p {
+        font-size: 14px;
+    }
+
+    .coffee_story_nb ul {
+        display: none;
+    }
+
+    .coffee_story_select {
+        display: block;
+        width: 97%;
+        height: 44px;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        margin: 30px 0 40px;
+        box-sizing: border-box;
+    }
+
+/*  coffee_story 끝 */
 
 }
 
