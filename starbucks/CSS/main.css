@@ -3448,8 +3448,45 @@ img.arrow {
 
 /* coffee_story 끝 */
 
-/* 반응형 시작 */
 
+/* reserve 시작 */
+
+.main_reserve {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.main_reserve .reserve_top {
+    width: 100%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 100px;
+}
+
+.reserve_top h3 {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.reserve_top p.txt_top {
+    font-style: italic;
+    font-weight: bold;
+    color: #b06546;
+    margin-bottom: 30px;
+}
+
+.reserve_top p {
+    font-size: 14px;
+}
+
+.reserve_top p.txt_bottom {
+    margin: 30px 0 40px;
+}
+
+/* reserve 끝 */
+
+
+/* 반응형 시작 */
 @media screen and (max-width: 1440px) {
 
     .floating_badge {
