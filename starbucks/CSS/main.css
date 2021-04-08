@@ -3448,8 +3448,138 @@ img.arrow {
 
 /* coffee_story 끝 */
 
-/* 반응형 시작 */
 
+/* reserve 시작 */
+
+.main_reserve {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.main_reserve .reserve_top {
+    width: 100%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 100px;
+}
+
+.reserve_top h3 {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.reserve_top p.txt_top {
+    font-style: italic;
+    font-weight: bold;
+    color: #b06546;
+    margin-bottom: 30px;
+}
+
+.reserve_top p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.reserve_top p.txt_bottom {
+    margin: 30px 0 40px;
+}
+
+.reserve_middle {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.reserve_middle p {
+    letter-spacing: -1px;
+}
+
+.reserve_middle p.txt_top {
+    margin: 30px 0 70px;
+    line-height: 24px;
+}
+
+.reserve_middle p.txt_bottom {
+    margin: 70px 0 40px;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.reserve_middle .middle_btn {
+    background: #754737;
+    border: 2px solid #754737;
+    border-radius: 3px;
+    width: 315px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+.reserve_middle .middle_btn a {
+    display: block;
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+.reserve_bottom {
+    margin-bottom: 200px;
+}
+
+.reserve_bottom .bottom_tit {
+    background: #222;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+.reserve_bottom .bottom_tit p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0 20px 20px;
+    letter-spacing: -1.5px;
+}
+
+.reserve_bottom ul {
+    overflow: hidden;
+}
+
+.reserve_bottom li {
+    position: relative;
+    float: left;
+    width: 260px;
+    text-align: center;
+}
+
+.reserve_bottom li + li {
+    margin-left: 20px;
+}
+
+.reserve_bottom li.list_left {
+    margin-left: 0;
+}
+
+.reserve_bottom li img.new {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+.reserve_bottom li a {
+    color: #888;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.reserve_bottom li .reserve_logo {
+    width: 25px;
+}
+
+/* reserve 끝 */
+
+
+/* 반응형 시작 */
 @media screen and (max-width: 1440px) {
 
     .floating_badge {
@@ -3602,6 +3732,50 @@ img.arrow {
 
       .story_bottom_inner p.img span {
           width: 100%;
+      }
+
+      /* reserve 1120px */
+
+      .main_reserve {
+          width: 96%;
+      }
+
+      .reserve_middle {
+          width: 96%;
+      }
+
+      .reserve_bottom {
+          width: 96%;
+          margin: 0 auto 100px;
+      }
+
+      .reserve_bottom .bottom_tit {
+          width: 100%;
+      }
+
+      .reserve_bottom ul {
+          width: 100%;
+      }
+
+      .reserve_bottom li {
+          width: 24%;
+          margin: 0.5%;
+      }
+
+      .reserve_bottom li a {
+          display: block;
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+      }
+
+      .reserve_bottom li + li {
+          margin: 0.5%;
+      }
+
+      .reserve_bottom li.list_left {
+          margin: 0.5%;
       }
 }
 
@@ -5545,6 +5719,17 @@ img.arrow {
 
 /* coffee_story 960px 시작 끝 */
 
+/* reserve 960px 시작 */
+
+    .reserve_middle .middle_info {
+        width: 58%;
+        margin: 0 auto;
+    }
+
+    .reserve_middle .middle_info img {
+        width: 100%;
+    }
+
 
 }
 
@@ -6865,6 +7050,53 @@ img.arrow {
     }
 
 /*  coffee_story 끝 */
+
+/* reserve 640px 시작 */
+
+    .reserve_top p {
+        font-size: 12px;
+    }
+
+    .reserve_top br {
+        display: none;
+    }
+
+    .reserve_middle .middle_info {
+        width: 70%;
+    }
+
+    .reserve_middle img.m-txt {
+        margin: 0 auto;
+    }
+
+    .reserve_middle p.txt_bottom {
+        font-size: 12px;
+    }
+
+    .reserve_middle .middle_btn {
+        width: 75%;
+    }
+
+    .reserve_bottom .bottom_tit {
+        text-align: center
+    }
+
+    .reserve_bottom .bottom_tit p {
+        font-size: 14px;
+        padding-left: 0;
+    }
+
+    .reserve_bottom li {
+        width: 43%;
+        margin: 3%;
+    }
+
+    .reserve_bottom li + li {
+        margin: 3%;
+    }
+    .reserve_bottom li.list_left {
+        margin: 3%;
+    }
 
 }
 
