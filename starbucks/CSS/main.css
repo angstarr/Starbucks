@@ -3522,6 +3522,60 @@ img.arrow {
     font-size: 14px;
 }
 
+.reserve_bottom {
+    margin-bottom: 200px;
+}
+
+.reserve_bottom .bottom_tit {
+    background: #222;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+.reserve_bottom .bottom_tit p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0 20px 20px;
+    letter-spacing: -1.5px;
+}
+
+.reserve_bottom ul {
+    overflow: hidden;
+}
+
+.reserve_bottom li {
+    position: relative;
+    float: left;
+    width: 260px;
+    text-align: center;
+}
+
+.reserve_bottom li + li {
+    margin-left: 20px;
+}
+
+.reserve_bottom li.list_left {
+    margin-left: 0;
+}
+
+.reserve_bottom li img.new {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+.reserve_bottom li a {
+    color: #888;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.reserve_bottom li .reserve_logo {
+    width: 25px;
+}
+
 /* reserve 끝 */
 
 
