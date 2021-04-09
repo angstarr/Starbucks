@@ -3578,6 +3578,149 @@ img.arrow {
 
 /* reserve 끝 */
 
+/* drink 시작 */
+
+.main_drink {
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+.drink_top {
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.drink_top h3 {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.drink_btn {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+
+.drink_top ul {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
+.drink_top li {
+    float: left;
+    border: 1px solid #f4f4f1;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.drink_top li.on a {
+    border: 1px solid #063;
+    border-radius: 3px;
+    background: #063;
+    color: #fff;
+}
+
+.drink_top li a {
+    display: block;
+    text-align: center;
+    width: 220px;
+    height: 32px;
+    line-height: 32px;
+    color: #222;
+    background: #f4f4f1;
+}
+
+
+input[type="checkbox"] {
+  width: 15px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+label {
+    margin: 0 10px 20px 5px;
+    letter-spacing: -1px;
+}
+
+.drink_bottom {
+    width: 100%;
+    overflow: hidden;
+}
+
+.drink_bottom ul.drink.menu {
+    float: left;
+}
+
+.drink_bottom ul.drink_list:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.drink_bottom .drink_menu li {
+    float: left;
+    margin-right: 20px;
+}
+
+.drink_bottom .drink_menu li:first-child a {
+    background: url('img/drink/on.png') 9px center no-repeat #666;
+}
+
+.drink_bottom .drink_menu li:last-child a {
+    background: url('img/drink/ante.png') 9px center no-repeat #eee;
+    color: #222;
+}
+
+.drink_bottom .drink_menu li a {
+    display: block;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #666;
+    border-radius: 3px;
+    color: #fff;
+}
+
+ul.drink_list {
+    margin-top: 40px;
+    float: left;
+}
+
+ul.drink_list li {
+    float: left;
+    width: 258px;
+}
+
+ul.drink_list li img {
+    width: 100%;
+}
+
+ul.drink_list li + li {
+    margin-left: 16px;
+}
+
+ul.drink_list li p {
+    text-align: center;
+    color: #222;
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+
+/* drink 끝 */
+
 
 /* 반응형 시작 */
 @media screen and (max-width: 1440px) {
@@ -3777,6 +3920,24 @@ img.arrow {
       .reserve_bottom li.list_left {
           margin: 0.5%;
       }
+
+      .main_drink {
+          width: 96%;
+      }
+
+      ul.drink_list {
+          width: 100%;
+      }
+
+      ul.drink_list li {
+          width: 24%;
+          margin: 0.5%;
+      }
+
+      ul.drink_list li + li {
+          margin: 0.5%;
+      }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -5730,6 +5891,15 @@ img.arrow {
         width: 100%;
     }
 
+    ul.drink_list li {
+        width: 31%;
+        margin: 0.6%;
+    }
+
+    ul.drink_list li + li {
+        margin: 0.6%;
+    }
+
 
 }
 
@@ -7096,6 +7266,55 @@ img.arrow {
     }
     .reserve_bottom li.list_left {
         margin: 3%;
+    }
+
+    .main_drink .drink_btn {
+        top: 20px;
+    }
+
+    .drink_top li {
+        width: 47%;
+        margin: 0 1%;
+    }
+
+    .drink_top li a {
+        width: 100%;
+    }
+
+    .drink_top fieldset ul {
+        height: 100px;
+        overflow-y: scroll;
+    }
+
+    .drink_top fieldset li {
+        float: none;
+        border: none;
+        margin: 15px 0;
+    }
+
+    ul.drink_menu li {
+        width: 45%;
+    }
+
+    ul.drink_menu li + li {
+        margin-left: 1.5%;
+    }
+
+    .drink_bottom ul.drink_menu li a {
+        width: 96%;
+        height: 34px;
+        line-height: 34px;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    ul.drink_list li {
+        width: 49%;
+        margin: 0.5%;
+    }
+
+    ul.drink_list li + li {
+        margin: 0.5%;
     }
 
 }
