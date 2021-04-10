@@ -3918,8 +3918,8 @@ ul.drink_list li p {
 }
 
 .planet_graph table {
-    border-top: 2px solid #222;
-    border-bottom: 2px solid #222;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
     width: 740px;
     letter-spacing: -1px;
     border-spacing: 0;
@@ -3956,6 +3956,45 @@ ul.drink_list li p {
 
 .planet_graph span.font_size {
     font-size: 12px;
+}
+
+.quarter_table {
+    width: 1100px;
+    margin: 0 auto 100px;
+}
+
+.quarter_table table {
+    border-top: 1px solid #222;
+    border-spacing: 0;
+    width: 1100px;
+    letter-spacing: -1px;
+}
+
+.quarter_table th {
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 14px 0;
+    font-size: 14px;
+    width: 15%;
+}
+
+.quarter_table th:last-child {
+    border-right: none;
+    width: 85%;
+}
+
+.quarter_table td {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #666;
+    padding: 14px;
+    text-align: center;
+}
+
+.quarter_table td:last-child {
+    border-right: none;
+    text-align: left;
 }
 
 /* shared_planet 끝 */
