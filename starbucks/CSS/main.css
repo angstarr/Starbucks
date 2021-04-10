@@ -3745,6 +3745,115 @@ ul.drink_list li p {
     margin-top: 30px;
 }
 
+.planet_top .planet_intro {
+    background: #f6f5ef;
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+.planet_intro ul {
+    float: left;
+    padding: 30px 30px 20px;
+}
+
+.planet_intro ul li {
+    float: left;
+    width: 280px;
+    border-left: 1px solid #ddd;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+.planet_intro ul li:first-child {
+    border-left: none;
+    margin-left: 0;
+}
+
+.planet_intro h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.planet_top a {
+    display: block;
+    width: 200px;
+    height: 34px;
+    line-height: 34px;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 3px;
+    text-align: center;
+    transition: background .7s, color .7s;
+}
+
+.planet_top a:hover {
+    background: #222;
+    color: #fff;
+}
+
+.planet_middle {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.planet_middle h2 {
+    margin: 100px 0 40px;
+}
+
+.planet_middle ul {
+    width: 100%;
+    float: left;
+}
+
+.planet_middle li {
+    position: relative;
+    float: left;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.planet_middle li:last-child {
+    margin-right: 0;
+}
+
+.planet_middle li p.img_txt {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.planet_middle p {
+    font-size: 14px;
+    margin: 25px 0;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.planet_middle li a {
+    display: block;
+    text-align: center;
+    background: #222;
+    color: #fff;
+    border: 2px solid #222;
+    border-radius: 3px;
+    width: 90px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+
+
+.planet_bottom {
+    height: 400px;
+}
+
 
 /* shared_planet 끝 */
 
