@@ -4058,7 +4058,7 @@ ul.drink_list li p {
 }
 
 .ethical_report h3 {
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .ethical_report h4 {
@@ -4118,6 +4118,15 @@ ul.drink_list li p {
     color: #063;
     text-decoration: underline;
 }
+
+.ethical_info_list .w-list {
+    display: block;
+}
+
+.ethical_info_list .m-list {
+    display: none;
+}
+
 
 /* ethical 끝 */
 
@@ -4390,6 +4399,42 @@ ul.drink_list li p {
 
       /* planet 1120px */
     
+
+      /* ethical 1120px */
+
+      .ethical_wrap {
+          width: 96%;
+      }
+
+      .ethical_main, 
+      .ethical_info_list,
+      .ethical_report,
+      .ethical_bottom {
+          width: 100%;
+      }
+
+      .ethical_report .ethical_report_inner {
+          width: 100%;
+      }
+
+      .ethical_report ul {
+          width: 100%;
+      }
+
+      .ethical_report li {
+          width: 36%;
+      }
+
+      .ethical_report li:first-child {
+          width: 60%;
+          margin-right: 2%;
+      }
+
+      .ethical_report p.word_info {
+          width: 100%;
+      }
+
+      /* ethical 1120px */
     
     }
 
@@ -7827,6 +7872,39 @@ ul.drink_list li p {
     }
 
     /* planet 640px */
+
+    /* ethical 640px */
+
+    .ethical_report li {
+        padding: 5px;
+    }
+
+    .ethical_report li.left_list {
+        width: 100%;
+    }
+
+    .ethical_report li.right_list {
+        width: 100%;
+        float: none;
+    }
+
+    .ethical_info_list .w-list {
+        display: none;
+    }
+
+    .ethical_info_list .m-list {
+        display: block;
+    }
+
+    select.m-list {
+        width: 100%;
+        border: 1px solid #666;
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* ethical 640px */
 
 }
 
