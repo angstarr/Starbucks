@@ -3848,12 +3848,115 @@ ul.drink_list li p {
     margin: 0 auto;
 }
 
-
-
 .planet_bottom {
-    height: 400px;
+    width: 1100px;
+    margin: 100px auto;
 }
 
+.planet_bottom h3 {
+    margin: 25px 0;
+    letter-spacing: -1.5px;
+}
+
+.planet_bottom p {
+    font-size: 13px;
+    color: #666;
+    letter-spacing: -1.5px;
+    margin-bottom: 30px;
+}
+
+.planet_bottom ul {
+    float: left;
+}
+
+.planet_bottom li {
+    float: left;
+    margin-right: 30px;
+}
+
+.planet_bottom li.list_tit {
+    color: #063;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    padding-top: 4px;
+}
+
+.planet_bottom select {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    width: 150px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.planet_bottom li a {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: #666;
+    border: 2px solid #666;
+    border-radius: 3px;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.planet_graph {
+    width: 1100px;
+    margin: 70px auto 100px;
+}
+
+.planet_graph .graph_img {
+    display: block;
+    float: left;
+    width: 330px;
+    height: 330px;
+    margin-right: 30px;
+}
+
+.planet_graph table {
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    width: 740px;
+    letter-spacing: -1px;
+    border-spacing: 0;
+
+}
+
+.planet_graph th {
+    padding: 17px 0;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.planet_graph th:first-child {
+    width: 27%;
+}
+
+.planet_graph th:last-child {
+    border-right: none;
+}
+
+.planet_graph td {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #666;
+    padding: 17px;
+    vertical-align: top;
+}
+
+.planet_graph td:last-child {
+    border-right: none;
+}
+
+.planet_graph span.font_size {
+    font-size: 12px;
+}
 
 /* shared_planet 끝 */
 
