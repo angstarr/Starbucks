@@ -2075,7 +2075,7 @@ img.arrow {
     color: #222;
     border: 2px solid #222;
     border-radius: 3px;
-    width: 100%
+    width: 100%;
     height: 36px;
     line-height: 36px;
     text-align: center;
@@ -4217,7 +4217,61 @@ ul.drink_list li p {
           margin: 0.5%;
       }
 
-}
+      /* planet 1120px */
+      
+      .planet_top, 
+      .planet_middle, 
+      .planet_bottom, 
+      .planet_graph, 
+      .quarter_table {
+          width: 96%;
+      }
+
+      .planet_top .planet_intro ul {
+          width: 100%;
+      }
+
+      .planet_top .planet_intro li {
+          width: 28%;
+          padding-left: 2%;
+      }
+
+      .planet_middle ul.middle_list {
+          width: 100%;
+      }
+
+      .planet_middle ul li {
+          width: 28%;
+          margin-right: 2%;
+      }
+
+      .planet_middle ul li p.img_txt {
+          width: 100%;
+          left: 20px;
+          top: 140px;
+      }
+
+      .planet_middle li p {
+          font-size: 13px;
+      }
+
+      .planet_graph .graph_img {
+          float: none;
+          margin: 0 auto 50px;
+      }
+
+      .planet_graph table {
+          width: 100%;
+      }
+
+      .quarter_table table {
+          width: 100%;
+      }
+
+      /* planet 1120px */
+    
+    
+    }
 
 @media screen and (max-width: 1024px) {
 
@@ -6179,6 +6233,42 @@ ul.drink_list li p {
         margin: 0.6%;
     }
 
+    /* planet 960px */
+
+    .planet_top p.txt_tit {
+        font-size: 16px;
+    }
+
+    .planet_top .planet_intro ul {
+        box-sizing: border-box;
+    }
+
+    .planet_middle ul.middle_list li {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .planet_middle li p {
+        font-size: 14px;
+    }
+
+    .planet_middle ul.middle_list br {
+        display: none;
+    }
+
+    .planet_bottom li {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .planet_bottom li select {
+        width: 100px;
+    }
+
+    /* planet 960px */
+
 
 }
 
@@ -7377,10 +7467,6 @@ ul.drink_list li p {
 
     }
     
-    .egift_info_main ul li img {
-        
-    }
-    
     .egift_info_main .arrow {
         margin: 30px 0;
     }
@@ -7595,6 +7681,32 @@ ul.drink_list li p {
     ul.drink_list li + li {
         margin: 0.5%;
     }
+
+    /* planet 640px */
+
+    .planet_top .planet_intro li {
+        float: none;
+        width: 100%;
+        margin: 0 0 30px;
+        border-left: 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .planet_top .planet_intro li:last-child {
+        border-bottom: 0;
+    }
+
+    .planet_middle ul.middle_list {
+        width: 98%;
+    }
+
+    .planet_middle li a {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    /* planet 640px */
 
 }
 
@@ -7864,5 +7976,15 @@ ul.drink_list li p {
         top: 560px;
     }
 
+
+    .planet_bottom li.list_tit {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .planet_bottom li:last-child {
+        margin-bottom: 40px;
+    }
+    
 
 }
