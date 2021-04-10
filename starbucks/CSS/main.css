@@ -3701,15 +3701,13 @@ ul.drink_list {
 ul.drink_list li {
     float: left;
     width: 258px;
+    margin: 0 8px;
 }
 
 ul.drink_list li img {
     width: 100%;
 }
 
-ul.drink_list li + li {
-    margin-left: 16px;
-}
 
 ul.drink_list li p {
     text-align: center;
@@ -3717,9 +3715,39 @@ ul.drink_list li p {
     font-size: 14px;
     letter-spacing: -1px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* drink 끝 */
+
+/* shared_planet 시작 */
+
+.planet_top {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.planet_inner {
+    width: 100%;
+}
+
+.planet_top p {
+    font-size: 14px;
+    letter-spacing: -1.5px;
+    margin-bottom: 30px;
+}
+
+.planet_top p.txt_tit {
+    font-size: 20px;
+    font-style: italic;
+    color: #063;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+/* shared_planet 끝 */
+
 
 
 /* 반응형 시작 */
