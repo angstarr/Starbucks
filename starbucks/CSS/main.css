@@ -4002,12 +4002,17 @@ ul.drink_list li p {
 /* ethical 시작 */
 
 .ethical_wrap {
-    width: 1100px;
     margin: 0 auto;
 }
 
 .ethical_main {
+    width: 1100px;
     margin: 0 auto 30px;
+}
+
+.ethical_info_list {
+    width: 1100px;
+    margin: 0 auto;
 }
 
 .ethical_info_list:after {
@@ -4041,46 +4046,77 @@ ul.drink_list li p {
     color: #fff;
 }
 
-.ethical_report1 {
-    width: 100%;
+.ethical_report {
     margin: 30px auto;
     letter-spacing: -1px;
 }
 
-.ethical_report1:after {
+.ethical_report:after {
     display: block;
     content: '';
     clear: both;
 }
 
-.ethical_report1 h3 {
+.ethical_report h3 {
     margin-bottom: 30px;
 }
 
-.ethical_report1 h4 {
+.ethical_report h4 {
     margin-bottom: 25px;
 }
 
-.ethical_report1 p {
+.ethical_report p {
     margin-bottom: 40px;
     font-size: 15px;
     color: #666;
 }
 
-.ethical_report1 li.left_list {
+.ethical_report ul {
+    width: 1100px;
+}
+
+.ethical_report li.left_list {
     float: left;
 }
 
-.ethical_report1 li.right_list {
+.ethical_report li.right_list {
     float: right;
 }
 
-.ethical_report1 p.word_info {
+.ethical_report p.word_info {
     font-size: 12px;
 }
 
-.ethical_report1 p.word_info span {
+.ethical_report p.word_info span {
     color: #063;
+}
+
+.ethical_report.report2 {
+    padding: 60px 0;
+    background: #f4f4f2;
+}
+
+.ethical_report .ethical_report_inner {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.ethical_bottom {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.ethical_bottom p {
+    padding: 20px 0 60px;
+    border-top: 1px solid #eee;
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #666;
+}
+
+.ethical_bottom p span {
+    color: #063;
+    text-decoration: underline;
 }
 
 /* ethical 끝 */
