@@ -4478,6 +4478,52 @@ ul.drink_list li p {
     font-size: 13px;
 }
 
+.environment_eco h4 {
+    color: #063;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+.environment_eco p {
+    color: #666;
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+.environment_eco_img {
+    margin-bottom: 80px;
+}
+
+.environment_eco a {
+    color: #222;
+    border-bottom: 1px dotted #222;
+}
+
+.environment_eco a:hover {
+    text-decoration: none;
+}
+
+.environment_campaign {
+    margin: 70px 0;
+}
+
+.environment_campaign p {
+    margin: 25px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.environment_campaign a {
+    color: #222;
+    border-bottom: 1px dotted #222;
+}
+
+.environment_campaign a:hover {
+    text-decoration: none;
+}
+
 
 /* environment 끝 */
 
