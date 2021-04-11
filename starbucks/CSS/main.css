@@ -4398,7 +4398,7 @@ ul.drink_list li p {
 
 .environment_info {
     width: 100%;
-    margin: 40px auto;
+    margin: 40px auto 80px;
 }
 
 .environment_info:after {
@@ -4432,6 +4432,52 @@ ul.drink_list li p {
     line-height: 26px;
     border-bottom: 1px dotted #222;
 }
+
+.environment_info .info_txt a:hover {
+    text-decoration: none;
+}
+
+.environment_list:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.environment_list li {
+    width: 550px;
+    margin-bottom: 80px;
+}
+
+.environment_list li.list1 {
+    float: right;
+}
+
+.environment_list li.list2 {
+    float: left;
+    width: 520px;
+}
+
+.environment_list li.list3 {
+    float: left;
+}
+
+.environment_list li.list4 {
+    float: right;
+    width: 520px;
+}
+
+.environment_list li h4 {
+    color: #063;
+    font-style: italic;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+.environment_list li p {
+    color: #666;
+    font-size: 13px;
+}
+
 
 /* environment 끝 */
 
