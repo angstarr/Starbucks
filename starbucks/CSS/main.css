@@ -4698,7 +4698,7 @@ ul.graph_bar_list {
 }
 
 .hope_year_graph .graph_bar_list li.bar1 {
-    left: 160px;
+    left: 165px;
     bottom: 56px;
 }
 
@@ -4707,6 +4707,58 @@ ul.graph_bar_list {
     height: 50px;
     width: 40px;
 }
+
+.hope_year_graph .graph_bar_list li.bar2 {
+    left: 265px;
+    bottom: 102px;
+}
+
+.graph_bar_list li.bar2 span.graph_bar {
+    background: #e2d9c2;
+    height: 150px;
+    width: 40px;
+}
+
+.hope_year_graph .graph_bar_list li.bar2 p {
+    position: absolute; 
+    font-size: 14px;
+    top: -120px;
+    left: -20px;
+    font-weight: bold;
+}
+
+
+
+ul.graph_year_list:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+ul.graph_year_list li {
+    border: none;
+}
+
+ul.graph_year_list li {
+    float: left;
+}
+
+ul.graph_year_list span {
+    position: relative;
+    padding: 0 10px;
+    top: 15px;
+    left: 120px;
+}
+
+.graph_bottom_info {
+    margin: 40px auto;
+    border-top: 1px solid #dfdfdd;
+    padding: 40px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
 
 
 /* hope_delivery  끝 */
