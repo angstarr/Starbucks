@@ -4644,6 +4644,10 @@ span.year_bg7 { background: #744f28; }
 span.year_bg8 { background: #4f2c1d; }
 span.year_bg9 { background: #669900; }
 
+.hope_year_graph {
+    position: relative;
+}
+
 .hope_graph_inner {
     width: 1100px;
     margin: 0 auto;
@@ -4656,7 +4660,7 @@ span.year_bg9 { background: #669900; }
     height: 46px;
 }
 
-.hope_year_graph li:last-child {
+.hope_year_graph li.last_graph {
     border-bottom: 2px solid #222;
 }
 
@@ -4664,13 +4668,44 @@ span.year_bg9 { background: #669900; }
     display: block;
     position: absolute;
     background: #f4f4f2;
-    width: 70px;
+    width: 80px;
     bottom: -8px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: right;
     font-size: 14px;
     color: #666;
+}
+
+ul.graph_bar_list {
+    position: absolute;
+}
+
+.hope_year_graph .graph_bar_list li {
+    border: none;
+}
+
+.hope_year_graph .graph_bar_list p {
+    position: absolute; 
+    font-size: 14px;
+    top: -20px;
+    left: -14px;
+    font-weight: bold;
+}
+
+.hope_year_graph .graph_bar_list li span {
+    padding: 0;
+}
+
+.hope_year_graph .graph_bar_list li.bar1 {
+    left: 160px;
+    bottom: 56px;
+}
+
+.graph_bar_list li.bar1 span.graph_bar {
+    background: #d7d2cb;
+    height: 50px;
+    width: 40px;
 }
 
 
