@@ -4565,19 +4565,18 @@ ul.drink_list li p {
 
 /* hope_delivery  시작 */
 
-.hopedelivery_wrap {
+
+.hope_main {
+    margin: 30px auto;
     width: 1100px;
-    margin: 0 auto;
     letter-spacing: -1px;
 }
 
-.hope_main {
-    margin: 30px 0;
-}
-
 .hope_info {
-    margin: 30px 0 60px;
+    margin: 30px auto 60px;
     line-height: 22px;
+    width: 1100px;
+    letter-spacing: -1px;
 }
 
 .hope_info h3 {
@@ -4590,6 +4589,10 @@ ul.drink_list li p {
 .hope_info p {
     color: #666;
     font-size: 14px;
+}
+
+.hope_graph {
+    background: #f4f4f2;
 }
 
 .hope_graph h3 {
@@ -4640,6 +4643,36 @@ span.year_bg6 { background: #924c2e; }
 span.year_bg7 { background: #744f28; }
 span.year_bg8 { background: #4f2c1d; }
 span.year_bg9 { background: #669900; }
+
+.hope_graph_inner {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.hope_year_graph li {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 46px;
+}
+
+.hope_year_graph li:last-child {
+    border-bottom: 2px solid #222;
+}
+
+.hope_year_graph li span {
+    display: block;
+    position: absolute;
+    background: #f4f4f2;
+    width: 70px;
+    bottom: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+}
+
 
 /* hope_delivery  끝 */
 
