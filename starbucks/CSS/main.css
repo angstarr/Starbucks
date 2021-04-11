@@ -4130,6 +4130,182 @@ ul.drink_list li p {
 
 /* ethical 끝 */
 
+/* ethically_sourcing 시작 */
+
+.sourcing_wrap {
+    width: 1100px;
+    margin: 0 auto;
+    letter-spacing: -1px;
+}
+
+.sourcing_main {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.sourcing_info h2 {
+    color: #063;
+    font-weight: normal;
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.sourcing_info p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+.sourcing_section {
+    margin: 40px 0;
+}
+
+.sourcing_section_top {
+    position: relative;
+}
+
+.sourcing_section_top:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.sourcing_section_top .section_left {
+    position: relative;
+    width: 501px;
+    height: 120px;
+    top: 20px;
+    left: 40px;
+    background: url('img/sourcing/txt_bg1.png') 0 0 no-repeat;
+}
+
+.sourcing_section_top .section_right {
+    position: absolute;
+    width: 501px;
+    height: 120px;
+    top: 20px;
+    right: 0;
+    background: url('img/sourcing/txt_bg2.png') 0 0 no-repeat;
+}
+
+.sourcing_section_top > h4 {
+    position: relative;
+    float: left;
+    top: 65px;
+    left: 0;
+    color: #063;
+    font-weight: normal;
+}
+
+.sourcing_section_top .section_left {
+    float: left;
+    padding: 25px 0 0 150px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.sourcing_section_top .section_left h4 {
+    margin-bottom: 10px;
+}
+
+.sourcing_section_top .section_left p {
+    font-size: 13px;
+}
+
+.sourcing_section_top .section_right {
+    float: right;
+    padding: 25px 0 0 150px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.sourcing_section_top .section_right h4 {
+    margin-bottom: 10px;
+}
+
+.sourcing_section_top .section_right p {
+    font-size: 13px;
+}
+
+.sourcing_section_plus {
+    width: 38px;
+    padding-left: 140px;
+    margin: 40px auto 10px;
+}
+
+.sourcing_section_bottom {
+    position: relative;
+}
+
+.sourcing_section_bottom:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.sourcing_section_bottom .section_left {
+    position: relative;
+    width: 501px;
+    height: 120px;
+    top: 20px;
+    left: 10px;
+    background: url('img/sourcing/txt_bg3.png') 0 0 no-repeat;
+}
+
+.sourcing_section_bottom .section_right {
+    position: absolute;
+    width: 501px;
+    height: 120px;
+    top: 20px;
+    right: 0;
+    background: url('img/sourcing/txt_bg4.png') 0 0 no-repeat;
+}
+
+.sourcing_section_bottom > h4 {
+    position: relative;
+    float: left;
+    top: 65px;
+    left: 0;
+    color: #4f2c1d;
+    font-weight: normal;
+}
+
+.sourcing_section_bottom .section_left {
+    float: left;
+    padding: 15px 0 0 150px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.sourcing_section_bottom .section_left h4 {
+    margin-bottom: 10px;
+}
+
+.sourcing_section_bottom .section_left p {
+    font-size: 13px;
+}
+
+.sourcing_section_bottom .section_right {
+    float: right;
+    padding: 15px 0 0 150px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.sourcing_section_bottom .section_right h4 {
+    margin-bottom: 10px;
+}
+
+.sourcing_section_bottom .section_right p {
+    font-size: 13px;
+}
+
+
+
+/* ethically_sourcing 끝 */
+
 /* 반응형 시작 */
 @media screen and (max-width: 1440px) {
 
