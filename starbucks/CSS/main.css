@@ -4524,6 +4524,41 @@ ul.drink_list li p {
     text-decoration: none;
 }
 
+.environment_main {
+    height: 370px;
+    margin-bottom: 40px;
+}
+
+.environment_wrap p.tit {
+    font-size: 14px;
+}
+
+.environment-slide1 {
+    background: url('img/enviro/slide1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.environment-slide2 {
+    background: url('img/enviro/slide2.png') no-repeat;
+    background-size: cover;
+}
+
+.environment-slide3 {
+    background: url('img/enviro/slide3.png') no-repeat;
+    background-size: cover;
+}
+
+.environment_main .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+}
+
+.environment_main .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
 
 /* environment 끝 */
 
@@ -4935,7 +4970,23 @@ ul.drink_list li p {
           width: 100%;
       }
 
-      .environment_list 
+      .environment_main {
+          height: 300px;
+      }
+
+      .swiper-container .environment_main {
+          width: 100%;
+          height: 100%;
+      }
+      
+
+      .environment-slide1, 
+      .environment-slide2,
+      .environment-slide3 {
+        background-size: 100% auto;
+    }
+
+      
 
 
 @media screen and (max-width: 1024px) {
@@ -6977,6 +7028,10 @@ ul.drink_list li p {
 
     .sourcing_section2 li.list_left.list_ing {
         rotate: 180
+    }
+
+    .environment_main {
+        height: 200px;
     }
 
     /* sourcing 960px */

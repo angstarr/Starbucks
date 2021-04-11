@@ -177,6 +177,22 @@ $(document).ready(function(){
           el: '.swiper-pagination',
           clickable : true,
         },
-      });
+    });
+
+    var environSwiper = new Swiper('.environment_main', {
+
+      slidesPerView: 1,
+      loop: true,
+      autoplay: true,
+      speed: 1000,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable : true,
+      },
+      navigation : { 
+        nextEl : '.swiper-button-next',
+        prevEl : '.swiper-button-prev',
+      },
+  });
 
 });
