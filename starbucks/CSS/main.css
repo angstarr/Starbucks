@@ -4386,10 +4386,61 @@ ul.drink_list li p {
     text-decoration: none;
 }
 
-
 /* ethically_sourcing 끝 */
 
+/* environment 시작 */
+
+.environment_wrap {
+    width: 1100px;
+    margin: 0 auto;
+    letter-spacing: -1px;
+}
+
+.environment_info {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.environment_info:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.environment_info .info_img {
+    float: left;
+}
+
+.environment_info .info_txt {
+    position: relative;
+    float: left;
+    top: 60px;
+    width: 500px;
+}
+
+.environment_info .info_txt p {
+    margin: 25px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.environment_info .info_txt a {
+    display: block;
+    color: #222;
+    width: 163px;
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px dotted #222;
+}
+
+/* environment 끝 */
+
+
+
+
+
 /* 반응형 시작 */
+
 @media screen and (max-width: 1440px) {
 
     .floating_badge {
