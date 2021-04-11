@@ -4904,8 +4904,39 @@ ul.drink_list li p {
       }
 
       /* sourcing 1120px */
-    
-    }
+
+      /* environment 1120px */
+
+      .environment_wrap {
+          width: 96%;
+      }
+
+      .environment_info .info_img {
+          width: 48%;
+      }
+
+      .environment_info .info_txt {
+          width: 50%;
+          top: auto;
+      }
+      
+      .environment_list {
+          width: 100%;
+          margin-bottom: 80px;
+      }
+
+      .environment_list li {
+          float: none !important;
+          width: 100% !important;
+          text-align: center;
+      }
+
+      .environment_list li img {
+          width: 100%;
+      }
+
+      .environment_list 
+
 
 @media screen and (max-width: 1024px) {
 
@@ -8470,6 +8501,41 @@ ul.drink_list li p {
 
 
     /* sourcing 640px */
+
+    /* environment 640px */
+
+
+    .environment_list li {
+        margin: 25px 0;
+        text-align: left;
+    }
+
+    .environment_list li h4 br {
+        display: none;
+    }
+
+    .environment_list li h4 {
+        font-size: 20px;
+    }
+
+    .environment_list li p br {
+        display: none;
+    }
+
+    .environment_list li p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .environment_eco_img h3{
+        margin: 25px 0 0;
+    }
+
+    .environment_eco_img p {
+        margin: 10px 0 0 20px;
+    }
+
+    /* environment 640px */
 
 }
 
