@@ -5014,6 +5014,45 @@ p.middle_txt span.red {
     border-radius: 3px;
 }
 
+.news_wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.news_wrap thead tr {
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.news_wrap thead tr th {
+    padding: 17px 0;
+}
+
+.news_wrap tr th:nth-child(1) { width: 5%; }
+.news_wrap tr th:nth-child(2) { width: 24%; }
+.news_wrap tr th:nth-child(3) { width: 13%; }
+.news_wrap tr th:nth-child(4) { width: 48%; }
+.news_wrap tr th:nth-child(5) { width: 7%; }
+
+.news_wrap tbody td {
+    padding: 17px 0;
+}
+
+.news_wrap tr td:nth-child(4) { text-align: left; }
+
+.news_wrap tbody td:nth-child(2n+1) {
+    font-size: 14px;
+    color: #666;
+}
+
+.news_wrap td a {
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
 /* news 끝 */
 
 /* 반응형 시작 */
