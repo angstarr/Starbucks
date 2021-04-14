@@ -1054,13 +1054,20 @@
       </div>
       <div class="news_wrap">
         <div class="news_list_wrap">
-          <ul class="list_news">
+          <ul class="list_news w-list">
             <li class="on"><a href="#">전체</a></li>
             <li><a href="#">상품 출시</a></li>
             <li><a href="#">스타벅스와 문화</a></li>
             <li><a href="#">스타벅스 사회공헌</a></li>
             <li><a href="#">스타벅스 카드 출시</a></li>
           </ul>
+          <select name="news_list_select" id="news_list_select" class="m-list">
+            <option value="">전체</option>
+            <option value="">상품 출시</option>
+            <option value="">스타벅스와 문화</option>
+            <option value="">스타벅스 사회공헌</option>
+            <option value="">스타벅스 카드 출시</option>
+          </select>
         </div>
         <div class="news_search_wrap">
           <div class="news_search">
@@ -1174,6 +1181,21 @@
             </tr>
           </tbody>
         </table>
+        <div class="news_list_pagination">
+          <ul>
+            <li class="on">
+              <a href="#">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="css/img/news_list/next.jpg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div id="footer">
