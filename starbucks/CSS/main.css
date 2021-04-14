@@ -4945,7 +4945,76 @@ p.middle_txt span.red {
 
 /* store_event 끝 */
 
+/* news 시작 */
 
+.news_wrap {
+    width: 1100px;
+    margin: 0 auto;
+    letter-spacing: -1px;
+}
+
+.news_list_wrap .list_news {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px;
+}
+
+.news_list_wrap .list_news li.on a {
+    display: block;
+    color: #fff;
+    background: #063;
+}
+
+
+.news_list_wrap .list_news li {
+    display: inline-block;
+}
+
+.news_list_wrap .list_news li a {
+    display: block;
+    color: #222;
+    background: #f4f4f1;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border: 1px solid #f4f4f1;
+    border-radius: 5px;
+    width: 190px;
+    margin: 0 5px;
+}
+
+.news_search_wrap {
+    background: #f4f4f1;
+    overflow: hidden;
+    padding: 40px;
+    margin: 40px 0;
+}
+
+.news_search_wrap .news_search {
+    text-align: right;
+}
+
+.news_search_wrap .news_search input {
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-left: 10px;
+    width: 350px;
+    height: 42px;
+}
+
+.news_search_wrap .news_search a {
+    vertical-align: top;
+    display: inline-block;
+    color: #fff;
+    background: #666;
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+/* news 끝 */
 
 /* 반응형 시작 */
 
