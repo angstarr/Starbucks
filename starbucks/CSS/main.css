@@ -5273,15 +5273,67 @@ p.middle_txt span.red {
     background: url(img/scard/main_bg.jpg) right top no-repeat;
 }
 
-.scard_info h4 {
+.scard_info h4,
+.scard_reward h4 {
     color: #063;
     margin: 15px 0;
+    font-size: 15px;
 }
 
-.scard_info .list_scard_info li {
+.scard_info .list_scard_info {
+    margin-bottom: 40px;
+}
+
+.scard_info .list_scard_info li,
+.scard_reward .list_scard_reward li {
     background: url(img/scard/icon_dot.jpg) 0 11px no-repeat;
     padding-left: 8px;
     line-height: 26px;
+    font-size: 14px;
+    color: #666;
+}
+
+.scard_reward .list_scard_reward li span.bogo {
+    color: #b79855
+}
+
+.scard_reward .scard_reward_perform {
+    margin: 60px 0;
+    padding: 0 30px;
+}
+
+.scard_reward .scard_reward_perform ul:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.scard_reward .scard_reward_perform li {
+    position: relative;
+    float: left;
+    background: none;
+    padding: 0;
+}
+
+.scard_reward .scard_reward_perform li:first-child {
+    width: 350px;
+    margin-right: 80px;
+}
+
+.scard_reward .scard_reward_perform li:first-child:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 25px;
+    width: 1px;
+    height: 120px;
+    background: #ddd;
+
+}
+
+.scard_reward .scard_reward_perform li:last-child p {
+    background: url(img/scard/icon_dot.jpg) 0 11px no-repeat;
+    padding-left: 10px;
 }
 
 /* scard_about */
