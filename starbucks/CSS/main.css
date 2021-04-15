@@ -5257,6 +5257,35 @@ p.middle_txt span.red {
 
 /* reward_about */
 
+/* scard_about */
+
+.scard_about_wrap {
+    width: 1100px;
+    margin: 0 auto;
+    letter-spacing: -1px;
+}
+
+.scard_about_banner {
+    margin-bottom: 40px;
+}
+
+.scard_info {
+    background: url(img/scard/main_bg.jpg) right top no-repeat;
+}
+
+.scard_info h4 {
+    color: #063;
+    margin: 15px 0;
+}
+
+.scard_info .list_scard_info li {
+    background: url(img/scard/icon_dot.jpg) 0 11px no-repeat;
+    padding-left: 8px;
+    line-height: 26px;
+}
+
+/* scard_about */
+
 /* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
