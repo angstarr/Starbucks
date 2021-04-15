@@ -5205,6 +5205,58 @@ p.middle_txt span.red {
 
 /* campaign 끝 */
 
+/* reward_about */
+
+.reward_about_wrap {
+    width: 1100px;
+    margin: 0 auto;
+    letter-spacing: -1px;
+}
+
+.reward_about_banner {
+    margin-bottom: 40px;
+}
+
+.service_btn {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.service_btn a {
+    display: block;
+    background: #063;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.reward_about_main {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.reward_about_main .reward_about_main_btn {
+    position: absolute;
+    bottom: 30px;
+    left: 43%;
+}
+
+.reward_about_main .reward_about_main_btn a {
+    display: block;
+    background: #222;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+/* reward_about */
+
 /* 반응형 시작 */
 
 @media screen and (max-width: 1440px) {
@@ -5723,6 +5775,46 @@ p.middle_txt span.red {
 
     .campaign_wrap .list_campaign li h4 {
         font-size: 14px;
+    }
+
+    /* reward_about */
+
+    .reward_about_wrap {
+        width: 96%;
+    }
+
+    .reward_about_banner {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .reward_about_banner img {
+        width: 100%;
+    }
+
+    .reward_about_banner p {
+        margin-top: 15px;
+    }
+
+    .service_btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service_btn a {
+        height: 60px;
+        line-height: 60px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .reward_about_main img {
+        width: 100%;
+    }
+
+    .reward_about_main .reward_about_main_btn {
+        bottom: 80px;
+        left: 38%;
     }
 
 
