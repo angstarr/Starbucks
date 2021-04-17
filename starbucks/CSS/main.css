@@ -5496,6 +5496,11 @@ p.middle_txt span.red {
     color:#222;
     font-size:14px;
     text-align:center;
+    box-sizing:border-box;
+}
+.enjoy_list_wrap ul li:last-child a {
+    line-height: 20px;
+    padding-top: 5px;
 }
 .enjoy_list_wrap ul li.on {
     border:1px solid #063;
@@ -5505,8 +5510,18 @@ p.middle_txt span.red {
     background:#063;
     font-weight:bold;
 }
-
-
+.enjoy_banner_tit {
+    width:1100px;
+    margin:0 auto;
+}
+.enjoy_banner_youtube {
+    width:1100px;
+    margin:0 auto 100px;
+}
+.enjoy_banner_youtube .video {
+    width:100%;
+    height:600px;
+}
 
 
 /* higher_enjoy */
