@@ -5589,6 +5589,9 @@ p.middle_txt span.red {
     transform: scale(1.1);
 }
 
+.m-list {
+    display:none;
+}
 
 /* higher_enjoy */
 
@@ -9913,6 +9916,10 @@ p.middle_txt span.red {
 
     .w-list {
         display: none;
+    }
+
+    .m-list {
+        display: block;
     }
 
     .news_search_wrap {
