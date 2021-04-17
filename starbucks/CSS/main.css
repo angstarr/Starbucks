@@ -6071,6 +6071,62 @@ p.middle_txt span.red {
         left: 38%;
     }
 
+    .scard_about_wrap {
+        width:96%;
+        margin:0 auto;
+    }
+    .scard_about_banner,
+    .scard_reward .scard_reward_inner,
+    .scard_info,
+    .scard_buy {
+        width:100%
+    }
+    .scard_info {
+        background-size:30% auto;
+    }
+    .scard_reward .list_scard_reward li {
+        float:none;
+    }
+    .scard_reward .scard_reward_perform li:after {
+        display:none;
+    }
+    .scard_reward .scard_reward_perform li br {
+        display:none;
+    }
+    .scard_buy_info ul.list_scard_buy_info li {
+        width: 31%;
+        padding-left:1%;
+    }
+    .scard_buy_info ul.list_scard_buy_info li + li:after {
+        display:none;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_img {
+        float:none;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_txt {
+        float:none;
+        padding:20px 0 0 0 ;
+        text-align:center;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_txt h4 {
+        font-size:15px;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_txt p {
+        margin: 10px 0;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_txt a {
+        display:inline-block;
+    }
+    .scard_buy_info ul.list_scard_buy_info li.gift
+    .scard_buy_info_txt h4 {
+        margin-bottom: 35px;
+    }
+
 
 @media screen and (max-width: 1024px) {
 
@@ -9805,6 +9861,44 @@ p.middle_txt span.red {
     }
 
     /* campaign 640px */
+
+    /* scard_about 640px */
+
+    .scard_about_banner img {
+        width: 100%;
+    }
+
+    .scard_info {
+        background: none;
+    }
+
+    .scard_buy .scard_buy_info ul {
+        border:none;
+    }
+    .scard_buy .scard_buy_info .list_scard_buy_info li {
+        border:1px solid #ddd;
+        float:none;
+        width:100%;
+        padding:20px;
+        margin: 5px 0;
+        box-sizing:border-box;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_img {
+        float:left;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_txt {
+        float:left;
+        text-align:left;
+        padding-left:30px;
+    }
+    .scard_buy_info ul.list_scard_buy_info 
+    .scard_buy_info_txt a {
+        width:150px;
+    }
+
+    /* scard_about 640px */
 
 }
 
