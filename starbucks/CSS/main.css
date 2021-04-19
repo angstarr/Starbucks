@@ -6299,6 +6299,23 @@ p.middle_txt span.red {
         background-position: 0 5%;
     }
 
+    /* espresso 1120px */
+
+    .main_espresso {
+        width:96%;
+    }
+    .main_espresso .main_txt br {
+        display:none;
+    }
+
+    .espresso_info .espresso_info_inner {
+        width: 96%;
+    }
+
+    .espresso_info .list_espresso li {
+        width: 30%;
+    }
+
 
 
 @media screen and (max-width: 1024px) {
@@ -8360,6 +8377,18 @@ p.middle_txt span.red {
     }
 
     /* news_list 960px */
+
+    /* espresso 960px */
+
+    .espresso_info .list_espresso li {
+        width: 45%;
+        margin-top: 30px;
+    }
+    .espresso_info .list_espresso li br {
+        display:none;
+    }
+
+    /* espresso 960px */
 }
 
 @media screen and (max-width: 640px) {
@@ -10100,6 +10129,18 @@ p.middle_txt span.red {
     }
 
     /* higher_enjoy 640px */
+
+    /* espresso 640px */
+
+    .espresso_info .list_espresso li {
+        width: 100%;
+        height: 100%;
+    }
+    .espresso_info .list_espresso li a {
+        width: 96%;
+    }
+
+    /* espresso 640px */
 
 }
 
