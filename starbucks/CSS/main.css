@@ -5633,9 +5633,15 @@ p.middle_txt span.red {
     margin-left:20px;
     width:340px;
     height:330px;
+    overflow:hidden;
 }
 .espresso_info .list_espresso li img {
     margin-bottom: 20px;
+    transition: all .5s;
+}
+.espresso_info .list_espresso li img:hover {
+    transform: scale(1.1);
+    transition: all .5s;
 }
 .espresso_info .list_espresso li a {
     display:block;
@@ -10132,9 +10138,13 @@ p.middle_txt span.red {
 
     /* espresso 640px */
 
+    .espresso_info .list_espresso {
+        width: 100%;
+    }
     .espresso_info .list_espresso li {
         width: 100%;
         height: 100%;
+        margin-left: 0;
     }
     .espresso_info .list_espresso li a {
         width: 96%;
