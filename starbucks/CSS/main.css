@@ -3708,7 +3708,6 @@ ul.drink_list li img {
     width: 100%;
 }
 
-
 ul.drink_list li p {
     text-align: center;
     color: #222;
@@ -5652,7 +5651,54 @@ p.middle_txt span.red {
 
 /* espresso */
 
+/* story_coldbrew */
 
+.main_coldbrew {
+    position:relative;
+    width:100%;
+    height:1160px;
+    background:url(img/menu_story/bg_nitro_visual.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.coldbrew_cascading {
+    position:relative;
+    width:100%;
+    height:1130px;
+    background:url(img/menu_story/bg_nitro_info.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.coldbrew_info_01 {
+    position:relative;
+    width:100%;
+    height:360px;
+    background:url(img/menu_story/bg_nitro_bnr01.jpg) no-repeat 50% 50%;
+    background-size:cover;
+}
+.coldbrew_info_02 {
+    position:relative;
+    width:100%;
+    height:360px;
+    background:url(img/menu_story/bg_nitro_bnr02.jpg) no-repeat 50% 50%;
+    background-size:cover;
+}
+.coldbrew_info_03 {
+    position:relative;
+    width:100%;
+    height:360px;
+    background:url(img/menu_story/bg_nitro_bnr03.jpg) no-repeat 50% 50%;
+    background-size:cover;
+}
+.coldbrew_type {
+    position:relative;
+    width:100%;
+    height:813px;
+    background:url(img/menu_story/nitroBg.jpg) no-repeat 50% 50%;
+    background-size:cover;
+}
+
+/* story_coldbrew */
 
 /* 반응형 시작 */
 
@@ -6328,7 +6374,6 @@ p.middle_txt span.red {
 
       .gnb_inner h1.logo {
           left: 20px;
-
       }
 
       .gnb_inner, .gnb_nav .gnb_nav_inner {
