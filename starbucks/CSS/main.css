@@ -5698,6 +5698,49 @@ p.middle_txt span.red {
     background-size:cover;
 }
 
+
+.coldbrew_txt1 {
+    position:absolute;
+    top:170px;
+    left:230px;
+}
+.coldbrew_txt2 {
+    position:absolute;
+    top:420px;
+    left:345px;
+}
+.coldbrew_img {
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+
+.coldbrew_video_wrap {
+    position:absolute;
+    border: 1px solid #d67e42;
+    width:600px;
+    height:350px;
+    left:10%;
+    top:50%;
+    background:#222;
+}
+.coldbrew_video_wrap .coldbrew_video_txt {
+    position:absolute;
+    top:0;
+    right:0;
+    width:300px;
+    height:350px;
+}
+.coldbrew_video_wrap .coldbrew_video_txt p {
+    color:#d67e42;
+    font-size:17px;
+    letter-spacing: -1px;
+    text-align:left;
+    line-height:24px;
+    padding:150px 20px;
+}
+
 /* story_coldbrew */
 
 /* 반응형 시작 */
