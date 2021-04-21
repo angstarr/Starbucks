@@ -5900,6 +5900,38 @@ p.middle_txt span.red {
     background-size:100% auto;
 }
 
+.coldbrew_type .coldbrew_type_txt {
+    position:absolute;
+    width:350px;
+    height:66px;
+    top:120px;
+    left:50%;
+    margin-left:-175px;
+    background:url(img/menu_story/nitroTit.png)  no-repeat;
+    background-size:100% auto;
+}
+.coldbrew_type .coldbrew_type_img {
+    position:absolute;
+    top:250px;
+    left:50%;
+    margin-left:-365px;
+    width: 730px;
+}
+.coldbrew_type_img .coldbrew_type_cream {
+    float:left;
+    background:url(img/menu_story/nitroCardBrew1.png) no-repeat;
+    background-size:100% auto;
+    width:328px;
+    height:478px;
+}
+.coldbrew_type_img .coldbrew_type_coldbrew {
+    float:right;
+    background:url(img/menu_story/nitroCardBrew2.png) no-repeat;
+    background-size:100% auto;
+    width:328px;
+    height:478px;
+}
+
 /* story_coldbrew */
 
 /* 반응형 시작 */
