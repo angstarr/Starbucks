@@ -5932,6 +5932,43 @@ p.middle_txt span.red {
     height:478px;
 }
 
+.coldbrew_store {
+    height:80px;
+    background:#000;
+}
+.coldbrew_store_inner{
+    width:1100px;
+    margin:0 auto;
+}
+.coldbrew_store_img {
+    display:inline-block;
+    width:345px;
+    height:80px;
+    background:url(img/menu_story/nitro_store_tit.png) no-repeat;
+    background-size:100% auto;
+}
+.coldbrew_store p {
+    display:inline-block;
+    color:#fff;
+    font-size:14px;
+    vertical-align:top;
+    margin: 32px 0 0 12px;
+}
+.coldbrew_store a {
+    display:inline-block;
+    float: right;
+    width:100px;
+    line-height:28px;
+    text-align:center;
+    font-size:14px;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:3px;
+    vertical-align:top;
+    right:0;
+    margin-top:27px;
+}
+
 /* story_coldbrew */
 
 /* 반응형 시작 */
