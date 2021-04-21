@@ -6639,6 +6639,49 @@ p.middle_txt span.red {
         width: 30%;
     }
 
+    /* story_coldbrew 1120px */
+
+    .main_coldbrew {
+        height:870px;
+    }
+
+    .main_coldbrew .coldbrew_txt1 {
+        width:350px;
+        top:150px;
+    }
+    .main_coldbrew .coldbrew_txt2 {
+        top:300px;
+        left:280px;
+        width:250px;
+    }
+    .main_coldbrew .coldbrew_img {
+        width:800px;
+        bottom:0;
+        margin-left:-200px;
+        height:735px;
+    }
+
+    .coldbrew_video_wrap {
+        width:500px;
+        height:250px;
+    }
+
+    .coldbrew_video_wrap iframe {
+        width:250px;
+        height:250px;
+    }
+    .coldbrew_video_wrap .coldbrew_video_txt {
+        width:250px;
+        height:250px;
+    }
+    .coldbrew_video_wrap .coldbrew_video_txt p {
+        font-size:14px;
+        padding:120px 20px;
+    }
+
+    .coldbrew_store .coldbrew_store_inner {
+        width:96%;
+    }
 
 
 @media screen and (max-width: 1024px) {
@@ -8711,6 +8754,129 @@ p.middle_txt span.red {
     }
 
     /* espresso 960px */
+
+    /* story_coldbrew 960px */
+    
+    .main_coldbrew {
+        height:700px;
+    }
+
+    .main_coldbrew .coldbrew_txt1 {
+        width:300px;
+        left:180px;
+    }
+    .main_coldbrew .coldbrew_txt2 {
+        width:200px;
+        left:230px;
+    }
+    .main_coldbrew .coldbrew_img {
+        width:700px;
+        height:600px;
+        right:100px;
+    }
+
+    .coldbrew_video_wrap {
+        top:60%;
+        width:400px;
+        height:200px;
+    }
+    .coldbrew_video_wrap iframe {
+        width:200px;
+        height:200px;
+    }
+    .coldbrew_video_wrap .coldbrew_video_txt {
+        width:200px;
+        height:200px;
+    }
+    .coldbrew_video_wrap .coldbrew_video_txt br {
+        display: none;
+    }
+    .coldbrew_video_wrap .coldbrew_video_txt p {
+        padding: 20px 20px 40px;
+    }
+
+    .coldbrew_cascading {
+        height:850px;
+    }
+    .cascading_txt1 {
+        width: 600px;
+        margin-left: -300px;
+    }
+    .cascading_txt2 {
+        width: 500px;
+        top:140px;
+        margin-left: -250px;
+    }
+    .cascading_txt2:after {
+        width:460px;
+        left:30px;
+    }
+    .cascading_img1 {
+        width:100px;
+        height:280px;
+        bottom:10px;
+        margin-left: -50px;
+    }
+    .cascading_img2 {
+        width: 50px;
+        top:300px;
+        margin-left: -25px;
+    }
+    .cascading_info1 {
+        width:270px;
+        top:370px;
+        margin-left:15px;
+    }
+    .cascading_info2 {
+        width:270px;
+        top:500px;
+        margin-left: -300px;
+    }
+    .cascading_info3 {
+        width:250px;
+        top:615px;
+    }
+    .cascading_liquid1 {
+        width:20px;
+        top:490px;
+        margin-left:-11px;
+    }
+    .cascading_liquid2 {
+        width:15px;
+        top:508px;
+        margin-left: -7px;
+    }
+
+    .coldbrew_info_1 .coldbrew_info_txt {
+        width: 200px;
+        margin-left: -250px;
+    }
+    .coldbrew_info_2 .coldbrew_info_txt {
+        width: 200px;
+        margin-right: -300px;
+    }
+    .coldbrew_info_3 .coldbrew_info_txt {
+        width: 200px;
+        margin-left:-250px;
+    }
+    
+    .coldbrew_store {
+        position:relative;
+    }
+    .coldbrew_store .coldbrew_store_img {
+        position:absolute;
+        background-image:url(img/menu_story/m_nitro_store_tit.png);
+        height:40px;
+        top:20px;
+    }
+    .coldbrew_store p {
+        line-height: 45px;
+        padding-left:60px;
+    }
+
+    /* story_coldbrew 960px */
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -10467,6 +10633,146 @@ p.middle_txt span.red {
     }
 
     /* espresso 640px */
+
+    /* story_coldbrew 640px */
+
+    .main_coldbrew {
+        height:1250px;
+        background-image:url(img/menu_story/bg_m_nitro_visual.jpg);
+    }
+    .main_coldbrew .coldbrew_txt1 {
+        background-image:url(img/menu_story/m_nitro_v_txt01_new.png);
+        width:100%;
+        height:inherit;
+        top:50px;
+        margin:0;
+        left:0;
+    }
+    .coldbrew_txt2 {
+        background:none;
+    }
+    .main_coldbrew .coldbrew_img {
+        background-image:url(img/menu_story/m_nitro_v_prd.png);
+        margin: 0;
+        left:50%;
+        width:600px;
+        margin-left:-320px;
+        bottom:150px;
+    }
+
+    .main_coldbrew .coldbrew_video_wrap {
+        top:initial;
+        bottom:0;
+        left:0;
+        height:150px;
+        width:100%;
+        border:none;
+    }
+    .main_coldbrew .coldbrew_video_wrap iframe {
+        width:100%;
+        height:150px;
+    }
+    .main_coldbrew .coldbrew_video_txt {
+        display:none;
+    }
+
+    .coldbrew_cascading {
+        height: 1000px;
+    }
+    .cascading_img1 {
+        background-image:url(img/menu_story/bg_m_cup_on.jpg);
+        left:20%;
+        width:25%;
+        top:53.3%;
+        height:initial;
+    }
+    .cascading_img2 {
+        background-image:url(img/menu_story/bg_m_extractor.png);
+        left:25%;
+        top:27%;
+    }
+    .cascading_info1 {
+        background-image:url(img/menu_story/m_nitro_i_txt02.png);
+        width:65%;
+        top:27%;
+        left:24%;
+    }
+    .cascading_info2 {
+        background-image:url(img/menu_story/m_nitro_i_txt04.png);
+        width:65%;
+        left:25%;
+        top:48%;
+        margin:0;
+    }
+    .cascading_info3 {
+        background-image:url(img/menu_story/m_nitro_i_txt03.png);
+        width:65%;
+        top:66%;
+        left:24%;
+        margin:0;
+    }
+    .cascading_liquid1 {
+        background-image:url(img/menu_story/bg_m_liquid01.png);
+        left:25%;
+        top:45.8%;
+    }
+    .cascading_liquid2 {
+        background-image:url(img/menu_story/bg_m_liquid02.png);
+        left:25%;
+        top:48%;
+    }
+
+    .coldbrew_info_1 {
+        background-image:url(img/menu_story/bg_m_nitro_bnr01.jpg);
+        height:700px;
+    }
+    .coldbrew_info_1 .coldbrew_info_txt {
+        background-image:url(img/menu_story/m_nitro_bnr_txt01.png);
+        width:640px;
+        height:166px;
+        margin-left:-320px;
+    }
+    .coldbrew_info_2 {
+        background-image:url(img/menu_story/bg_m_nitro_bnr02.jpg);
+        height:700px;
+    }
+    .coldbrew_info_2 .coldbrew_info_txt {
+        background-image: url(img/menu_story/m_nitro_bnr_txt02.png);
+        width:640px;
+        height:166px;
+        left:50%;
+        margin-left:-320px;
+        margin-right:inherit;
+    }
+    .coldbrew_info_3 {
+        background-image:url(img/menu_story/bg_m_nitro_bnr03.jpg);
+        height:700px;
+    }
+    .coldbrew_info_3 .coldbrew_info_txt {
+        background-image: url(img/menu_story/m_nitro_bnr_txt03.png);
+        width:640px;
+        height:166px;
+        margin-left:-320px;
+    }
+
+    .coldbrew_type .coldbrew_type_img {
+        width:450px;
+        margin-left:-225px;
+    }
+    .coldbrew_type_img span.coldbrew_type_cream {
+        width:200px;
+    }
+    .coldbrew_type_img .coldbrew_type_coldbrew {
+        width:200px;
+    }
+
+    #map {
+        height:600px !important;
+    }
+
+
+
+    /* story_coldbrew 640px */
 
 }
 

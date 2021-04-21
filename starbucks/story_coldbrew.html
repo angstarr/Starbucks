@@ -1030,13 +1030,13 @@
     </div>
     <div id="container">
         <div class="main_coldbrew">
-          <span class="coldbrew_txt1">
+          <span class="coldbrew_txt1 blind">
             NITRO COLD BREW
           </span>
-          <span class="coldbrew_txt2">
+          <span class="coldbrew_txt2 blind">
             나이트로 콜드 브루
           </span>
-          <span class="coldbrew_img">
+          <span class="coldbrew_img blind">
             나이트로 콜드 브루
           </span>
           <div class="coldbrew_video_wrap">
@@ -1079,7 +1079,7 @@
           <div class="coldbrew_store_inner">
             <span class="coldbrew_store_img"></span>
             <p>나이트로 콜드 브루 판매 매장을 확인하세요.</p>
-            <a href="#">매장 확인</a>
+            <a href="javascript:void(0);" onclick="panTo()">매장 확인</a>
           </div>
         </div>
         <div id="map" class="coldbrew_map" style="width:100%; height:800px;">
@@ -1317,32 +1317,26 @@
               level: 4
           };
 
-      var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+      var map = new kakao.maps.Map(mapContainer, mapOption);
 
-      var imageSrc = 'css/img/menu_story/pin_general.png', // 마커이미지의 주소입니다    
-          imageSize = new kakao.maps.Size(38, 60), // 마커이미지의 크기입니다
-          imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+      var imageSrc = 'css/img/menu_story/pin_general.png',
+          imageSize = new kakao.maps.Size(38, 60),
+          imageOption = {offset: new kakao.maps.Point(27, 69)}; 
             
-      // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
       var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
-          markerPosition = new kakao.maps.LatLng(35.550112, 129.297340); // 마커가 표시될 위치입니다
+          markerPosition = new kakao.maps.LatLng(35.550112, 129.297340);
 
-      // 마커를 생성합니다
       var marker = new kakao.maps.Marker({
           position: markerPosition, 
-          image: markerImage // 마커이미지 설정 
+          image: markerImage
       });
 
-      // 마커가 지도 위에 표시되도록 설정합니다
       marker.setMap(map);  
+      function panTo() {
+      var moveLatLon = new kakao.maps.LatLng(35.550112, 129.297340);
 
-      function resizeMap() {
-      var mapContainer = document.getElementById('map');
-      mapContainer.style.width = '1120px';
-      mapContainer.style.height = '600px'; 
-      }
- 
-      map.relayout();
+      map.panTo(moveLatLon);            
+      }        
     </script>
   </div>
 </body>
