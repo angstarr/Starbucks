@@ -1110,6 +1110,29 @@
           </div>
         </div>
       </div>
+      <div class="teavana_store_map">
+        <div class="teavana_map_inner">
+          <div class="teavana_map_info">
+            <span class="teavana_map_img"></span>
+            <h4>Starbucks TEAVANA Store</h4>
+            <p>티바나 매장을 확인해 보세요!</p>
+          </div>
+          <div class="btn_store_wrap">
+            <h4>매장 바로가기</h4>
+            <button type="button" class="btn_store" onclick="storeMap()">매장 바로가기</button>
+            <ul class="list_map">
+              <li><a href="#">창원상남동R</a></li>
+              <li><a href="#">이대R</a></li>
+              <li><a href="#">신세계대구3F(티바나)</a></li>
+              <li><a href="#">스타필드하남1F(티바나)</a></li>
+              <li><a href="#">스타필드고양3F(티바나)</a></li>
+              <li><a href="#">더종로R</a></li>
+              <li><a href="#">더해운대R</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="map"></div>
     </div>
     <div id="footer">
       <div class="footer_wrap">
@@ -1335,6 +1358,11 @@
         <span class="en">ⓒ 2021 Starbucks Coffee Company. All Rights Reserved.</span>
       </div>
     </div>
+    <script>
+      var storeMap = function(){ 
+        $('.list_map').toggleClass('on');
+      }
+    </script>
   </div>
 </body>
 </html>

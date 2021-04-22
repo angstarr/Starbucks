@@ -6110,6 +6110,93 @@ p.middle_txt span.red {
     line-height:24px;
 }
 
+.teavana_store_map {
+    background:#063;
+    height:80px;
+    width:100%;
+}
+.teavana_map_inner {
+    position:relative;
+    width:1100px;
+    margin:0 auto;
+}
+.teavana_map_inner h4 {
+    color:#fff;
+    font-size:18px;
+}
+.teavana_map_info {
+    display:inline-block;
+}
+.teavana_map_info span,
+.teavana_map_info h4,
+.teavana_map_info p {
+    display:inline-block;
+    color:#fff;
+    line-height:80px;
+}
+.teavana_map_info .teavana_map_img {
+    background:url(img/store_var/icon_premier_store.png) no-repeat 50% 50%;
+    width:67px;
+    height:39px;
+}
+.teavana_map_inner .btn_store_wrap {
+    position:relative;
+    float:right;
+    line-height: 80px;
+}
+.teavana_map_inner .btn_store_wrap h4 {
+    display:inline-block;
+    margin-right:10px;
+}
+.teavana_map_inner .btn_store {
+    position:relative;
+    top:0;
+    border:1px solid #555;
+    width:230px;
+    height:38px;
+    font-size:15px;
+    text-align: left;
+    padding-left: 12px;
+}
+.teavana_map_inner .btn_store:after {
+    content:'';
+    position:absolute;
+    width:8px;
+    height:8px;
+    border-right:2px solid #555;
+    border-top:2px solid #555;
+    transform: rotate(135deg);
+    right:20px;
+    top:12px;
+}
+.teavana_map_inner .list_map {
+    display:none;
+    position:absolute;
+    width:230px;
+    top:61px;
+    right:0;
+    background:#fff;
+    border:1px solid #555;
+    box-sizing:border-box;
+    border-top:none;
+}
+.teavana_map_inner .list_map.on {
+    display:block;
+}
+.teavana_map_inner .list_map li a {
+    display:block;
+    line-height:38px;
+    padding-left:12px;
+    color:#222;
+}
+.teavana_map_inner .list_map li a:hover {
+    background: #cacaca;
+    text-decoration:none;
+}
+
+#map {
+    height:300px;
+}
 /* store_teavana */
 
 /* 반응형 시작 */
