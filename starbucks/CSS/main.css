@@ -6204,9 +6204,10 @@ p.middle_txt span.red {
     width:1100px;
     height:450px;
     margin:50px auto;
-}
-.bottom_slider_wrap h4 {
     text-align:center;
+}
+.bottom_slider_wrap h3 {
+    display:inline-block;
 }
 .bottom_slider_wrap .swiper-container {
     width:100%;
@@ -6233,13 +6234,14 @@ p.middle_txt span.red {
 .swiper-slide p.tit {
     position:absolute;
     bottom:62px;
-    font-size:15px;
+    font-size:14px;
     color:#222;
+    letter-spacing: -1px;
 }
 .swiper-slide p {
     position:absolute;
     bottom:40px;
-    font-size:14px;
+    font-size:12px;
     color:#666;
 }
 /* store_teavana */
@@ -6955,6 +6957,22 @@ p.middle_txt span.red {
     .coldbrew_store .coldbrew_store_inner {
         width:96%;
     }
+
+    /* story_teavana 1120px */
+
+    .main_teavana .main_teavana_inner {
+        width:100%;
+    }
+
+    .teavana_map_inner {
+        width:96%;
+    }
+
+    .bottom_slider_wrap {
+        width:100%;
+    }
+
+    /* story_teavana 1120px */
 
 
 @media screen and (max-width: 1024px) {
@@ -9149,6 +9167,73 @@ p.middle_txt span.red {
 
     /* story_coldbrew 960px */
 
+    /* story_teavana 960px */
+
+    .teavana_info {
+        background-image: url(img/store_var/m_starField_area_bg.jpg);
+        height:3150px;
+    }
+
+    .teavana_info .teavana_info_inner {
+        width:640px;
+    }
+
+    .teavana_info .teavana_info_img {
+        position:relative;
+        display:block;
+        margin:0 auto;
+        top:initial;
+        padding-top:80px;
+    }
+    .teavana_info .teavana_info_txt {
+        position:relative;
+        margin:0 auto;
+        display:block;
+        left:0;
+        top:initial;
+    }
+    .teavana_info .teavana_info_txt br {
+        display:none;
+    }
+    .teavana_info_img.img1 {
+        background-image:url(img/store_var/m_store_teavana_bar.png);
+        width:640px;
+        height:427px;
+        /* margin-left: -320px; */
+    }
+    .teavana_info_img.img2 {
+        background-image:url(img/store_var/m_store_special_beverage_new.png);
+        width:640px;
+        height:687px;
+        /* margin-left: -320px; */
+    }
+    .teavana_info_img.img3 {
+        background-image:url(img/store_var/m_store_tea_journey.png);
+        width:562px;
+        height:588px;
+        /* margin-left: -281px; */
+    }
+    .teavana_info_img.img4 {
+        background-image: url(img/store_var/m_store_special_md.png);
+        width:316px;
+        height:398px;
+        /* margin-left: -158px; */
+    }
+
+    .teavana_store_map .teavana_map_info {
+        display:block;
+    }
+    .teavana_store_map .btn_store_wrap h4 {
+        color:#222;
+    }
+    .teavana_store_map .btn_store_wrap {
+        float:left;
+        height:80px;
+        background:#fff;
+    }
+
+    /* story_teavana 960px */
+
 
 }
 
@@ -11046,6 +11131,21 @@ p.middle_txt span.red {
 
 
     /* story_coldbrew 640px */
+
+    /* story_teavana 640px */
+    
+    .teavana_info .teavana_info_inner {
+        width:97%;
+    }
+
+    .teavana_store_map .teavana_map_info h4 {
+        font-size:14px;
+    }
+    .teavana_store_map .teavana_map_info {
+        font-size: 12px;
+    }
+
+    /* story_teavana 640px */
 
 }
 
