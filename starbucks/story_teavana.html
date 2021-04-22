@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c0ce2fdd258f46f0db6d614b4a2412e9"></script>
   <title>Starbucks Coffee Korea</title>
 </head>
 <body>
@@ -1132,7 +1133,49 @@
           </div>
         </div>
       </div>
-      <div id="map"></div>
+      <div id="map" class="teavana_map"></div>
+      <div class="bottom_slider_wrap">
+        <h3>매장에서 진행되는 이벤트</h3>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="css/img/store_var/slid1.jpg" alt="서머1 음료">
+              <p class="tit">서머1 음료 Tri-Star Dash</p>
+              <p>2021-04-13 ~ 2021-04-26</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="css/img/store_var/slide2.jpg" alt="서머1 프로모션">
+              <p class="tit">서머1 프로모션</p>
+              <p>2021-04-13 ~ 2021-06-07</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="css/img/store_var/slide3.jpg" alt="4월에도 특별함으로 가득한 별다방">
+              <p class="tit">4월에도 특별함으로 가득한 별다방</p>
+              <p>2021-04-10 ~ 2021-05-31</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="css/img/store_var/slide4.jpg" alt="스타벅스 현대카드 4월 한정 혜택">
+              <p class="tit">스타벅스 현대카드 4월 한정 혜택</p>
+              <p>2021-04-01 ~ 2021-04-30</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="css/img/store_var/slide5.jpg" alt="가치위해같이버려요">
+              <p class="tit">#가치위해같이버려요, 플라스틱의 의미 있는 두 번째 라이프</p>
+              <p>2021-03-23 ~ 2021-04-26</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="css/img/store_var/slide6.jpg" alt="e-Gift Item 보너스 스타 이벤트">
+              <p class="tit">e-Gift Item 보너스 스타 이벤트</p>
+              <p>2021-01-01 ~ 2021-12-31</p>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
     </div>
     <div id="footer">
       <div class="footer_wrap">
@@ -1359,9 +1402,48 @@
       </div>
     </div>
     <script>
+
+      var storeEvent = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      autoplay: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
       var storeMap = function(){ 
         $('.list_map').toggleClass('on');
       }
+
+      var mapContainer = document.getElementById('map'),
+      mapOption = { 
+          center: new kakao.maps.LatLng(35.224494, 128.683992), 
+          level: 4 
+      };
+
+      var map = new kakao.maps.Map(mapContainer, mapOption);
+      var imageSrc = 'css/img/store_var/pin_reserve.png',  
+          imageSize = new kakao.maps.Size(38, 60),
+          imageOption = {offset: new kakao.maps.Point(38, 60)}; 
+            
+      var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+          markerPosition = new kakao.maps.LatLng(35.224494, 128.683992);
+
+      var marker = new kakao.maps.Marker({
+          position: markerPosition, 
+          image: markerImage
+      });
+
+      marker.setMap(map);
+
     </script>
   </div>
 </body>

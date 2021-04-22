@@ -6179,6 +6179,7 @@ p.middle_txt span.red {
     border:1px solid #555;
     box-sizing:border-box;
     border-top:none;
+    z-index:2;
 }
 .teavana_map_inner .list_map.on {
     display:block;
@@ -6194,8 +6195,52 @@ p.middle_txt span.red {
     text-decoration:none;
 }
 
-#map {
-    height:300px;
+.teavana_map {
+    width:100%;
+    height:400px;
+}
+
+.bottom_slider_wrap {
+    width:1100px;
+    height:450px;
+    margin:50px auto;
+}
+.bottom_slider_wrap h4 {
+    text-align:center;
+}
+.bottom_slider_wrap .swiper-container {
+    width:100%;
+    height:100%;
+}
+.bottom_slider_wrap .swiper-container .swiper-slide {
+    text-align:center;
+    font-size:18px;
+    background:#fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide p.tit {
+    position:absolute;
+    bottom:62px;
+    font-size:15px;
+    color:#222;
+}
+.swiper-slide p {
+    position:absolute;
+    bottom:40px;
+    font-size:14px;
+    color:#666;
 }
 /* store_teavana */
 
